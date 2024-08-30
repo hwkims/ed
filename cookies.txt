@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.ediya.com	TRUE	/	FALSE	1999999999	PHPSESSID	gld38sbueqf1fmt9fqmlq14mq2
+www.ediya.com	TRUE	/	FALSE	1999999999	1:3df_1	1:3df_1_to_9b:4adc
+ediya.com	TRUE	/	FALSE	1999999999	1:3df_0	1:3df_0_to_9b:4ada
+ediya.com	TRUE	/	FALSE	1999999999	1:3df_1	1:3df_1_to_9b:4adc
+

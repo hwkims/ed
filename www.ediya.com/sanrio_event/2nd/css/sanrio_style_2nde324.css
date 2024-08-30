@@ -1,0 +1,216 @@
+@charset "utf-8";
+
+/* Common */
+.sanrio_con{display:table; width:100%; min-width:360px; height:100%; background:#e2d0e3;}
+.sanrio_con section{display:table; width:94%; max-width:820px; margin:40px auto; border:8px solid #FFF; box-sizing:border-box; box-shadow:10px 10px 20px rgba(127,117,128,0.2);}
+.sanrio_con img{width:100%;}
+.sanrio_con img.pc{display:none;}
+.sanrio_con .top_con{position:relative; margin-bottom:-1.5%; z-index:20;}
+.sanrio_con .top_con .top_title{position:absolute; display:flex; flex-direction:column; align-items:center; width:90%; top:10%; padding:0 5%;}
+.sanrio_con .top_con .sign{width:43.37%; max-width:306px;}
+.sanrio_con .top_con .title{max-width:532px; margin-top:5%;}
+.sanrio_con .copy{width:290px; margin:auto;}
+.sanrio_con .sub_tt{position:relative; width:215px; margin:auto; z-index:10;}
+.sanrio_con .block_line{position:relative;}
+.sanrio_con .block_line:after{position:absolute; content:""; display:block; width:100%; height:32px; left:0; bottom:-16px; background:url(../images/common/block_line.png) repeat-x center; background-size:auto 100%; z-index:10;}
+
+/* 메인 */
+.sanrio_con .menu_list{display:table; padding:60px 4% 30px; background:url(../images/main/grd_bg.png) repeat-x bottom #ede9f4; background-size:auto 50%;}
+.sanrio_con .menu_list:before{position:absolute; content:""; display:block; width:100%; height:100%; top:0; left:0; background:url(../images/main/snow_deco.png) repeat-y; background-size:contain; z-index:1;}
+.sanrio_con .menu_list ul{position:relative; font-size:0; text-align:center; z-index:10;}
+.sanrio_con .menu_list li{display:inline-block; width:48%; max-width:251px; margin-right:4%; margin-bottom:30px;}
+.sanrio_con .menu_list li:nth-child(even){margin-right:0;}
+.sanrio_con .youtube_con{padding:60px 4% 40px; background:url(../images/main/grd_bg.gif) repeat-x; background-size:auto 100%;}
+.sanrio_con .youtube_con .ytb_link{position:relative; max-width:480px; margin:auto;}
+.sanrio_con .youtube_con .ytb_link a{display:block; width:100%; height:100%;}
+.sanrio_con .youtube_con .ytb_link a:after{position:absolute; content:""; display:block; width:60px; height:60px; top:50%; left:50%; margin-top:-30px; margin-left:-30px; background:url(../images/main/play_btn.png) no-repeat center; background-size:100% 100%;}
+
+/* 음료 & 스낵 */
+.sanrio_con .food_con{position:relative; padding:40px 4%; background:url(../images/food/grd_bg.png) repeat-x; background-size:auto 100%;}
+.sanrio_con .food_con:before{position:absolute; content:""; display:block; width:100%; height:100%; top:0; left:0; background:url(../images/food/snow_deco.png) repeat-y; background-size:contain; z-index:1;}
+.sanrio_con .food_con .food_li{position:relative; margin:20px 0 60px; z-index:10;}
+.sanrio_con .food_con .food_li li{width:163px; margin:0 auto 40px;}
+.sanrio_con .food_con .gift_con{position:relative; padding:0 4% 40px; background:#FFF; border:2px solid #3863a5; border-radius:25px 25px; z-index:10;}
+.sanrio_con .food_con .gift_con .gift_tt{position:relative; max-width:320px; margin:-20px auto; z-index:1;}
+.sanrio_con .food_con .gift_con .gift_li{margin-top:50px;}
+.sanrio_con .food_con .gift_con .gift_li li:first-child{max-width:283px; margin:auto;}
+.sanrio_con .food_con .gift_con .gift_li li:first-child:after{content:""; display:block; width:50px; height:52px; margin:30px auto; background:url(../images/food/plus.png) no-repeat; background-size:100% auto;}
+.sanrio_con .food_con .gift_con .gift_li li:last-child{max-width:236px; margin:auto;}
+.sanrio_con .food_con .gift_con .txt{max-width:320px; margin:40px auto 0;}
+.sanrio_con .food_con .gift_con .box_line li{position:absolute; width:30px; height:30px;}
+.sanrio_con .food_con .gift_con .box_line li:nth-child(1){top:-2px; left:-2px;}
+.sanrio_con .food_con .gift_con .box_line li:nth-child(2){top:-2px; right:-2px; transform:rotate(90deg);}
+.sanrio_con .food_con .gift_con .box_line li:nth-child(3){bottom:-2px; left:-2px; transform:rotate(-90deg);}
+.sanrio_con .food_con .gift_con .box_line li:nth-child(4){bottom:-2px; right:-2px; transform:rotate(180deg);}
+
+/* 기프트카드 */
+.sanrio_con .giftcard_con{padding:40px 4% 60px; background:url(../images/giftcard/grd_bg01.png) repeat-x; background-size:auto 100%;}
+.sanrio_con .giftcard_con:before{position:absolute; content:""; display:block; width:100%; height:100%; top:0; left:0; background:url(../images/giftcard/snow_deco01.png) repeat-y; background-size:contain; z-index:1;}
+.sanrio_con .giftcard_con .img{position:relative; max-width:452px; margin:20px auto 60px; z-index:10;}
+.sanrio_con .giftcard_con .giftcard_txt01{position:relative; max-width:320px; margin:auto; z-index:10;}
+.sanrio_con .giftcard_con .giftcard_li .card_li{position:relative; margin-top:30px; z-index:10;}
+.sanrio_con .giftcard_con .giftcard_li .card_li:after{content:""; display:block; width:50px; height:52px; margin:30px auto; background:url(../images/giftcard/plus.png) no-repeat; background-size:100% auto;}
+.sanrio_con .giftcard_con .giftcard_li .card_li li{width:264px; margin:auto;}
+.sanrio_con .giftcard_con .giftcard_li .card_li li:first-child:after{content:""; display:block; width:50px; height:29px; margin:15px auto 20px; background:url(../images/giftcard/or.png) no-repeat; background-size:100% auto;}
+.sanrio_con .giftcard_con .giftcard_li .pin_li{position:relative; max-width:432px; margin:auto; font-size:0; text-align:center; z-index:10;}
+.sanrio_con .giftcard_con .giftcard_li .pin_li li{display:inline-block; width:144px;}
+.sanrio_con .giftcard_con .giftcard_txt02{max-width:320px; margin:40px auto 0;}
+.sanrio_con .giftcard_goods{position:relative; padding:60px 4% 40px; background:url(../images/giftcard/grd_bg02.png) repeat-x; background-size:auto 100%;}
+.sanrio_con .giftcard_goods:before{position:absolute; content:""; display:block; width:100%; height:100%; top:0; left:0; background:url(../images/giftcard/snow_deco02.png) repeat-y; background-size:contain; z-index:1;}
+.sanrio_con .giftcard_goods .giftcard_txt03{position:relative; max-width:320px; margin:auto; z-index:10;}
+.sanrio_con .giftcard_goods .gift_li{position:relative; margin:20px 0 40px; z-index:10;}
+.sanrio_con .giftcard_goods .gift_li li{width:232px; margin:0 auto 40px;}
+.sanrio_con .giftcard_goods .event_btn{position:relative; max-width:250px; margin:auto; z-index:10;}
+.sanrio_con .giftcard_goods .event_btn a{display:block; width:100%; height:100%;}
+
+/* 1차 굿즈 */
+.sanrio_con .goods_list{padding:40px 4% 60px; background:url(../images/goods_1st/grd_bg.png) repeat-x; background-size:auto 100%;}
+.sanrio_con .goods_list:before{position:absolute; content:""; display:block; width:100%; height:100%; top:0; left:0; background:url(../images/goods_1st/snow_deco.png) repeat-y; background-size:contain; z-index:1;}
+.sanrio_con .goods_list ul{position:relative; margin-top:20px; z-index:10;}
+.sanrio_con .goods_list li{margin-bottom:40px;}
+.sanrio_con .goods_list li .img{margin:0 auto 20px;}
+.sanrio_con .goods_list li:nth-child(1) .img{width:144px;}
+.sanrio_con .goods_list li:nth-child(2) .img{width:232px;}
+.sanrio_con .goods_list li:nth-child(3) .img{width:214px;}
+.sanrio_con .goods_list li:last-child{margin-bottom:0;}
+.sanrio_con .goods_list li .txt{position:relative; max-width:320px; margin:auto;}
+.sanrio_con .goods_list li .txt .view_btn{position:absolute; width:35px; top:-4px;}
+.sanrio_con .goods_list li:nth-child(1) .txt .view_btn{left:121px;}
+.sanrio_con .goods_list li:nth-child(2) .txt .view_btn{left:135px;}
+.sanrio_con .goods_list li:nth-child(3) .txt .view_btn{left:116px;}
+.sanrio_con .notice_txt{padding:60px 4% 40px; background:#ddc9e2;}
+.sanrio_con .notice_txt .txt{max-width:462px; margin:auto;}
+
+/* 2차 굿즈 */
+.sanrio_con .goods_list02{background:url(../images/goods_2nd/grd_bg.png) repeat-x; background-size:auto 100%;}
+.sanrio_con .goods_list02:before{background:url(../images/goods_2nd/snow_deco.png) repeat-y; background-size:contain;}
+.sanrio_con .goods_list02 li:nth-child(1) .img{width:208px;}
+.sanrio_con .goods_list02 li:nth-child(2) .img{width:282px;}
+.sanrio_con .goods_list02 li:nth-child(1) .txt .view_btn{left:135px;}
+.sanrio_con .goods_list02 li:nth-child(2) .txt .view_btn{left:177px;}
+.sanrio_con .notice_txt02{background:#c1d4ee;}
+
+/* 이벤트 */
+.sanrio_con .event_list{position:relative; padding:40px 4% 60px; background:url(../images/event/grd_bg.png) repeat-x; background-size:auto 100%;}
+.sanrio_con .event_list:before{position:absolute; content:""; display:block; width:100%; height:100%; top:0; left:0; background:url(../images/event/snow_deco.png) repeat-y; background-size:contain; z-index:1;}
+.sanrio_con .event_list ul{position:relative; margin:20px auto 0; z-index:10; text-align:center; font-size:0;}
+.sanrio_con .event_list li{display:inline-block; width:282px; margin:0 10px 20px;}
+.sanrio_con .event_list li:last-child{margin-bottom:0;}
+
+/* 무료 온라인 굿즈 */
+.sanrio_con .online_goods{position:relative; padding:40px 4% 60px; background:url(../images/share/grd_bg.png) repeat-x; background-size:auto 100%; text-align:center; z-index:10;}
+.sanrio_con .online_goods:before{position:absolute; content:""; display:block; width:100%; height:100%; top:0; left:0; background:url(../images/share/snow_deco.png) repeat-y; background-size:contain; z-index:1;}
+.sanrio_con .online_goods .txt{position:relative; max-width:320px; margin:20px auto 40px; z-index:10;}
+.sanrio_con .online_goods .device_img{position:relative; max-width:320px; margin:auto; z-index:10;}
+.sanrio_con .bg_1st{padding:60px 4% 40px; background:#c0d4ed;}
+.sanrio_con .bg_1st .txt{max-width:320px; margin:40px auto 0;}
+.sanrio_con .bg_tt{max-width:320px; margin:auto;}
+.sanrio_con .bg_li{width:296px; margin:30px auto 0; font-size:0;}
+.sanrio_con .bg_li li{display:inline-block; width:140px; margin-bottom:20px;}
+.sanrio_con .bg_li li:nth-child(odd){margin-right:16px;}
+.sanrio_con .bg_li li .img{margin-bottom:15px;}
+.sanrio_con .bg_li li dl{display:table; width:100%; margin-bottom:10px;}
+.sanrio_con .bg_li li dt{float:left; width:68px;}
+.sanrio_con .bg_li li dd{float:left; margin-left:5px; margin-top:-4px;}
+.sanrio_con .bg_li li dd a{float:left; display:block; width:30px; height:30px;}
+.sanrio_con .bg_li li dd a:first-child{margin-right:5px;}
+.sanrio_con .bg_2nd{padding:60px 4% 60px; background:#ddc9e2;}
+.sanrio_con .bg_2nd .txt{max-width:320px; margin:40px auto 0;}
+
+/* Popup */
+.sanrio_popup{position:absolute; display:table; width:100%; min-width:360px; height:100%; z-index:100;}
+.sanrio_popup:before{content:""; position:fixed; display:block; top:0; left:0; width:100%; height:100%; background:#000; opacity:0.7;}
+.sanrio_popup .pop_align{position:relative; display:table-cell; padding:0 5%; vertical-align:middle;}
+.sanrio_popup .pop_con{position:relative; max-width:400px; margin:auto; padding:80px 0 40px; border:5px solid #FFF; background:url(../images/goods_1st/grd_bg.png) repeat-x; background-size:auto 100%; box-sizing:border-box;}
+.sanrio_popup .pop_con:before{position:absolute; content:""; display:block; top:0; left:0; width:100%; height:40px; background:url(../images/common/pop_deco.png) no-repeat center; background-size:auto 100%;}
+.sanrio_popup .close_btn{position:absolute; display:block; width:30px; height:30px; right:0; top:-55px;}
+.sanrio_popup .close_btn a{display:block; width:100%; height:100%;}
+.sanrio_popup .pop_img{max-width:320px; margin:auto;}
+.sanrio_popup02 .pop_con{background:url(../images/goods_2nd/grd_bg.png) repeat-x; background-size:auto 100%;}
+.sanrio_popup02 .pop_img_li{font-size:0; text-align:center;}
+.sanrio_popup02 .pop_img_li li{display:inline-block; width:140px; vertical-align:bottom;}
+.sanrio_popup02 .pop_con02{max-width:480px;}
+.sanrio_popup02 .pop_con02 .pop_img_li li{width:120px; margin:0 10px 30px; vertical-align:bottom;}
+.sanrio_popup02 .pop_con02 .pop_img_li{margin-bottom:-30px;}
+
+/* 760px 이상 해상도 */
+@media screen and (min-width:760px){
+/* Common */
+.sanrio_con section{border:10px solid #FFF; margin:80px auto;}
+.sanrio_con img.pc{display:block;}
+.sanrio_con img.mo{display:none;}
+.sanrio_con .block_line:after{height:42px; bottom:-21px;}
+
+/* 메인 */
+.sanrio_con .menu_list{padding:100px 40px 60px;}
+.sanrio_con .menu_list li{margin-bottom:40px; margin-right:90px;}
+.sanrio_con .youtube_con{padding:100px 40px 80px;}
+
+/* 음료 & 스낵 */
+.sanrio_con .food_con{padding:80px 40px;}
+.sanrio_con .food_con .food_li{margin:40px 0 60px; font-size:0; text-align:center;}
+.sanrio_con .food_con .food_li li{display:inline-block; margin-right:50px; vertical-align:bottom;}
+.sanrio_con .food_con .food_li li:last-child{margin-right:0;}
+.sanrio_con .food_con .gift_con .gift_li{position:relative; display:table; width:100%; max-width:590px; margin:60px auto 0;}
+.sanrio_con .food_con .gift_con .gift_li:after{position:absolute; content:""; display:block; width:50px; height:52px; top:52px; left:51%; background:url(../images/food/plus.png) no-repeat; background-size:100% auto;}
+.sanrio_con .food_con .gift_con .gift_li li{float:right; vertical-align:middle;}
+.sanrio_con .food_con .gift_con .gift_li li:first-child{float:left;}
+.sanrio_con .food_con .gift_con .gift_li li:first-child:after{display:none;}
+.sanrio_con .food_con .gift_con .txt{max-width:471px;}
+
+/* 기프트카드 */
+.sanrio_con .giftcard_con{padding:80px 40px 100px;}
+.sanrio_con .giftcard_con .img{margin:40px auto 60px;}
+.sanrio_con .giftcard_con .giftcard_txt01{max-width:367px;}
+.sanrio_con .giftcard_con .giftcard_li .card_li{display:table; margin:40px auto 110px;}
+.sanrio_con .giftcard_con .giftcard_li .card_li:after{position:absolute; left:50%; bottom:-80px; margin:0; margin-left:-25px;}
+.sanrio_con .giftcard_con .giftcard_li .card_li li{float:left;}
+.sanrio_con .giftcard_con .giftcard_li .card_li li:first-child{position:relative; margin-right:70px;}
+.sanrio_con .giftcard_con .giftcard_li .card_li li:first-child:after{position:absolute; top:65px; right:-59px; margin:0;}
+.sanrio_con .giftcard_con .giftcard_li .pin_li{max-width:none;}
+.sanrio_con .giftcard_con .giftcard_txt02{max-width:713px;}
+.sanrio_con .giftcard_goods{padding:100px 40px 80px;}
+.sanrio_con .giftcard_goods .giftcard_txt03{max-width:442px;}
+.sanrio_con .giftcard_goods .gift_li{width:calc(100% + 80px); margin:40px 0 60px -40px; font-size:0; text-align:center;}
+.sanrio_con .giftcard_goods .gift_li li{display:inline-block; margin-right:-5px; margin-bottom:0; vertical-align:bottom;}
+
+/* 1차 굿즈 */
+.sanrio_con .goods_list{padding:80px 40px 100px;}
+.sanrio_con .goods_list ul{max-width:572px; margin:40px auto 0;}
+.sanrio_con .goods_list li{font-size:0;}
+.sanrio_con .goods_list li:nth-child(1) .img{padding:0 44px;}
+.sanrio_con .goods_list li:nth-child(3) .img{padding:0 9px;}
+.sanrio_con .goods_list li .img{display:inline-block; margin:0; vertical-align:middle;}
+.sanrio_con .goods_list li .txt{display:inline-block; margin-left:20px; vertical-align:middle;}
+.sanrio_con .notice_txt{padding:100px 40px 80px;}
+.sanrio_con .notice_txt .txt{max-width:665px;}
+
+/* 2차 굿즈 */
+.sanrio_con .goods_list02 ul{max-width:622px;}
+.sanrio_con .goods_list02 li:nth-child(1) .img{padding:0 37px;}
+
+/* 이벤트 */
+.sanrio_con .event_list{padding:80px 40px 60px;}
+.sanrio_con .event_list ul{margin:40px auto 0;}
+
+/* 무료 온라인 굿즈 */
+.sanrio_con .online_goods{padding:80px 40px 100px;}
+.sanrio_con .online_goods .txt{max-width:376px; margin:40px auto 60px;}
+.sanrio_con .online_goods .device_img{max-width:692px;}
+.sanrio_con .bg_1st{padding:100px 40px 80px;}
+.sanrio_con .bg_1st .txt{max-width:469px; margin:60px auto 0;}
+.sanrio_con .bg_li{width:640px; margin:40px auto 0; text-align:center;}
+.sanrio_con .bg_li li{width:194px; margin-bottom:30px; margin-right:29px;}
+.sanrio_con .bg_li li:nth-child(odd){margin-right:29px;}
+.sanrio_con .bg_li li:nth-child(3n){margin-right:0;}
+.sanrio_con .bg_li li dl{margin-left:18px; margin-bottom:12px;}
+.sanrio_con .bg_li li dt{width:82px;}
+.sanrio_con .bg_li li dd{margin-top:-2px;}
+.sanrio_con .bg_li li dd a{width:34px; height:34px;}
+.sanrio_con .bg_2nd{padding:100px 40px 100px;}
+.sanrio_con .bg_2nd .txt{max-width:469px; margin:60px auto 0;}
+.sanrio_con .bg_li02{width:460px;}
+.sanrio_con .bg_li02 li:nth-child(3n){margin-right:29px;}
+.sanrio_con .bg_li02 li:last-child{margin-right:0;}
+
+}

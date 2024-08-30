@@ -1,0 +1,1088 @@
+@charset "utf-8";
+
+img.page_img{width:100%;}
+.event_page{max-width:730px; margin:auto;}
+.event_page img{width:100%;}
+.event_con .input_con .input_form dl:last-child{padding-bottom:0;}
+.event_con .input_con .input_form .adrs dd{margin-bottom:6px;}
+.event_popup .pop_txt p:last-child{margin-bottom:0;}
+.event_input{max-width:730px; margin:auto; padding:40px 5% 60px;}
+
+/* 생딸기 프로모션 */
+.berry_event{max-width:730px; margin:auto;}
+.berry_event .top_con{position:absolute; top:3.41%; left:8.09%; width:84.384%; height:25.848%;}
+.berry_event .title{position:absolute; top:7%; left:50%; width:73.052%; margin-left:-36.526%;}
+.berry_event .star01{position:absolute; top:0; left:0; width:100%; animation:ani_star01 3s infinite;}
+@keyframes ani_star01{
+	0%{opacity:0.0;}
+	50%{opacity:1.0;}
+	100%{opacity:0.0;}
+}
+.berry_event .star02{position:absolute; top:0; left:0; width:100%; animation:ani_star02 2s infinite;}
+@keyframes ani_star02{
+	0%{opacity:0.0;}
+	50%{opacity:1.0;}
+	100%{opacity:0.0;}
+}
+.berry_event .star03{position:absolute; top:0; left:0; width:100%; animation:ani_star03 4s infinite;}
+@keyframes ani_star03{
+	0%{opacity:0.0;}
+	50%{opacity:1.0;}
+	100%{opacity:0.0;}
+}
+.berry_event .mask{position:absolute; bottom:0; width:100%; z-index:1;}
+.berry_event .berry01{position:absolute; top:33%; right:18%; width:12.988%; animation:ani_berry01 6s infinite;}
+@keyframes ani_berry01{
+	0%{top:31%;}
+	50%{top:33%;}
+	100%{top:31%;}
+}
+.berry_event .berry02{position:absolute; top:58%; left:19%; width:21.754%; animation:ani_berry02 5s infinite;}
+@keyframes ani_berry02{
+	0%{top:58%;}
+	50%{top:60%;}
+	100%{top:58%;}
+}
+.berry_event .berry03{position:absolute; top:76%; left:14.5%; width:13.312%; animation:ani_berry03 6s infinite;}
+@keyframes ani_berry03{
+	0%{top:76%;}
+	50%{top:77%;}
+	100%{top:76%;}
+}
+.berry_event .berry04{position:absolute; top:89%; left:39.5%; width:15.26%; animation:ani_berry04 7s infinite;}
+@keyframes ani_berry04{
+	0%{top:89%;}
+	50%{top:90%;}
+	100%{top:89%;}
+}
+.berry_event .berry05{position:absolute; top:81%; right:7%; width:18.02%; animation:ani_berry05 5s infinite;}
+@keyframes ani_berry05{
+	0%{top:81%;}
+	50%{top:83%;}
+	100%{top:81%;}
+}
+.berry_event .horse01{position:absolute; top:79%; right:34.5%; width:14.775%; animation:ani_hourse01 4s infinite; z-index:1;}
+@keyframes ani_hourse01{
+	0%{top:79%;}
+	50%{top:77%;}
+	100%{top:79%;}
+}
+.berry_event .horse02{position:absolute; top:76%; left:31.2%; width:5.845%; animation:ani_hourse02 4s infinite;}
+@keyframes ani_hourse02{
+	0%{top:76%;}
+	50%{top:78%;}
+	100%{top:76%;}
+}
+.berry_event .horse03{position:absolute; top:76%; left:37.4%; width:12.338%; animation:ani_hourse03 4s infinite;}
+@keyframes ani_hourse03{
+	0%{top:76%;}
+	50%{top:74%;}
+	100%{top:76%;}
+}
+.berry_event .horse04{position:absolute; top:74.5%; right:31.27%; width:5.52%; animation:ani_hourse04 4s infinite;}
+@keyframes ani_hourse04{
+	0%{top:74.5%;}
+	50%{top:76.5%;}
+	100%{top:74.5%;}
+}
+.berry_event .submit_btn{border:1px solid #e9455d; background:#e9455d;}
+.berry_event .pop_txt{background:url(../images/event/berry_event/pop_img.jpg) no-repeat bottom #f6b3c5; background-size:100% auto; border:2px solid #e9455d;}
+.berry_event .pop_txt p{font-weight:500; color:#e9455d;}
+
+/* E-QUEST */
+.equest_event{max-width:730px; margin:auto; background:#f3f4f6;}
+.equest_event .event_top{padding:60px 5% 40px; text-align:center;}
+.equest_event .event_top .go_equest{width:55.3424%; max-width:404px; margin:auto;}
+.equest_event .event_top .title{max-width:619px; margin:20px auto;}
+.equest_event .event_top p.tt_txt{font-size:16px; text-align:center; line-height:1.2em;}
+.equest_event .event_top .date{display:inline-block; padding:4px 15px; margin-top:20px; text-align:center; background:#004485; font-size:16px; font-weight:500; color:#FFF; letter-spacing:2px;}
+.equest_event .event_top .date em:after{content:""; display:inline-block; width:2px; height:11px; margin:0 10px; background:#FFF;}
+.equest_event .con_tt{padding:0 5%;}
+.equest_event .con_tt dt{font-size:60px; font-weight:900; color:#000; letter-spacing:-5px; line-height:1.0em;}
+.equest_event .con_tt dd{margin-top:10px; font-size:20px; font-weight:700; color:#000; line-height:1.4em; letter-spacing:-3px;}
+.equest_event .con_txt{padding:0 5%; margin-top:20px;}
+.equest_event .con_txt p{margin-bottom:15px; font-size:16px; font-weight:300; color:#606060; line-height:1.4em; letter-spacing:-2px;}
+.equest_event .con_txt p:last-child{margin-bottom:0;}
+.equest_event .event_info{position:relative; width:92%; margin:52px auto 0; padding:40px 20px; border:3px solid #004485; background:#FFF; box-sizing:border-box; box-shadow:10px 10px 0 rgb(218 219 221); text-align:center;}
+.equest_event .event_info:before{position:absolute; content:""; display:block; width:150px; top:-3px; left:50%; height:3px; background:#FFF; transform:translateX(-50%);}
+.equest_event .event_info .eq_tt{position:absolute; width:110px; top:-52px; left:50%; transform:translateX(-50%);}
+.equest_event .event_info h4{font-size:18px; word-break:keep-all;}
+.equest_event .event_info h4 em{color:#004485;}
+.equest_event .event_info .rw_tt{margin:20px auto;}
+.equest_event .event_info .rw_tt:after{content:""; display:block; width:100%; height:2px; background:#303030; margin-top:-16px;}
+.equest_event .event_info .rw_tt img{width:170px; padding:0 15px; background:#FFF;}
+.equest_event .event_info li{display:table; width:100%; max-width:440px; margin:auto;}
+.equest_event .event_info li p{display:table-cell; vertical-align:middle; font-size:16px; font-weight:500; line-height:1.4em; text-align:right; color:#202020; word-break:keep-all;}
+.equest_event .event_info li p strong{color:#004485;}
+.equest_event .event_info li p em{display:inline; font-weight:500; box-shadow:inset 0 -10px 0 rgba(19,119,215,0.25); padding-left:1%; padding-right:1%;}
+.equest_event .event_info li .gift_img{display:table-cell; width:48.865%; padding-left:15px; vertical-align:middle;}
+.equest_event .event_info li:last-child{margin-top:40px;}
+.equest_event .event_info li:last-child .gift_img{padding-left:0; padding-right:15px;}
+.equest_event .event_info li:last-child p{text-align:left;}
+.equest_event .event_info li:last-child p span.note_txt{display:block; margin-top:15px; font-size:14px; line-height:1.2em; color:#e53939;}
+.equest_event .event_con01{margin-top:60px;}
+.equest_event .event_con01 .ytb_con{position:relative; width:100%; height:100%; margin-top:20px; padding-bottom:56.376%;}
+.equest_event .event_con01 .ytb_con iframe{position:absolute; width:100%; height:100%; top:0; left:0;}
+.equest_event .event_con02{position:relative; margin-top:140px; padding-bottom:60px; background:#FFF;}
+.equest_event .event_con02:before{content:""; position:absolute; display:block; width:6px; height:208px; top:-80px; right:5%; background:url(../images/event/equest_event/txt_deco01.png) no-repeat center; background-size:6px auto;}
+.equest_event .event_con02 .con_wrap{position:relative; top:-80px;}
+.equest_event .event_con02 .con_wrap .img_con{width:68.4931%;}
+.equest_event .event_con02 .con_wrap .con_tt{margin-top:-50px; text-align:right;}
+.equest_event .event_con02 .con_txt{width:calc(90% - 15px); margin-left:15px; margin-top:-60px; text-align:right;}
+.equest_event .event_con03{position:relative; padding:60px 0;}
+.equest_event .event_con03:before{content:""; position:absolute; display:block; width:6px; height:138px; top:-95px; left:5%; background:url(../images/event/equest_event/txt_deco02.png) no-repeat center; background-size:6px auto;}
+.equest_event .event_con03 .img_con{padding:0 5%; margin-top:20px;}
+.equest_event .event_con03 .con_txt{width:90%; margin:0 auto; padding:40px 5%; background:#004485; box-sizing:border-box;}
+.equest_event .event_con03 .con_txt p{color:#FFF;}
+.equest_event .equest_quiz{padding:60px 5%; background:#FFF;}
+.equest_event .equest_quiz dt{width:32%; max-width:152px; margin:auto;}
+.equest_event .equest_quiz dd{display:table; margin:auto;}
+.equest_event .equest_quiz dd span{display:inline-block; width:60px; margin-right:8px; vertical-align:middle;}
+.equest_event .equest_quiz dd p{display:inline-block; font-size:18px; vertical-align:middle;}
+.equest_event .equest_quiz .quiz_con{margin-top:20px; border:2px solid #004485; box-shadow:10px 10px 0 rgb(229,229,229);}
+.equest_event .equest_quiz .quiz_con .q_con{padding:20px 30px; background:#e5ecf3; text-align:center;}
+.equest_event .equest_quiz .quiz_con .q_con span img{width:20px; margin:4px 4px 0 0;}
+.equest_event .equest_quiz .quiz_con .q_con p{display:inline; font-size:20px; font-weight:700; line-height:1.2em; color:#004485;}
+.equest_event .equest_quiz .quiz_con .q_con p em{color:#1377d7;}
+.equest_event .equest_quiz .quiz_con ul{display:table; margin:20px auto;}
+.equest_event .equest_quiz .quiz_con li{margin-bottom:8px;}
+.equest_event .equest_quiz .quiz_con li:last-child{margin-bottom:0;}
+.equest_event .equest_quiz .quiz_con li span{display:inline-block; width:25px; height:25px; margin-right:5px; border-radius:100%; vertical-align:middle;}
+.equest_event .equest_quiz .quiz_con li:nth-child(1) span{background:url(../images/event/equest_event/num01.png) no-repeat center #004485; background-size:12px auto;}
+.equest_event .equest_quiz .quiz_con li:nth-child(2) span{background:url(../images/event/equest_event/num02.png) no-repeat center #004485; background-size:12px auto;}
+.equest_event .equest_quiz .quiz_con li:nth-child(3) span{background:url(../images/event/equest_event/num03.png) no-repeat center #004485; background-size:12px auto;}
+.equest_event .equest_quiz .quiz_con li:nth-child(4) span{background:url(../images/event/equest_event/num04.png) no-repeat center #004485; background-size:12px auto;}
+.equest_event .equest_quiz .quiz_con li p{display:inline-block; font-size:18px; font-weight:500; color:#202020; vertical-align:middle; letter-spacing:-1px;}
+.equest_event .equest_quiz .quiz_con li.on:nth-child(1) span{background:url(../images/event/equest_event/num01.png) no-repeat center #1377d7; background-size:12px auto;}
+.equest_event .equest_quiz .quiz_con li.on:nth-child(2) span{background:url(../images/event/equest_event/num02.png) no-repeat center #1377d7; background-size:12px auto;}
+.equest_event .equest_quiz .quiz_con li.on:nth-child(3) span{background:url(../images/event/equest_event/num03.png) no-repeat center #1377d7; background-size:12px auto;}
+.equest_event .equest_quiz .quiz_con li.on:nth-child(4) span{background:url(../images/event/equest_event/num04.png) no-repeat center #1377d7; background-size:12px auto;}
+.equest_event .equest_quiz .quiz_con li.on p{font-weight:900; color:#1377d7;}
+.equest_event .event_note{padding:60px 5%; background:#004485;}
+.equest_event .event_note dl{display:table; width:100%; margin-bottom:15px;}
+.equest_event .event_note dl:last-child{margin-bottom:0;}
+.equest_event .event_note dt{display:table-cell; width:110px; padding-right:20px;}
+.equest_event .event_note dt span{display:inline-block; width:110px; line-height:32px; border-radius:16px 16px; background:#1377d7; font-size:16px; font-weight:500; color:#FFF; text-align:center;}
+.equest_event .event_note dd{display:table-cell; width:calc(100% - 130px);}
+.equest_event .event_note dd p{margin-bottom:8px; font-size:16px; font-weight:300; color:#FFF; line-height:1.4em;}
+.equest_event .event_note dd p:last-child{margin-bottom:0;}
+.equest_event .event_note dd.bullet_li p{padding-left:10px; background:url(../images/event/equest_event/bullet.png) no-repeat; background-position:left 10px;}
+.equest_event .event_con{background:#FFF;}
+.equest_event .submit_btn{border:1px solid #004485; background:#004485;}
+.equest_event .pop_txt{background:url(../images/event/equest_event/pop_img.jpg) no-repeat bottom #dfc4b8; background-size:100% auto; border:2px solid #c39785;}
+.equest_event .pop_txt p{font-weight:500; color:#36231d;}
+
+/* SAMSAMSAM */
+.sam_event{max-width:730px; margin:auto;}
+.sam_event .con_align{max-width:650px;}
+.sam_event .title_con{position:relative; margin:auto; padding:50px 0; text-align:center; background:#fef5d8;}
+.sam_event .title_con img:first-child{max-width:576px;}
+.sam_event .title_con img:last-child{margin-top:10px; max-width:507px;}
+.sam_event .title_con .quiz_go{display:block; position:absolute; width:14.384%; height:14.369%; top:51.53%; right:5.28%;}
+.sam_event .sam_info_pc{display:none;}
+.sam_event .sam_info_mo{padding-bottom:60px; text-align:center; background:#fef5d8;}
+.sam_event .sam_info_mo:before{content:""; display:block; width:92%; max-width:650px; height:1px; margin:0 auto 50px; background:#c30e2e;}
+.sam_event .sam_info_mo img:last-child{max-width:358px; margin-top:30px;}
+.sam_event .cheeseball_info{position:relative; text-align:center; background:#fef5d8;}
+.sam_event .cheeseball_info img:first-child{width:92%; max-width:377px; margin-bottom:5%;}
+.sam_event .cheeseball_info .source01{position:absolute; width:60%; max-width:240px; top:22%; left:4%;}
+.sam_event .cheeseball_info .source02{position:absolute; width:60%; max-width:316px; bottom:5%; right:4%;}
+.sam_event .quiz_top{padding:50px 0; background:url(../images/event/samsamsam_event/circle_bg.png) no-repeat top #fef5d8; background-size:100% auto; text-align:center;}
+.sam_event .quiz_top img{max-width:596px;}
+.sam_event .quiz_con01{padding-bottom:40px; text-align:center; background:#fef5d8;}
+.sam_event .quiz_con01:after{content:""; display:block; width:92%; max-width:650px; height:1px; margin:40px auto 0; background:#c30e2e;}
+.sam_event .quiz_con01 dd{position:relative; width:69.847%; margin:5% auto 0;}
+.sam_event .quiz_con01 dd a{position:absolute; display:block; width:100%; left:0; height:24.114%;}
+.sam_event .quiz_con01 dd a:nth-child(2){top:38.13%;}
+.sam_event .quiz_con01 dd a:nth-child(3){bottom:0;}
+.sam_event .quiz_con01 dd a:nth-child(1).on{background:url(../images/event/samsamsam_event/q01_a01.jpg) no-repeat; background-size:100% 100%;}
+.sam_event .quiz_con01 dd a:nth-child(2).on{background:url(../images/event/samsamsam_event/q01_a02.jpg) no-repeat; background-size:100% 100%;}
+.sam_event .quiz_con01 dd a:nth-child(3).on{background:url(../images/event/samsamsam_event/q01_a03.jpg) no-repeat; background-size:100% 100%;}
+.sam_event .quiz_con02{padding-bottom:50px; background:#fef5d8;}
+.sam_event .quiz_con02 dd{display:table; width:100%; max-width:586px; margin:5% auto 0; text-align:center;}
+.sam_event .quiz_con02 dd > img{display:table-cell; max-width:280px; vertical-align:middle;}
+.sam_event .quiz_con02 dd .answer{position:relative; display:table-cell; width:52.27%; padding-left:5%; vertical-align:middle;}
+.sam_event .quiz_con02 dd .answer img{max-width:277px;}
+.sam_event .quiz_con02 dd .answer a{position:absolute; display:block; width:90.44%; height:27.537%;}
+.sam_event .quiz_con02 dd a:nth-child(2){top:35.87%;}
+.sam_event .quiz_con02 dd a:nth-child(3){bottom:0;}
+.sam_event .quiz_con02 dd a:nth-child(1).on{background:url(../images/event/samsamsam_event/q02_a01.jpg) no-repeat; background-size:100% 100%;}
+.sam_event .quiz_con02 dd a:nth-child(2).on{background:url(../images/event/samsamsam_event/q02_a02.jpg) no-repeat; background-size:100% 100%;}
+.sam_event .quiz_con02 dd a:nth-child(3).on{background:url(../images/event/samsamsam_event/q02_a03.jpg) no-repeat; background-size:100% 100%;}
+.sam_event .gift_con{padding:50px 0; background:#fbe4b8;}
+.sam_event .gift_con h3{position:relative; max-width:650px; margin:auto; text-align:center;}
+.sam_event .gift_con h3 img{position:relative; width:25.847%; z-index:1;}
+.sam_event .gift_con h3:before{content:""; position:absolute; display:block; width:100%; height:1px; top:50%; background:#bd0323;}
+.sam_event .gift_con ul{margin-top:8%; text-align:center;}
+.sam_event .gift_con li{width:50%; max-width:235px; margin:0 auto 8%; padding-bottom:8%; border-bottom:1px solid #f3b85c;}
+.sam_event .gift_con li:last-child{margin-bottom:0; padding-bottom:0; border-bottom:none;}
+.sam_event .event_info{padding:50px 0; text-align:center; background:#fef5d8;}
+.sam_event .event_info img:last-child{width:54.31%; margin-top:10%;}
+.sam_event .pop_txt{background:url(../images/event/samsamsam_event/top_bg.jpg) no-repeat top #FCF6DF; background-size:100% auto;}
+.sam_event .pop_txt p{position:relative; color:#565655; z-index:1;}
+.sam_event .pop_con{max-width:350px;}
+.sam_event .pop_con:after{content:""; position:absolute; display:block; width:100%; height:50%; bottom:0; background:url(../images/event/samsamsam_event/circle_bg.png) no-repeat bottom; background-size:100% auto; transform:rotate(180deg);}
+
+/* 챌린지 이벤트 */
+@import url("../../cdn.jsdelivr.net/gh/orioncactus/pretendard%40v1.3.6/dist/web/static/pretendard.css");
+.pancake_event{max-width:730px; margin:auto;}
+.pancake_event .top_con{padding:40px 4% 0; background:url(../images/event/pancake_event/top_bg.png) no-repeat bottom #f5eac1; background-size:100% auto;}
+.pancake_event .top_con h3{max-width:597px; margin:auto;}
+.pancake_event .top_con .info_txt{width:80%; max-width:453px; margin:30px auto 40px;}
+.pancake_event .top_con .phone_con{position:relative; max-width:520px; margin:auto;}
+.pancake_event .top_con .phone_con .notch{position:absolute; width:40.385%; top:8px; left:50%; margin-left:-20.1925%; z-index:1;}
+.pancake_event .top_con .phone_con .phone{position:absolute; top:30%; z-index:1;}
+.pancake_event .top_con .phone_con .video_con{width:97.693%; margin-left:1.1535%; border:8px solid #000; border-bottom:none; border-radius:50px 50px 0 0; box-sizing:border-box; overflow:hidden; transform: translate3d(0, 0, 0);}
+.pancake_event .top_con .phone_con .video_con video{width:181.423%; margin-left:-40.7115%; vertical-align:top;}
+.pancake_event .quiz_con{padding:60px 4%; margin:auto; background:#fff4e2;}
+.pancake_event .quiz_con h3{position:relative; text-align:center;}
+.pancake_event .quiz_con h3:after{position:absolute; content:""; width:100%; height:1px; top:50%; left:0; background:#ff6100;}
+.pancake_event .quiz_con h3 img{position:relative; width:22.334%; z-index:1;}
+.pancake_event .quiz_con .chall_name{margin:30px 0 20px;}
+.pancake_event .quiz_con .box_txt{padding:10px 30px; background:#FFF; border:2px solid #000; border-radius:20px 20px; box-sizing:border-box; box-shadow:5px 5px #000; text-align:center;}
+.pancake_event .quiz_con .box_txt p{position:relative; display:inline-block; font-size:16px; line-height:1.3em; font-weight:700; color:#000; font-style:italic; letter-spacing:-2px;}
+.pancake_event .quiz_con .box_txt p em{display:block; color:#ff6000; font-style:italic;}
+.pancake_event .quiz_con .quiz_li{position:relative; width:45.672%; margin:30px auto 0;}
+.pancake_event .quiz_con .quiz_li a{position:absolute; display:block; width:100%; height:25.532%;}
+.pancake_event .quiz_con .quiz_li a:nth-child(1){top:0;}
+.pancake_event .quiz_con .quiz_li a:nth-child(2){top:37.027%;}
+.pancake_event .quiz_con .quiz_li a:nth-child(3){bottom:0;}
+.pancake_event .quiz_con .quiz_li a:nth-child(1).on{background:url(../images/event/pancake_event/sel01_on.png) no-repeat; background-size:100% auto;}
+.pancake_event .quiz_con .quiz_li a:nth-child(2).on{background:url(../images/event/pancake_event/sel02_on.png) no-repeat; background-size:100% auto;}
+.pancake_event .quiz_con .quiz_li a:nth-child(3).on{background:url(../images/event/pancake_event/sel03_on.png) no-repeat; background-size:100% auto;}
+.pancake_event .quiz_con .quiz_note{text-align:center; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif; font-size:18px; color:#000; line-height:1.4em;}
+.pancake_event .gift_con{padding:60px 4%; margin:auto; background:#f5eac1;}
+.pancake_event .gift_con .box_txt{position:relative; padding:30px 30px; background:#FFF; border:2px solid #000; border-radius:20px 20px; box-sizing:border-box; box-shadow:5px 5px #000;}
+.pancake_event .gift_con .box_txt:first-child{margin-bottom:60px;}
+.pancake_event .gift_con .box_txt h3{position:absolute; width:67.568%; left:50%; top:0; margin-top:-4%; margin-left:-33.784%;}
+.pancake_event .gift_con .box_txt p{width:200px; margin:10px auto 20px; padding-left:5%;}
+.pancake_event .gift_con .box_txt dl{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+ font-size:18px; text-align:center; color:#000;}
+.pancake_event .gift_con .box_txt dt{font-weight:bold;}
+.pancake_event .gift_con .box_txt dd{color:#888888;}
+.pancake_event .gift_con .info_con{margin-top:60px;}
+.pancake_event .gift_con .info_con dl{display:table; width:100%; margin-bottom:15px;}
+.pancake_event .gift_con .info_con dl:last-child{margin-bottom:0;}
+.pancake_event .gift_con .info_con dt{float:left; width:100px; padding-right:20px;}
+.pancake_event .gift_con .info_con dd{float:left; width:calc(100% - 120px); padding-top:3px; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+ font-size:16px; font-weight:500; color:#888888; letter-spacing:-1px;}
+.pancake_event .gift_con .info_con dd p{position:relative; padding-left:10px; margin-bottom:5px; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+ font-size:16px; font-weight:500; color:#888888; line-height:1.4em;}
+.pancake_event .gift_con .info_con dd p:last-child{margin-bottom:0;}
+.pancake_event .gift_con .info_con dd p:before{position:absolute; content:""; width:3px; height:3px; background:#888888; left:0; top:8px;}
+.pancake_event .gift_con .logo{width:70%; max-width:270px; margin:60px auto 0;}
+.pancake_event .pop_txt{background:url(../images/event/pancake_event/pop_bg.jpg) no-repeat top #f5eac0; background-size:100% auto;}
+.pancake_event .pop_txt p{font-weight:500; color:#000;}
+
+/* 멤버스 이벤트 */
+.members_event{max-width:730px; margin:auto; }
+.members_event dt, .members_event dd, .members_event span, .members_event p, .members_event a{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif; font-weight:400; color:#353535; line-height:1.4em;}
+.members_event .event_page{background:url(../images/event/members_event/bg.gif) repeat-y; background-size:100% auto;}
+.members_event .paper_con{position:relative; padding-bottom:40px;}
+.members_event .paper_con:before{position:absolute; content:""; display:block; width:100%; height:400px; top:0; background:url(../images/event/members_event/bg_top.gif) no-repeat; background-size:100% auto;}
+.members_event .paper_con:after{position:absolute; content:""; display:block; width:100%; height:20px; bottom:0; background:url(../images/event/members_event/bg_btm.gif) no-repeat bottom; background-size:100% auto;}
+.members_event .top_con{position:relative; width:90%; margin:auto; padding:60px 0 10px; border-bottom:1px solid #353535; z-index:1;}
+.members_event .top_con .title{width:86%; max-width:532px; margin:auto;}
+.members_event .top_con dl{display:table; margin-top:30px; width:100%;}
+.members_event .top_con dl dt{float:left; display:inline-block; padding:4px 10px; border:1px solid #353535; border-radius:30px 30px; font-size:16px;}
+.members_event .top_con dl dd{float:right; border:1px solid #353535;}
+.members_event .top_con dl dd span{display:inline-block; padding:4px 10px; font-size:16px;}
+.members_event .top_con dl dd span:first-child{border-right:1px solid #353535;}
+.members_event .top_con .deco_li li{position:absolute;}
+.members_event .top_con .deco_li li:nth-child(1){width:21.157%; top:5%; right:3%;}
+.members_event .top_con .deco_li li:nth-child(2){width:4.415%; top:38%; right:0;}
+.members_event .top_con .deco_li li:nth-child(3){width:10.959%; top:62%; left:5%;}
+.members_event .hint_con{position:relative; width:90%; margin:2px auto 0; border-top:3px solid #353535; z-index:1;}
+.members_event .hint_con ul{padding:0 5%; margin-top:10px; border:1px solid #353535;}
+.members_event .hint_con li{position:relative; padding:30px 0; border-bottom:1px solid #bbbbbb;}
+.members_event .hint_con li:nth-child(1):after{position:absolute; content:""; display:block; width:10.521%; height:70px; top:10%; right:0; background:url(../images/event/members_event/drw04.png) no-repeat; background-size:100% auto;}
+.members_event .hint_con li:nth-child(3):after{position:absolute; content:""; display:block; width:8.315%; height:69px; top:7%; left:0; background:url(../images/event/members_event/drw05.png) no-repeat; background-size:100% auto;}
+.members_event .hint_con li:last-child{border-bottom:none;}
+.members_event .hint_con li h3{text-align:center;}
+.members_event .hint_con li h3 span{display:inline-block; padding:0 10px; border-radius:3px 3px; background:#2a3990; line-height:25px; font-size:16px; font-weight:900; color:#FFF;}
+.members_event .hint_con li h3 p{display:inline-block; margin-left:10px; line-height:25px; font-size:18px; font-weight:900;}
+.members_event .hint_con li dl{display:table; margin:20px auto 0;}
+.members_event .hint_con li dt{display:table-cell; width:50px; vertical-align:top;}
+.members_event .hint_con li dd{display:table-cell; width:calc(100% - 65px); padding-left:15px; padding-top:4px; vertical-align:top}
+.members_event .hint_con li dd p{font-size:16px; letter-spacing:-1px;}
+.members_event .hint_con li dd p:first-child{margin-bottom:10px;}
+.members_event .hint_con li dd p em{font-weight:700;}
+.members_event .hint_con li dd p em span{font-weight:700;}
+.members_event .quiz_con{position:relative; width:90%; margin:30px auto 0;}
+.members_event .quiz_con:after{position:absolute; content:""; display:block; width:9.437%; height:45px; bottom:0; right:0; background:url(../images/event/members_event/drw06.png) no-repeat; background-size:100% auto;}
+.members_event .quiz_con dt{font-size:18px; font-weight:700; word-break:keep-all;}
+.members_event .quiz_con dt em{position:relative; font-weight:700;}
+.members_event .quiz_con dt em:after{position:absolute; content:""; display:block; width:50px; height:7px; top:22px; left:0; background:url(../images/event/members_event/under_line.png) no-repeat; background-size:100% auto;}
+.members_event .quiz_con dt span{font-size:20px; font-weight:700;}
+.members_event .quiz_con dd{margin-top:15px;}
+.members_event .quiz_con dd p{position:relative; margin-bottom:10px;}
+.members_event .quiz_con dd p:last_child{margin-bottom:0;}
+.members_event .quiz_con dd p a{line-height:1.2em; font-size:16px;}
+.members_event .quiz_con dd p a em{font-weight:400; font-size:18px;}
+.members_event .quiz_con dd p.on a{box-shadow:inset 0 -10px 0 rgb(255,255,85)}
+.members_event .quiz_con dd p.on:after{position:absolute; content:""; display:block; width:24px; height:22px; top:-8px; left:-1px; background:url(../images/event/members_event/ck_icon.png) no-repeat; background-size:100% auto;}
+.members_event .event_info{padding:60px 0; background:#eff9fb;}
+.members_event .gift_con{position:relative; width:90%; margin:auto; padding:40px 30px 25px; border:1px solid #353535; background:#FFF; box-sizing:border-box;}
+.members_event .gift_con h3{position:absolute; top:-16px; left:50%; display:block; padding:0 10px; margin-left:-98px; background:#2a3990; border-radius:3px 3px; line-height:32px; font-size:20px; font-weight:900; color:#FFF;}
+.members_event .gift_con li:first-child{max-width:276px; margin:auto;}
+.members_event .gift_con li:last-child{margin-top:20px; text-align:center;}
+.members_event .gift_con li:last-child p{line-height:1.0em; font-size:16px; font-weight:500; color:#888888;}
+.members_event .gift_con li:last-child em{display:block; margin-bottom:5px; font-size:18px; color:#353535;}
+.members_event .gift_con li:last-child span{font-weight:700;}
+.members_event .must_read_con{width:90%; margin:30px auto;}
+.members_event .must_read_con h3{position:relative; padding-left:30px; font-size:20px; font-weight:700;}
+.members_event .must_read_con h3:before{position:absolute; content:""; display:block; width:25px; height:25px; left:0; background:url(../images/event/members_event/must_read_icon.png) no-repeat; background-size:100% auto;}
+.members_event .must_read_con p{margin-top:10px; font-size:16px;}
+.members_event .info_con{width:90%; margin:auto;}
+.members_event .info_con dl{margin-bottom:10px;}
+.members_event .info_con dl:last-child{margin-bottom:0;}
+.members_event .info_con dt{width:110px; height:26px; background:url(../images/event/members_event/tt_bg.png) no-repeat; background-size:100% auto; font-size:18px; font-weight:700; color:#FFF; text-align:center;}
+.members_event .info_con dd{margin-top:5px; font-size:16px;}
+.members_event .info_con dd p{position:relative; padding-left:10px; margin-bottom:5px; font-size:16px;}
+.members_event .info_con dd p:before{position:absolute; content:""; display:block; width:5px; height:1px; left:0; top:9px; background:#606060;}
+.members_event .info_con dd p:last-child{margin-bottom:0;}
+.members_event .logo_img{width:60%; max-width:290px; margin:40px auto;}
+.members_event .btn_li{width:90%; display:table; margin:auto;}
+.members_event .btn_li li{float:left; width:49%; margin-right:2%; background:#2a3990; border-radius:3px 3px; text-align:center;}
+.members_event .btn_li li:last-child{margin-right:0; background:#c2c2c2;}
+.members_event .btn_li li a{display:block; width:100%; height:100%; padding:8px 0; font-size:16px; font-weight:700; color:#FFF; line-height:1.2em;}
+.members_event .btn_li li:last-child a{color:#444545;}
+.members_event .btn_li li a span.block_txt{display:block; font-size:16px; font-weight:700; color:#FFF; line-height:1.2em;}
+.members_event .btn_li li:last-child a span.block_txt{color:#444545;}
+.members_event .btn_li li.on{width:100%;}
+.members_event .btn_li li.on a{line-height:38px;}
+.members_event .btn_li li.on a span.block_txt{display: inline-block;}
+.members_event .pop_txt{background:url(../images/event/members_event/pop_img.jpg) no-repeat top #f3f2f1; background-size:100% auto;}
+.members_event .pop_txt p{font-weight:500; color:#353535;}
+
+/* 썸머레드 이벤트 */
+.summer_red_event{max-width:730px; margin:auto;}
+.summer_red_event .pop_txt{background:url(../images/event/summer_red_event/pop_img.jpg) no-repeat bottom #e63948; background-size:100% auto;}
+.summer_red_event .pop_txt p{font-weight:500; color:#FFF;}
+
+/* 산리오 티징 이벤트 */
+.sanrio_quiz_event{max-width:730px; margin:auto; overflow:hidden;}
+.sanrio_quiz_event img{width:100%;}
+.sanrio_quiz_event .top_con{position:relative; padding:40px 5% 60px; background:url(../images/event/sanrio_quiz_event/top_bg.gif) repeat-y; background-size:100%;}
+.sanrio_quiz_event .top_con .title_txt{position:relative; max-width:400px; margin:auto; z-index:1;}
+.sanrio_quiz_event .top_con .deco{position:absolute; top:65%;}
+.sanrio_quiz_event .quiz_con{position:relative; padding:40px 5%; background:#fff1f7;}
+.sanrio_quiz_event .quiz_con .quiz_txt{position:relative; max-width:584px; margin:auto; z-index:1;}
+.sanrio_quiz_event .quiz_con .quiz_txt:before{content:""; display:block; width:90px; height:32px; margin:0 auto 20px; background:url(../images/event/sanrio_quiz_event/quiz_tt.png) no-repeat; background-size:90px auto;}
+.sanrio_quiz_event .quiz_con .quiz_img{max-width:638px; margin:30px auto;}
+.sanrio_quiz_event .quiz_con .quiz_sel{position:relative; max-width:500px; margin:auto; z-index:1;}
+.sanrio_quiz_event .quiz_con .quiz_sel li{margin-bottom:10px;}
+.sanrio_quiz_event .quiz_con .quiz_sel li:last-child{margin-bottom:0;}
+.sanrio_quiz_event .quiz_con .quiz_sel li a{display:block;}
+.sanrio_quiz_event .quiz_con .quiz_sel li img.sel_on{display:none;}
+.sanrio_quiz_event .quiz_con .quiz_sel li.on img.sel_off{display:none;}
+.sanrio_quiz_event .quiz_con .quiz_sel li.on img.sel_on{display:block;}
+.sanrio_quiz_event .gift_box{position:relative; max-width:500px; margin:60px auto 0; padding:30px 20px; border:2px solid #e86ca9; border-radius:20px 20px; background:#fffcfd; z-index:1;}
+.sanrio_quiz_event .gift_box .gift_tt{position:absolute; width:100px; left:50%; top:-15px; margin-left:-50px;}
+.sanrio_quiz_event .gift_box .gift_con{max-width:432px; margin:auto;}
+.sanrio_quiz_event .gift_box .box_line li{position:absolute; width:30px; height:30px;}
+.sanrio_quiz_event .gift_box .box_line li:nth-child(1){top:-2px; left:-2px;}
+.sanrio_quiz_event .gift_box .box_line li:nth-child(2){top:-2px; right:-2px; transform:rotate(90deg);}
+.sanrio_quiz_event .gift_box .box_line li:nth-child(3){bottom:-2px; left:-2px; transform:rotate(-90deg);}
+.sanrio_quiz_event .gift_box .box_line li:nth-child(4){bottom:-2px; right:-2px; transform:rotate(180deg);}
+.sanrio_quiz_event .brick_li li{position:absolute; width:69px;}
+.sanrio_quiz_event .brick_li li:nth-child(1){top:40px; left:-10px;}
+.sanrio_quiz_event .brick_li li:nth-child(2){top:40px; right:-10px; width:62px;}
+.sanrio_quiz_event .brick_li li:nth-child(3){top:50%; left:-10px; width:62px;}
+.sanrio_quiz_event .brick_li li:nth-child(4){top:50%; right:-10px;}
+.sanrio_quiz_event .brick_li li:nth-child(5){bottom:80px; left:-10px;}
+.sanrio_quiz_event .brick_li li:nth-child(6){bottom:80px; right:-10px; width:62px;}
+.sanrio_quiz_event .note_con{padding:40px 5% 10px; background:#f9cbdf;}
+.sanrio_quiz_event .note_con .note_txt{max-width:610px; margin:0 auto 40px;}
+.sanrio_quiz_event .note_con .copy_txt{width:100%; height:10px; text-align:right;}
+.sanrio_quiz_event .note_con .copy_txt img{max-width:290px;}
+.sanrio_quiz_event .submit_btn{background:#e86ca9; border:solid 1px #e86ca9;}
+.sanrio_quiz_event .pop_txt{position:relative; padding-top:90px; border:5px solid #a1c6e9; background:url(../images/event/sanrio_quiz_event/pop_img02.jpg) no-repeat bottom #fff1f7; background-size:100% auto;}
+.sanrio_quiz_event .pop_txt:before{position:absolute; content:""; display:block; width:390px; height:56px; top:0; left:0; background:url(../images/event/sanrio_quiz_event/pop_img01.jpg) no-repeat;}
+.sanrio_quiz_event .pop_txt p{font-weight:500; color:#e86ca9;}
+
+/* 산리오 시나모롤 이벤트 */
+.cinnamoroll_event{max-width:730px; margin:auto;}
+.cinnamoroll_event img{width:100%}
+.cinnamoroll_event .event_page{position:relative; padding:80px 0 10px; border:10px solid #a1c6e9; border-top:none; background:url(../images/event/cinnamoroll_event/roof_img.png) no-repeat top #e1e9f6; background-size:1040px auto;}
+.cinnamoroll_event .main_title{width:80%; max-width:425px; margin:auto;}
+.cinnamoroll_event .main_gift{position:relative; width:100%; margin:30px auto 0; text-align:center;}
+.cinnamoroll_event .main_gift:after{position:absolute; content:""; display:block; width:100%; height:34%; top:80%; background:url(../images/event/cinnamoroll_event/line.png) no-repeat top #c8d9f0; background-size:100%;}
+.cinnamoroll_event .main_gift img{position:relative; width:96%; max-width:610px; z-index:1;}
+.cinnamoroll_event .main_button{margin:20% 0 60px; text-align:center; font-size:0;}
+.cinnamoroll_event .main_button li{position:relative; display:inline-block; width:240px; margin:0 15px;}
+.cinnamoroll_event .main_button li:first-child{margin-bottom:30px;}
+.cinnamoroll_event .main_button li a{position:absolute; display:block; width:62.5%; height:17.55%; top:69.4%; left:18.6%;}
+.cinnamoroll_event .copy_txt{width:95%; height:10px; padding-right:5%; text-align:right;}
+.cinnamoroll_event .copy_txt img{max-width:290px;}
+.cinnamoroll_event .event01_title{width:76%; max-width:403px; margin:auto;}
+.cinnamoroll_event .event_txt{width:280px; margin:30px auto 0;}
+.cinnamoroll_event .event_txt .pc{display:none;}
+.cinnamoroll_event .event01_drink{position:relative; margin:30px 0 60px;}
+.cinnamoroll_event .event01_drink:after{position:absolute; content:""; display:block; width:100%; height:830px; top:230px; background:url(../images/event/cinnamoroll_event/line.png) no-repeat top #c8d9f0; background-size:100%;}
+.cinnamoroll_event .event01_drink li{position:relative; width:220px; margin:0 auto 30px; z-index:1;}
+.cinnamoroll_event .event_guide{margin:140px 0 40px;}
+.cinnamoroll_event .event_guide h4{width:134px; margin:auto;}
+.cinnamoroll_event .event_guide ul{margin-top:30px; font-size:0; text-align:center;}
+.cinnamoroll_event .event_guide li{position:relative; display:inline-block; width:280px; margin:0 15px;}
+.cinnamoroll_event .event_guide li:first-child{margin-bottom:60px;}
+.cinnamoroll_event .event_guide li:first-child:after{position:absolute; content:""; display:block; width:52px; height:42px; bottom:-47px; left:50%; margin-left:-26px; background:url(../images/event/cinnamoroll_event/arrow_icon.png) no-repeat center; background-size:100%; transform:rotate(90deg); z-index:1;}
+.cinnamoroll_event .event_note{width:90%; max-width:590px; margin:0 auto 60px;}
+.cinnamoroll_event .brick_li li{position:absolute;}
+.cinnamoroll_event .brick_li li:nth-child(1){width:48px; top:70px; left:5%;}
+.cinnamoroll_event .brick_li li:nth-child(2){width:43px; top:70px; right:5%;}
+.cinnamoroll_event .event02_title{width:90%; max-width:535px; margin:auto;}
+.cinnamoroll_event .event02_date{width:234px; margin:40px auto;}
+.cinnamoroll_event .event02_card{position:relative; text-align:center;}
+.cinnamoroll_event .event02_card:after{position:absolute; content:""; display:block; width:100%; height:490px; top:230px; background:url(../images/event/cinnamoroll_event/line.png) no-repeat top #c8d9f0; background-size:100%;}
+.cinnamoroll_event .event02_card li{position:relative; width:212px; margin:0 auto 30px; z-index:1;}
+.cinnamoroll_event .event02_card li:last-child{margin:0 auto;}
+.cinnamoroll_event .event02_card_txt{width:90%; max-width:446px; margin:40px auto;}
+.cinnamoroll_event .pop_txt{position:relative; padding-top:90px; padding-bottom:30px; border:5px solid #a1c6e9; background:url(../images/event/cinnamoroll_event/pop_img.jpg) no-repeat bottom #e1e9f6; background-size:100% auto;}
+.cinnamoroll_event .pop_txt:before{position:absolute; content:""; width:100%; height:44px; top:0; left:0; background:url(../images/event/cinnamoroll_event/roof_img.png) no-repeat center; background-size:1040px auto;}
+.cinnamoroll_event .pop_txt p{font-weight:500; color:#3363a8;}
+.giftcard_num_con{margin-bottom:30px;}
+.giftcard_num{font-size:0;}
+.giftcard_num input{width:22.375%; height:48px; border:1px solid #CCC; border-radius:3px 3px; padding-left:15px; box-sizing:border-box; font-size:14px; color:#707070;}
+.giftcard_num span{display:inline-block; width:3.5%; text-align:center; font-size:14px;}
+
+/* 산리오 굿즈 세트 이벤트 */
+.sanrio_goods_event{max-width:730px; margin:auto;}
+.sanrio_goods_event img{width:100%}
+.sanrio_goods_event .event_page{position:relative; border:10px solid #f8b3d2; border-top:none; background:#fee2f0;}
+.sanrio_goods_event .event_page:after{position:absolute; content:""; width:100%; height:43px; top:0; left:0; background:url(../images/event/sanrio_goods_event/roof_img.png) no-repeat top; background-size:1040px auto; z-index:1;}
+.sanrio_goods_event .top_con{position:relative; padding-top:80px; background:url(../images/event/sanrio_goods_event/wall_img.jpg) top center; background-size:contain;}
+.sanrio_goods_event .top_con .title{width:90%; max-width:564px; margin:auto;}
+.sanrio_goods_event .top_con .date{width:235px; margin:20px auto 30px;}
+.sanrio_goods_event .top_con .info_txt{position:relative; margin-bottom:270px;text-align:center; z-index:1;}
+.sanrio_goods_event .top_con .info_txt .pc{display:none;}
+.sanrio_goods_event .top_con .info_txt .mo{width:90%; max-width:320px;}
+.sanrio_goods_event .top_con .drink_li{position:relative; height:960px; background:#fee2f0;}
+.sanrio_goods_event .top_con .drink_li:before{position:absolute; content:""; width:100%; height:4px; top:-2px; left:0; background:url(../images/event/sanrio_goods_event/line.png) no-repeat center; background-size:auto 2px;}
+.sanrio_goods_event .top_con .drink_li li{position:relative; width:235px; margin:auto; top:-230px; z-index:1;}
+.sanrio_goods_event .top_con .wall_deco{position:absolute; bottom:1140px;}
+.sanrio_goods_event .gift_con{position:relative; padding:40px 5%; background:#fff1f8; overflow:hidden;}
+.sanrio_goods_event .gift_con .gift_tt{width:134px; margin:auto;}
+.sanrio_goods_event .gift_con .gift_txt{margin:20px 0 30px; text-align:center;}
+.sanrio_goods_event .gift_con .gift_txt .pc{display:none;}
+.sanrio_goods_event .gift_con .gift_txt .mo{width:228px;}
+.sanrio_goods_event .gift_con .gift_li{position:relative; padding:30px 5%; background:#fefcfd; border-radius:20px 20px; z-index:1;}
+.sanrio_goods_event .gift_con .gift_li li{max-width:290px; margin:0 auto 30px;}
+.sanrio_goods_event .gift_con .gift_li li:last-child{margin-bottom:0;}
+.sanrio_goods_event .gift_con .brick_li li{position:absolute; width:45px;}
+.sanrio_goods_event .gift_con .brick_li li:nth-child(1){top:40px; left:-10px;}
+.sanrio_goods_event .gift_con .brick_li li:nth-child(2){top:50px; right:-10px;}
+.sanrio_goods_event .gift_con .brick_li li:nth-child(3){bottom:30px; left:-10px;}
+.sanrio_goods_event .gift_con .brick_li li:nth-child(4){bottom:20px; right:-10px;}
+.sanrio_goods_event .step_con{padding:40px 5%;}
+.sanrio_goods_event .step_con .step_tt{width:134px; margin:auto;}
+.sanrio_goods_event .step_con .step_li{margin-top:30px; font-size:0; text-align:center;}
+.sanrio_goods_event .step_con .step_li li{position:relative; display:inline-block; width:280px; margin:0 15px;}
+.sanrio_goods_event .step_con .step_li li:first-child{margin-bottom:60px;}
+.sanrio_goods_event .step_con .step_li li:first-child:after{position:absolute; content:""; display:block; width:52px; height:42px; bottom:-47px; left:50%; margin-left:-26px; background:url(../images/event/sanrio_goods_event/arrow_icon.png) no-repeat center; background-size:100%; transform:rotate(90deg); z-index:1;}
+.sanrio_goods_event .step_con .step_txt{margin-top:30px; text-align:center;}
+.sanrio_goods_event .step_con .step_txt .pc{display:none;}
+.sanrio_goods_event .step_con .step_txt .mo{width:248px;}
+.sanrio_goods_event .note_con{padding:40px 5% 10px; background:#fffcfd;}
+.sanrio_goods_event .copy_txt{height:10px; margin-top:40px; text-align:right;}
+.sanrio_goods_event .copy_txt img{max-width:290px;}
+.sanrio_goods_event .pop_txt{position:relative; padding-top:90px; padding-bottom:30px; border:5px solid #f7b3d1; background:url(../images/event/sanrio_goods_event/pop_img.jpg) no-repeat bottom #fde2ee; background-size:100% auto;}
+.sanrio_goods_event .pop_txt:before{position:absolute; content:""; width:100%; height:44px; top:0; left:0; background:url(../images/event/sanrio_goods_event/roof_img.png) no-repeat center; background-size:1040px auto;}
+.sanrio_goods_event .pop_txt p{font-weight:500; color:#e86caa;}
+
+/* 하트시그널 이벤트 */
+.event_heart_signal{max-width:730px; margin:auto;}
+.event_heart_signal img{width:100%;}
+.event_heart_signal .pc{display:none;}
+.event_heart_signal .con01{padding:60px 5%; background:url(../images/event/heart_signal/top_bg.gif) no-repeat; background-size:100% 100%;}
+.event_heart_signal .con01 .title{max-width:480px; margin:auto;}
+.event_heart_signal .con01 .title_txt{max-width:570px; margin:30px auto 40px;}
+.event_heart_signal .con01 .info_txt{max-width:480px; margin:auto;}
+.event_heart_signal .con01 .video{position:relative; max-width:650px;}
+.event_heart_signal .con01 .video .video_align{position:relative; max-width:650px; margin:40px auto 0; padding-bottom:56.7%;}
+.event_heart_signal .con01 .video .video_align:after{position:absolute; content:""; display:block; width:100%; height:100%; background:url(../images/event/heart_signal/video_bg.gif) no-repeat; background-size:100% 100%;}
+.event_heart_signal .con01 .video .video_align video{position:absolute; top:4px; left:4px; width:calc(100% - 8px); height:calc(100% - 8px); z-index:1;}
+.event_heart_signal .con01 .video:before{position:absolute; content:""; display:block; width:35px; height:35px; top:0; left:0; background:url(../images/event/heart_signal/video_deco01.png) no-repeat; background-size:35px 35px; z-index:2;}
+.event_heart_signal .con01 .video:after{position:absolute; content:""; display:block; width:35px; height:35px; bottom:0; right:0; background:url(../images/event/heart_signal/video_deco02.png) no-repeat; background-size:35px 35px; z-index:2;}
+.event_heart_signal .con02{padding:60px 5%; background:url(../images/event/heart_signal/con_bg.gif) no-repeat; background-size:100% 100%;}
+.event_heart_signal .con_tt{width:120px; margin:auto;}
+.event_heart_signal .gift_con{position:relative;}
+.event_heart_signal .gift_con li{width:314px; margin:auto;}
+.event_heart_signal .gift_con:after{position:absolute; content:""; display:block; width:100%; height:120px; background:url(../images/event/heart_signal/line.png) no-repeat center;}
+.event_heart_signal .guide_con{margin-top:120px;}
+.event_heart_signal .guide_con li{position:relative; width:255px; margin:auto;}
+.event_heart_signal .guide_con li:first-child{margin:30px auto 50px;}
+.event_heart_signal .guide_con li:first-child:after{position:absolute; content:""; display:block; width:40px; height:49px; bottom:-44px; left:50%; margin-left:-20px; background:url(../images/event/heart_signal/arrow.png) no-repeat center; background-size:40px 49px; transform:rotate(90deg);}
+.event_heart_signal .guide_con .guide_txt{max-width:360px; margin:40px auto 0;}
+.event_heart_signal .note_con{padding:60px 5%; background:#2a4281; text-align:center;}
+.event_heart_signal .note_con img{max-width:360px;}
+.event_heart_signal .pop_con{position:relative; padding:4px; background:url(../images/event/heart_signal/video_bg.gif) no-repeat; background-size:100% 100%;}
+.event_heart_signal .pop_con:before{position:absolute; content:""; display:block; width:40px; height:40px; top:0; left:0; background:url(../images/event/heart_signal/video_deco01.png) no-repeat; background-size:40px 40px;}
+.event_heart_signal .pop_con:after{position:absolute; content:""; display:block; width:40px; height:40px; bottom:0; right:0; background:url(../images/event/heart_signal/video_deco02.png) no-repeat; background-size:40px 40px;}
+.event_heart_signal .pop_align{background:url(../images/event/heart_signal/top_bg.gif) no-repeat; background-size:100% 100%;}
+.event_heart_signal .pop_txt{background:none; padding:40px 0;}
+.event_heart_signal .pop_txt p{padding:0 20px; color:#d12e89; font-weight:700;}
+.event_heart_signal .mem_id_ck{line-height:1.2em; margin-top:-8px; margin-bottom:15px; font-size:14px;}
+
+/* 산리오 기프트카드 응모 2차 이벤트 */
+.sanrio_giftcard{max-width:730px; margin:auto; border:10px solid #a1c6e9; border-top:none; box-sizing:border-box;}
+.sanrio_giftcard_input{max-width:730px; margin:auto; box-sizing:border-box;}
+.sanrio_giftcard .con_tt{width:134px; margin:auto;}
+.sanrio_giftcard .pc{display:none;}
+.sanrio_giftcard .top_con{position:relative; padding:80px 5% 40px; background:url(../images/event/sanrio_giftcard/roof_img.png) no-repeat top center #e1e9f6; background-size:1040px auto;}
+.sanrio_giftcard .top_con .title{max-width:617px; margin:auto;}
+.sanrio_giftcard .top_con .info_txt{max-width:280px; margin:30px auto 0;}
+.sanrio_giftcard .top_con .date{max-width:287px; margin:40px auto;}
+.sanrio_giftcard .top_con .giftcard{text-align:center;}
+.sanrio_giftcard .top_con .giftcard:after{position:absolute; content:""; display:block; width:100%; height:490px; bottom:0; left:0; background:url(../images/event/sanrio_giftcard/line.png) no-repeat top #a1c6e9; background-size:100%;}
+.sanrio_giftcard .top_con .giftcard li{position:relative; width:244px; margin:0 auto 30px; z-index:1;}
+.sanrio_giftcard .top_con .giftcard li:last-child{margin:0 auto;}
+.sanrio_giftcard .gift_con{padding:40px 5%; background:#bddbf4;}
+.sanrio_giftcard .gift_con .gift_txt{max-width:335px; margin:20px auto 0;}
+.sanrio_giftcard .gift_con ul{margin-top:30px;}
+.sanrio_giftcard .gift_con li{width:190px; margin:auto;}
+.sanrio_giftcard .step_con{padding:40px 5%; background:#e1e9f6;}
+.sanrio_giftcard .step_con ul{margin-top:30px; font-size:0; text-align:center;}
+.sanrio_giftcard .step_con li{position:relative; display:inline-block; width:280px;}
+.sanrio_giftcard .step_con li:first-child{margin-bottom:60px;}
+.sanrio_giftcard .step_con li:first-child:after{position:absolute; content:""; display:block; width:52px; height:42px; bottom:-47px; left:50%; margin-left:-26px; background:url(../images/event/sanrio_giftcard/arrow.png) no-repeat center; background-size:100%; transform:rotate(90deg); z-index:1;}
+.sanrio_giftcard .step_con .giftcard_txt{max-width:446px; margin:40px auto 0;}
+.sanrio_giftcard .note_con{padding:40px 5% 10px; background:#bddbf4;}
+.sanrio_giftcard .note_con .note_txt{max-width:340px; margin:auto;}
+.sanrio_giftcard .note_con .copy_txt{height:10px; margin-top:40px; text-align:right;}
+.sanrio_giftcard .note_con .copy_txt img{width:auto; height:10px;}
+.sanrio_giftcard .brick_li li{position:absolute; top:70px;}
+.sanrio_giftcard .brick_li li:first-child{width:48px; left:5%;}
+.sanrio_giftcard .brick_li li:last-child{width:43px; right:5%;}
+.sanrio_giftcard .pop_txt{position:relative; padding-top:90px; padding-bottom:30px; border:5px solid #a1c6e9; background:url(../images/event/cinnamoroll_event/pop_img.jpg) no-repeat bottom #e1e9f6; background-size:100% auto;}
+.sanrio_giftcard .pop_txt:before{position:absolute; content:""; width:100%; height:44px; top:0; left:0; background:url(../images/event/cinnamoroll_event/roof_img.png) no-repeat center; background-size:1040px auto;}
+.sanrio_giftcard .pop_txt p{font-weight:500; color:#3363a8;}
+
+/* 이디야 산리오 캐릭터즈 사전 퀴즈 이벤트 */
+.sanrio_quiz_event02{max-width:730px; margin:auto;}
+.sanrio_quiz_event02 .img{width:100%;}
+.sanrio_quiz_event02 .top_con{position:relative; display:flex; justify-content:center; margin-bottom:-2%; z-index:1;}
+.sanrio_quiz_event02 .top_con .title{position:absolute; top:5%; width:75%; max-width:498px;}
+.sanrio_quiz_event02 .quiz_con{position:relative; padding:60px 5% 80px; background:#ede9f4;}
+.sanrio_quiz_event02 .quiz_con .block_line{position:absolute; left:0; bottom:-10px;}
+.sanrio_quiz_event02 .quiz_txt{max-width:491px; margin:auto;}
+.sanrio_quiz_event02 .quiz_txt:before{content:""; display:block; width:86px; height:30px; margin:0 auto 10px; background:url(../images/event/sanrio_quiz_event/2nd/quiz_tt.png) no-repeat; background-size:100% auto;}
+.sanrio_quiz_event02 .quiz_sel{font-size:0; text-align:center; margin-top:30px;}
+.sanrio_quiz_event02 .quiz_sel li{display:inline-block; width:130px; margin-bottom:30px; vertical-align:top;}
+.sanrio_quiz_event02 .quiz_sel li a{display:block;}
+.sanrio_quiz_event02 .quiz_sel li .sel_on{display:none;}
+.sanrio_quiz_event02 .quiz_sel li.on .sel_on{display:block;}
+.sanrio_quiz_event02 .quiz_sel li.on .sel_off{display:none;}
+.sanrio_quiz_event02 .gift_box{position:relative; max-width:500px; margin:60px auto 0; padding:30px 20px; border:2px solid #3863a5; background:#f8f6fb; border-radius:20px 20px; z-index:1;}
+.sanrio_quiz_event02 .gift_box .gift_tt{position:absolute; width:200px; left:50%; top:-20px; margin-left:-100px;}
+.sanrio_quiz_event02 .gift_box .gift_img{max-width:450px; margin:20px auto 40px;}
+.sanrio_quiz_event02 .gift_box .gift_txt{max-width:317px; margin:auto;}
+.sanrio_quiz_event02 .gift_box .box_line li{position:absolute; width:30px; height:30px;}
+.sanrio_quiz_event02 .gift_box .box_line li:nth-child(1){top:-2px; left:-2px;}
+.sanrio_quiz_event02 .gift_box .box_line li:nth-child(2){top:-2px; right:-2px; transform:rotate(90deg);}
+.sanrio_quiz_event02 .gift_box .box_line li:nth-child(3){bottom:-2px; left:-2px; transform:rotate(-90deg);}
+.sanrio_quiz_event02 .gift_box .box_line li:nth-child(4){bottom:-2px; right:-2px; transform:rotate(180deg);}
+.sanrio_quiz_event02 .notice_con{padding:60px 5% 20px; background:#ddc9e2;}
+.sanrio_quiz_event02 .notice_con .notice_txt{max-width:554px; margin:auto;}
+.sanrio_quiz_event02 .notice_con .copy_txt{width:290px; height:10px; margin:30px auto 0;}
+.sanrio_quiz_event02 .pop_txt{border:5px solid #a1c6e9; background:url(../images/event/sanrio_quiz_event/2nd/pop_img.jpg) no-repeat bottom; background-size:100% auto;}
+.sanrio_quiz_event02 .pop_txt p{font-size:14px; font-weight:500; color:#3363a8;}
+
+/* 이디야 산리오 굿즈세트 이벤트 */
+.sanrio_goods_event02{max-width:730px; margin:auto;}
+.sanrio_goods_event02 img{width:100%;}
+.sanrio_goods_event02 img.pc{display:none;}
+.sanrio_goods_event02 .top_con{position:relative; display:flex; justify-content:center; margin-bottom:-2%; z-index:1;}
+.sanrio_goods_event02 .top_con .title{position:absolute; top:12%; width:80%; max-width:464px;}
+.sanrio_goods_event02 .goods_event_con{position:relative; padding:60px 5%; background:#ede9f4;}
+.sanrio_goods_event02 .event_info .event_txt{width:240px; margin:auto;}
+.sanrio_goods_event02 .event_info .event_txt:before{content:""; display:block; width:99px; height:30px; margin:0 auto 20px; background:url(../images/event/sanrio_goods_event/2nd/event_tt_mo.png) no-repeat center; background-size:100% auto;}
+.sanrio_goods_event02 .event_info ul{display:table; margin:40px auto; font-size:0;}
+.sanrio_goods_event02 .event_info li{display:inline-block; width:calc(50% - 10px); max-width:213px; vertical-align:bottom;}
+.sanrio_goods_event02 .event_info li:last-child{ margin-left:20px}
+.sanrio_goods_event02 .gift_con{position:relative; max-width:500px; margin:60px auto 40px; padding:30px 20px; border:2px solid #3863a5; background:#f8f6fb; border-radius:20px 20px; z-index:1;}
+.sanrio_goods_event02 .gift_con .gift_tt{position:absolute; width:164px; height:41px; top:-16px; left:50%; margin-left:-82px;}
+.sanrio_goods_event02 .gift_li li{margin:20px auto; text-align:center;}
+.sanrio_goods_event02 .gift_li li:nth-child(1) img{width:144px;}
+.sanrio_goods_event02 .gift_li li:nth-child(2) img{width:232px;}
+.sanrio_goods_event02 .gift_li li:nth-child(3) img{width:214px;}
+.sanrio_goods_event02 .gift_li li:nth-child(4) img{width:211px;}
+.sanrio_goods_event02 .gift_con .box_line li{position:absolute; width:30px; height:30px;}
+.sanrio_goods_event02 .gift_con .box_line li:nth-child(1){top:-2px; left:-2px;}
+.sanrio_goods_event02 .gift_con .box_line li:nth-child(2){top:-2px; right:-2px; transform:rotate(90deg);}
+.sanrio_goods_event02 .gift_con .box_line li:nth-child(3){bottom:-2px; left:-2px; transform:rotate(-90deg);}
+.sanrio_goods_event02 .gift_con .box_line li:nth-child(4){bottom:-2px; right:-2px; transform:rotate(180deg);}
+.sanrio_goods_event02 .block_line{position:absolute; left:0; bottom:-10px;}
+.sanrio_goods_event02 .goods_guide_con .guide_tt{width:98px; height:30px; margin:0 auto 20px;}
+.sanrio_goods_event02 .goods_guide_con li{width:280px; margin:auto;}
+.sanrio_goods_event02 .goods_guide_con li:first-child{position:relative; margin-bottom:60px;}
+.sanrio_goods_event02 .goods_guide_con li:first-child:after{position:absolute; content:""; display:block; width:52px; height:42px; left:50%; margin-left:-26px; bottom:-47px; background:url(../images/event/sanrio_goods_event/2nd/arrow_mo.png) no-repeat center; background-size:100% auto; transform:rotate(90deg);}
+.sanrio_goods_event02 .guide_txt{width:250px; margin:40px auto 0;}
+.sanrio_goods_event02 .notice_con{padding:60px 5% 10px; background:#ddc9e2;}
+.sanrio_goods_event02 .notice_txt{max-width:320px; margin:auto;}
+.sanrio_goods_event02 .copy_txt{width:266px; margin:40px auto 0;}
+.sanrio_goods_event02 .pop_txt{border:5px solid #a1c6e9; background:url(../images/event/sanrio_quiz_event/2nd/pop_img.jpg) no-repeat bottom; background-size:100% auto;}
+.sanrio_goods_event02 .pop_txt p{font-size:14px; font-weight:500; color:#3363a8;}
+.input_form .txt{font-size:14px; line-height:1.4em; letter-spacing:-0.4px;}
+
+/* 2024 다이어리 이벤트 */
+.diary2024_event{max-width:730px; margin:auto;}
+.diary2024_event img.pc{display:none;}
+.diary2024_event .pop_con{max-width:430px;}
+.diary2024_event .pop_txt{background:url(../images/event/diary2024/pop_bg.jpg) no-repeat bottom #FAEED5; background-size:100% auto;}
+.diary2024_event .pop_txt p{color:#425343;}
+
+/* 산리오 기프트카드 응모 이벤트 */
+.sanrio_giftcard02 .event_page{overflow:hidden;}
+.sanrio_giftcard02 .pc{display:none;}
+.sanrio_giftcard02 .top_con{position:relative; display:flex; justify-content:center;}
+.sanrio_giftcard02 .top_con .title{position:absolute; width:65.069%; max-width:475px; top:10%;}
+.sanrio_giftcard02 .event_info{padding:0 5% 50px; background:#c0dcf1;}
+.sanrio_giftcard02 .block_line{position:relative; width:120%; margin-left:-10%; margin-bottom:30px; margin-top:-2px; z-index:1;}
+.sanrio_giftcard02 .event_txt{max-width:300px; margin:auto;}
+.sanrio_giftcard02 .giftcard_li{margin:30px auto; text-align:center;}
+.sanrio_giftcard02 .giftcard_li li{display:inline-block; width:180px; margin:0 2px 10px;}
+.sanrio_giftcard02 .gift_con{position:relative; max-width:500px; margin:auto; padding-bottom:40px; border:2px solid #2f59a0; border-radius:20px 20px; background:#e6f1f9;}
+.sanrio_giftcard02 .gift_tt{width:120px; margin:-16px auto 0;}
+.sanrio_giftcard02 .gift_txt{margin:30px auto 0;}
+.sanrio_giftcard02 .gift_li{padding:0 5%; font-size:0;}
+.sanrio_giftcard02 .gift_li li{width:175px; margin:20px auto 0;}
+.sanrio_giftcard02 .box_line li{position:absolute; width:30px; height:30px;}
+.sanrio_giftcard02 .box_line li:nth-child(1){top:-2px; left:-2px;}
+.sanrio_giftcard02 .box_line li:nth-child(2){top:-2px; right:-2px; transform:rotate(90deg);}
+.sanrio_giftcard02 .box_line li:nth-child(3){bottom:-2px; left:-2px; transform:rotate(-90deg);}
+.sanrio_giftcard02 .box_line li:nth-child(4){bottom:-2px; right:-2px; transform:rotate(180deg);}
+.sanrio_giftcard02 .event_step{padding:0 5% 50px; background:#d8e8f3;}
+.sanrio_giftcard02 .step_tt{width:92px; margin:auto;}
+.sanrio_giftcard02 .step_li{margin-top:25px;}
+.sanrio_giftcard02 .step_li li{position:relative; width:240px; margin:auto;}
+.sanrio_giftcard02 .step_li li:first-child{margin-bottom:60px;}
+.sanrio_giftcard02 .step_li li:first-child:after{position:absolute; content:""; display:block; width:52px; height:42px; left:50%; margin-left:-26px; bottom:-47px; background:url(../images/event/sanrio_giftcard/2nd/arrow.png) no-repeat center; background-size:100% auto; transform:rotate(90deg);}
+.sanrio_giftcard02 .giftcard_info{max-width:360px; margin:40px auto 0;}
+.sanrio_giftcard02 .notice_con{padding:0 5% 5px; background:#c0dcf1;}
+.sanrio_giftcard02 .notice_txt{max-width:360px; margin:auto;}
+.sanrio_giftcard02 .copy_txt{width:270px; margin:40px auto 0;}
+.sanrio_giftcard02 .pop_txt{border:5px solid #a1c6e9; background:url(../images/event/sanrio_quiz_event/2nd/pop_img.jpg) no-repeat bottom; background-size:100% auto;}
+.sanrio_giftcard02 .pop_txt p{font-size:14px; font-weight:500; color:#3363a8;}
+
+/* 노량 이벤트 */
+.nolyang_event{max-width:730px; margin:auto;}
+.nolyang_event .pc{display:none;}
+.nolyang_event .title_con{position:relative; padding:40px 4% 45%; background:url(../images/event/nolyang_event/bg_top.jpg) no-repeat top #0b111e; background-size:100% auto;}
+.nolyang_event .title_con:after{position:absolute; content:""; display:block; left:0; bottom:0; width:100%; height:100%; background:url(../images/event/nolyang_event/bg_bottom.jpg) no-repeat bottom; background-size:100% auto;}
+.nolyang_event .title{position:relative; width:80%; max-width:450px; margin:0 auto 40px; z-index:1;}
+.nolyang_event .info{position:relative; z-index:1; margin-bottom:50px;}
+.nolyang_event .coffee{position:absolute; width:60%; left:20%; bottom:-20%; z-index:1;}
+.nolyang_event .event_info{padding:40% 4% 60px; background:url(../images/event/nolyang_event/bg.gif); background-size:100% auto;}
+.nolyang_event .gift:before{content:""; display:block; width:100px; height:33px; margin:60px auto 20px; background:url(../images/event/nolyang_event/gift_tt.png) no-repeat; background-size:100% auto;}
+.nolyang_event .step:before{content:""; display:block; width:100px; height:33px; margin:60px auto 20px; background:url(../images/event/nolyang_event/step_tt.png) no-repeat; background-size:100% auto;}
+.nolyang_event .step li{width:200px; margin:auto;}
+.nolyang_event .step li:first-child{position:relative; margin-bottom:60px;}
+.nolyang_event .step li:first-child:after{content:""; position:absolute; display:block; width:40px; height:47px; left:50%; bottom:-44px; margin-left:-20px; background:url(../images/event/nolyang_event/arrow.png) no-repeat; background-size:100% auto; transform:rotate(90deg);}
+.nolyang_event .step_txt{margin-top:40px;}
+.nolyang_event .notice_con{padding:60px 4%; background:#0b111e;}
+.nolyang_event .pop_con{max-width:430px;}
+.nolyang_event .pop_txt{background:url(../images/event/nolyang_event/bg_top.jpg) no-repeat top #0b111e; background-size:100% auto; border:3px solid #2a303d;}
+.nolyang_event .pop_txt p{color:#FFF;}
+
+/* 450px 이상 해상도 */
+@media screen and (min-width:450px){
+
+
+}
+
+/* 570px 이상 해상도 */
+@media screen and (min-width:570px){
+/* 이디야 산리오 굿즈세트 이벤트 */
+.sanrio_goods_event02 .gift_li{display:table; margin-top:30px; text-align:center;}
+.sanrio_goods_event02 .gift_li li{display:inline-block; width:232px; margin:0 auto 20px; vertical-align:bottom;}
+
+}
+
+/* 640px 이상 해상도 */
+@media screen and (min-width:640px){
+/* common */
+.event_input .input_con .input_form dt{width:30%;}
+.event_input .input_con .input_form dd{width:70%;}
+
+/* 산리오 시나모롤 이벤트 */
+.cinnamoroll_event .event_guide li:first-child{margin-bottom:0;}
+.cinnamoroll_event .event_guide li:first-child:after{bottom:47px; left:auto; right:-52px; margin-left:0; transform:rotate(0deg);}
+.cinnamoroll_event .event02_guide li:first-child:after{bottom:80px;}
+.cinnamoroll_event .event02_card:after{height:160px;}
+.cinnamoroll_event .event02_card li{display:inline-block; margin:auto;}
+
+/* 산리오 굿즈 세트 이벤트 */
+.sanrio_goods_event .event_page:after{height:65px; background-size:1560px auto;}
+.sanrio_goods_event .top_con{padding-top:100px;}
+.sanrio_goods_event .top_con .info_txt{margin-bottom:250px;}
+.sanrio_goods_event .top_con .info_txt .pc{display:block; width:520px; margin:auto;}
+.sanrio_goods_event .top_con .info_txt .mo{display:none;}
+.sanrio_goods_event .top_con .drink_li{height:200px; font-size:0; text-align:center;}
+.sanrio_goods_event .top_con .drink_li li{display:inline-block; width:200px; top:-180px;}
+.sanrio_goods_event .top_con .wall_deco{bottom:590px;}
+.sanrio_goods_event .step_con{padding:40px 0;}
+.sanrio_goods_event .step_con .step_li li{margin:0;}
+.sanrio_goods_event .step_con .step_li li:first-child{margin-bottom:0; margin-right:30px;}
+.sanrio_goods_event .step_con .step_li li:first-child:after{bottom:47px; left:auto; right:-52px; margin-left:0; transform:rotate(0deg);}
+.sanrio_goods_event .step_con .step_txt .pc{display:inline-block; width:444px;}
+.sanrio_goods_event .step_con .step_txt .mo{display:none;}
+
+/* 하트시그널4 이벤트 */
+.event_heart_signal .mem_id_ck{margin-left:25%; margin-bottom:25px;}
+
+/* 산리오 기프트카드 응모 2차 이벤트 */
+.sanrio_giftcard02 .top_con .giftcard li{display:inline-block; margin:auto;}
+.sanrio_giftcard02 .top_con .giftcard:after{height:160px;}
+.sanrio_giftcard02 .step_con li:first-child{margin-bottom:0; margin-right:30px;}
+.sanrio_giftcard02 .step_con li:first-child:after{bottom:78px; left:auto; right:-52px; margin-left:0; transform:rotate(0deg);}
+.sanrio_giftcard02 .gift_li ul{font-size:0; text-align:center;}
+.sanrio_giftcard02 .gift_li li{display:inline-block; width:32%; max-width:190px; margin-right:2%;}
+.sanrio_giftcard02 .gift_li li:last-child{margin-right:0;}
+.input_form .txt{text-align:center;}
+
+/* 노량 이벤트 */
+.nolyang_event .mo{display:none;}
+.nolyang_event .pc{display:block;}
+.nolyang_event .title_con{padding:60px 60px 40%;}
+.nolyang_event .coffee{width:290px; left:50%; bottom:-15%; margin-left:-145px;}
+.nolyang_event .event_info{padding:25% 60px 80px;}
+.nolyang_event .txt{max-width:460px; margin:auto;}
+.nolyang_event .gift{max-width:532px; margin:auto;}
+.nolyang_event .gift:before{width:150px; height:50px; margin:80px auto 30px;}
+.nolyang_event .step:before{width:150px; height:50px; margin:80px auto 30px;}
+.nolyang_event .step li{width:290px;}
+.nolyang_event .step li:first-child{margin-bottom:80px;}
+.nolyang_event .step li:first-child:after{width:50px; height:59px; bottom:-55px;}
+.nolyang_event .notice_con{padding:80px 60px;}
+
+}
+
+/* 730px 이상 해상도 */
+@media screen and (min-width:730px){
+/* Common */
+.event_con .input_con .input_form dt{width:35%;}
+.event_con .input_con .input_form dd{width:65%;}
+.event_con .input_con .input_form dd select{height:60px;}
+.event_con .input_con .input_form dd.adrs_num a{height:60px; line-height:60px;}
+.event_input{padding:60px 0;}
+.mem_id_ck{font-size:15px;}
+
+/* E-QUEST */
+.equest_event .event_top .title{margin:40px auto;}
+.equest_event .event_top p.tt_txt{font-size:26px;}
+.equest_event .event_top .date{margin-top:30px; padding:10px 20px; font-size:24px;}
+.equest_event .event_top .date em:after{height:18px; margin:0 15px;}
+.equest_event .con_txt{margin-top:40px;}
+.equest_event .con_tt dt{font-size:120px;}
+.equest_event .con_tt dd{font-size:38px;}
+.equest_event .con_txt p{margin-bottom:20px; font-size:20px;}
+.equest_event .event_info{margin:72px auto 0; padding:60px 60px;}
+.equest_event .event_info:before{width:192px;}
+.equest_event .event_info .eq_tt{width:152px; top:-72px;}
+.equest_event .event_info h4{font-size:28px;}
+.equest_event .event_info .rw_tt{margin:40px auto 50px;}
+.equest_event .event_info .rw_tt img{width:235px; padding:0 20px;}
+.equest_event .event_info li{max-width:none;}
+.equest_event .event_info li p{font-size:22px;}
+.equest_event .event_info li p span.block_txt{display:block;}
+.equest_event .event_info li p em{box-shadow:inset 0 -15px 0 rgb(19 119 215 / 25%);}
+.equest_event .event_info li .gift_img{width:200px; padding-left:30px;}
+.equest_event .event_info li:last-child .gift_img{padding-right:30px;}
+.equest_event .event_con02{margin-top:225px; padding-bottom:120px;}
+.equest_event .event_con02:before{width:11px; height:381px; top:-130px; background-size:11px auto;}
+.equest_event .event_con02 .con_wrap{top:-130px;}
+.equest_event .event_con02 .con_wrap .con_tt{margin-top:-100px;}
+.equest_event .event_con02 .con_txt{margin-top:-80px;}
+.equest_event .event_con03{padding:120px 0 100px;}
+.equest_event .event_con03:before{width:11px; height:253px; top:-160px; background-size:11px auto;}
+.equest_event .event_con03 .img_con{margin-top:40px;}
+.equest_event .event_con03 .con_txt{padding:0 5% 60px;}
+.equest_event .equest_quiz{padding:100px 5% 120px;}
+.equest_event .equest_quiz dd span{width:80px; margin-right:12px;}
+.equest_event .equest_quiz dd p{margin-top:15px; font-size:24px;}
+.equest_event .equest_quiz .quiz_con{margin-top:40px;}
+.equest_event .equest_quiz .quiz_con .q_con{padding:40px 40px;}
+.equest_event .equest_quiz .quiz_con .q_con span img{width:37px;}
+.equest_event .equest_quiz .quiz_con .q_con p{font-size:32px;}
+.equest_event .equest_quiz .quiz_con ul{margin:40px auto;}
+.equest_event .equest_quiz .quiz_con li span{width:33px; height:33px; margin-right:10px;}
+.equest_event .equest_quiz .quiz_con li:nth-child(1) span{background-size:16px auto;}
+.equest_event .equest_quiz .quiz_con li:nth-child(2) span{background-size:16px auto;}
+.equest_event .equest_quiz .quiz_con li:nth-child(3) span{background-size:16px auto;}
+.equest_event .equest_quiz .quiz_con li:nth-child(4) span{background-size:16px auto;}
+.equest_event .equest_quiz .quiz_con li.on:nth-child(1) span{background-size:16px auto;}
+.equest_event .equest_quiz .quiz_con li.on:nth-child(2) span{background-size:16px auto;}
+.equest_event .equest_quiz .quiz_con li.on:nth-child(3) span{background-size:16px auto;}
+.equest_event .equest_quiz .quiz_con li.on:nth-child(4) span{background-size:16px auto;}
+.equest_event .equest_quiz .quiz_con li p{font-size:26px;}
+.equest_event .event_note dt span{width:130px; line-height:35px; border-radius:18px 18px; font-size:18px;}
+.equest_event .event_note dd p{font-size:18px;}
+.equest_event .event_note dd.bullet_li p{padding-left:12px; background-position:left 12px;}
+
+/* SAMSAMSAM */
+.sam_event .title_con{position:relative; padding:70px 0 60px;}
+.sam_event .title_con .con_align{padding-bottom:60px;}
+.sam_event .title_con:after{position:absolute; content:""; width:650px; height:1px; left:40px; background:#c30e2e;}
+.sam_event .sam_info_mo{display:none;}
+.sam_event .sam_info_pc{display:table; width:100%; padding-bottom:70px; background:#fef5d8;}
+.sam_event .sam_info_pc .con_align{max-width:690px; margin:0 0 0 40px; padding:0;}
+.sam_event .sam_info_pc img{float:left; width:359px;}
+.sam_event .sam_info_pc img:last-child{width:312px; margin-left:19px;}
+.sam_event .cheeseball_info img:first-child{margin-bottom:0;}
+.sam_event .cheeseball_info .source01{left:13%;}
+.sam_event .cheeseball_info .source02{bottom:12%;}
+.sam_event .quiz_top{padding:120px 0 80px;}
+.sam_event .quiz_con01{padding-bottom:55px;}
+.sam_event .quiz_con01 dd{margin:40px auto 0;}
+.sam_event .quiz_con01:after{margin:55px auto 0;}
+.sam_event .quiz_con02{padding-bottom:70px;}
+.sam_event .gift_con{padding:70px 0;}
+.sam_event .gift_con ul{display:table; width:100%;}
+.sam_event .gift_con li{margin:0; padding-bottom:0;}
+.sam_event .gift_con li{position:relative; float:left; width:178px; margin-right:58px; border-bottom:none;}
+.sam_event .gift_con li:after{content:""; position:absolute; width:1px; height:150px; right:-30px; background:#f3b85c;}
+.sam_event .gift_con li:last-child{margin-right:0;}
+.sam_event .gift_con li:last-child:after{display:none;}
+.sam_event .event_info{padding:70px 0;}
+
+/* 챌린지 이벤트 */
+.pancake_event .top_con{padding:80px 4% 0;}
+.pancake_event .top_con .info_txt{margin:60px auto 80px;}
+.pancake_event .top_con .phone_con .notch{top:10px;}
+.pancake_event .top_con .phone_con .video_con{border:10px solid #000; border-bottom:none; border-radius:80px 80px 0 0;}
+.pancake_event .quiz_con{padding:100px 30px;}
+.pancake_event .quiz_con .chall_name{margin:30px 0;}
+.pancake_event .quiz_con .box_txt{display:table; width:100%;}
+.pancake_event .quiz_con .box_txt p{font-size:23px;}
+.pancake_event .quiz_con .box_txt p:before{position:absolute; content:""; display:block; width:4px; height:4px; top:50%; margin-top:-2px; left:-15px; border-radius:4px 4px; background:#000;}
+.pancake_event .quiz_con .box_txt p:after{position:absolute; content:""; display:block; width:4px; height:4px; top:50%; margin-top:-2px; right:-20px; border-radius:4px 4px; background:#000;}
+.pancake_event .quiz_con .box_txt p em{display:inline-block;}
+.pancake_event .quiz_con .quiz_li{margin:50px auto 0;}
+.pancake_event .quiz_con .quiz_note{font-size:22px;}
+.pancake_event .gift_con{padding:120px 30px;}
+.pancake_event .gift_con .box_txt{display:table; width:100%; padding:40px 30px 25px;}
+.pancake_event .gift_con .box_txt:first-child{margin-bottom:100px;}
+.pancake_event .gift_con .box_txt p{display:table-cell; width:276px; padding-left:0; vertical-align:middle;}
+.pancake_event .gift_con .box_txt dl{position:relative; display:table-cell; padding-left:82px; font-size:22px; text-align:left; vertical-align:middle; line-height:1.2em;}
+.pancake_event .gift_con .box_txt dl:before{position:absolute; content:""; width:3px; height:82px; left:38px; top:72px; background:#000;}
+.pancake_event .gift_con .box_txt dt{margin-bottom:10px;}
+.pancake_event .gift_con .info_con{margin-top:80px;}
+.pancake_event .gift_con .info_con dt{width:130px;}
+.pancake_event .gift_con .info_con dd{width:calc(100% - 150px); padding-top:6px; font-size:18px;}
+.pancake_event .gift_con .info_con dd p{font-size:18px;}
+.pancake_event .gift_con .info_con dd p:before{top:12px;}
+
+/* 멤버스 이벤트 */
+.members_event .paper_con{padding-bottom:80px;}
+.members_event .top_con{padding:100px 0 10px;}
+.members_event .top_con .deco_li li:nth-child(2){top:44%;}
+.members_event .top_con .deco_li li:nth-child(3){top:65%;}
+.members_event .top_con dl{margin-top:60px;}
+.members_event .top_con dl dt{padding:4px 20px; font-size:22px;}
+.members_event .top_con dl dd span{padding:4px 20px; font-size:22px;}
+.members_event .hint_con li{padding:50px 0;}
+.members_event .hint_con li h3 span{line-height:32px; font-size:24px;}
+.members_event .hint_con li h3 p{line-height:32px; font-size:30px;}
+.members_event .hint_con li dl{margin-top:25px;}
+.members_event .hint_con li dt{width:107px;}
+.members_event .hint_con li dd{padding-left:40px; padding-top:18px;}
+.members_event .hint_con li dd p{font-size:20px;}
+.members_event .hint_con li dd p em{font-size:22px;}
+.members_event .quiz_con{margin:50px auto 0;}
+.members_event .quiz_con dt{font-size:28px; font-weight:500;}
+.members_event .quiz_con dt em{font-weight:500;}
+.members_event .quiz_con dt span{font-size:32px; font-weight:500;}
+.members_event .quiz_con dd{padding-left:36px;}
+.members_event .quiz_con dd p{margin-bottom:15px;}
+.members_event .quiz_con dd p.on:after{width:43px; height:39px; top:-20px; left:-4px;}
+.members_event .quiz_con dd p a{font-size:24px; font-weight:300; letter-spacing:-2px;}
+.members_event .quiz_con dd p a em{font-size:24px; font-weight:300;}
+.members_event .event_info{padding:80px 0;}
+.members_event .gift_con h3{padding:0 25px; margin-left:-131px; line-height:40px; font-size:24px;}
+.members_event .gift_con ul{display:table; width:100%;}
+.members_event .gift_con li{display:table-cell; vertical-align:middle;}
+.members_event .gift_con li:first-child{width:276px;}
+.members_event .gift_con li:last-child{position:relative; padding-left:80px; text-align:left;}
+.members_event .gift_con li:last-child:before{position:absolute; content:""; display:block; width:2px; height:100px; top:50%; left:39px; margin-top:-50px; background:#353535;}
+.members_event .gift_con li:last-child p{font-size:22px; letter-spacing:-1px;}
+.members_event .gift_con li:last-child em{margin-bottom:15px; font-size:26px;}
+.members_event .must_read_con{margin:60px auto;}
+.members_event .must_read_con h3{padding-left:35px; font-size:24px;}
+.members_event .must_read_con h3:before{width:28px; height:28px;}
+.members_event .must_read_con p{margin-top:15px; font-size:20px; font-weight:300;}
+.members_event .info_con dl{display:table; width:100%; margin-bottom:20px;}
+.members_event .info_con dt{display:table-cell; width:140px; line-height:32px; vertical-align:top; font-size:20px;}
+.members_event .info_con dd{display:table-cell; padding-left:20px; vertical-align:top; font-size:20px; letter-spacing:-1px;}
+.members_event .info_con dd p{font-size:20px; letter-spacing:-1px;}
+.members_event .info_con dd p:before{height:2px; top:15px;}
+.members_event .logo_img{margin:100px auto 60px;}
+.members_event .btn_li{width:530px;}
+.members_event .btn_li li a{padding:12px 0; font-size:20px;}
+.members_event .btn_li li a span.block_txt{font-size:20px;}
+.members_event .btn_li li.on a{line-height:53px;}
+
+/* 산리오 티징 이벤트 */
+.sanrio_quiz_event .top_con .deco{top:120px;}
+.sanrio_quiz_event .quiz_con .quiz_txt:before{width:100px;}
+.sanrio_quiz_event .quiz_con{padding:60px 0;}
+.sanrio_quiz_event .gift_box{margin:80px auto 0;}
+.sanrio_quiz_event .gift_box .gift_tt{width:112px; margin-left:-56px; top:-17px;}
+.sanrio_quiz_event .note_con .note_txt{margin:0 auto 60px;}
+.sanrio_quiz_event .note_con{padding:60px 15px 10px;}
+
+/* 산리오 시나모롤 이벤트 */
+.cinnamoroll_event .event_page{padding:100px 0 10px; background-size:1560px;}
+.cinnamoroll_event .main_gift{margin:50px auto 0;}
+.cinnamoroll_event .main_button{margin:100px 0 60px;}
+.cinnamoroll_event .main_button li:first-child{margin-bottom:0;}
+.cinnamoroll_event .event_txt{width:520px; margin:50px auto 0;}
+.cinnamoroll_event .event_txt .mo{display:none;}
+.cinnamoroll_event .event_txt .pc{display:block;}
+.cinnamoroll_event .event01_drink{margin:50px 0 60px; font-size:0; text-align:center;}
+.cinnamoroll_event .event01_drink:after{height:150px;}
+.cinnamoroll_event .event01_drink li{display:inline-block; margin:0; vertical-align:bottom;}
+.cinnamoroll_event .event_guide{margin:120px 0 60px;}
+.cinnamoroll_event .brick_li li:nth-child(1){width:69px; top:100px;}
+.cinnamoroll_event .brick_li li:nth-child(2){width:62px; top:100px;}
+.cinnamoroll_event .event02_guide{margin:140px 0 60px;}
+.cinnamoroll_event .pop_txt:before{height:65px; background-size:1560px auto;}
+.cinnamoroll_event .event02_card_txt{margin:60px auto;}
+.giftcard_num_con{margin-bottom:60px;}
+.giftcard_num input{height:60px;}
+
+/* 산리오 굿즈 세트 이벤트 */
+.sanrio_goods_event .top_con{background-size:auto;}
+.sanrio_goods_event .top_con .info_txt{margin-bottom:290px;}
+.sanrio_goods_event .top_con .drink_li{height:220px; font-size:0; text-align:center;}
+.sanrio_goods_event .top_con .drink_li li{display:inline-block; width:235px; top:-230px;}
+.sanrio_goods_event .top_con .wall_deco{bottom:650px;}
+.sanrio_goods_event .gift_con{padding:60px 0;}
+.sanrio_goods_event .gift_con .gift_txt{margin:20px 40px;}
+.sanrio_goods_event .gift_con .gift_txt .pc{display:inline-block; width:375px;}
+.sanrio_goods_event .gift_con .gift_txt .mo{display:none;}
+.sanrio_goods_event .gift_con .gift_li{padding:0; background:none; font-size:0; text-align:center;}
+.sanrio_goods_event .gift_con .gift_li:after{position:absolute; content:""; display:block; width:360px; height:360px; top:50%; left:50%; margin:-180px 0 0 -180px; border-radius:100% 100%; background:#fefcfd;}
+.sanrio_goods_event .gift_con .gift_li li{position:relative; display:inline-block; z-index:1; vertical-align:bottom;}
+.sanrio_goods_event .gift_con .gift_li li:nth-child(odd){margin-right:30px;}
+.sanrio_goods_event .gift_con .gift_li li:nth-child(3){margin-bottom:0;}
+.sanrio_goods_event .gift_con .brick_li li{width:69px;}
+.sanrio_goods_event .gift_con .brick_li li:nth-child(1){top:60px;}
+.sanrio_goods_event .gift_con .brick_li li:nth-child(2){top:70px;}
+.sanrio_goods_event .gift_con .brick_li li:nth-child(3){bottom:60px;}
+.sanrio_goods_event .gift_con .brick_li li:nth-child(4){bottom:50px;}
+.sanrio_goods_event .step_con{padding:60px 0;}
+.sanrio_goods_event .note_con{padding:60px 0 10px; text-align:center;}
+.sanrio_goods_event .note_con img{width:600px;}
+.sanrio_goods_event .copy_txt{margin-top:60px; margin-right:20px;}
+
+/* 하트시그널 이벤트 */
+.event_heart_signal .mo{display:none;}
+.event_heart_signal .pc{display:block;}
+.event_heart_signal .con01 .title{max-width:650px;}
+.event_heart_signal .con01 .title_txt{margin:40px auto 60px;}
+.event_heart_signal .con01 .info_txt{max-width:650px;}
+.event_heart_signal .con01 .video:before{width:50px; height:50px; background-size:50px 50px;}
+.event_heart_signal .con01 .video:after{width:50px; height:50px; background-size:50px 50px;}
+.event_heart_signal .gift_con ul{display:table; margin:30px auto 0;}
+.event_heart_signal .gift_con li{float:left;}
+.event_heart_signal .guide_con ul{display:table; width:; margin:30px auto 0; }
+.event_heart_signal .guide_con li{float:left;}
+.event_heart_signal .guide_con li:first-child{margin:0 30px 0 0;}
+.event_heart_signal .guide_con li:first-child:after{bottom:50%; margin-bottom:-26px; left:auto; right:-40px; transform:rotate(0deg); z-index:1;}
+.event_heart_signal .guide_con .guide_txt{max-width:636px;}
+.event_heart_signal .note_con img{max-width:580px; margin:auto;}
+.event_heart_signal .pop_txt{padding:60px 0;}
+.event_heart_signal .mem_id_ck{margin-left:35%;}
+
+/* 산리오 기프트카드 응모 2차 이벤트 */
+.sanrio_giftcard_input{padding:60px 40px;}
+.sanrio_giftcard .mo{display:none;}
+.sanrio_giftcard .pc{display:block;}
+.sanrio_giftcard .top_con{padding:100px 5% 60px; background-size:1560px;}
+.sanrio_giftcard .top_con .info_txt{max-width:560px;}
+.sanrio_giftcard .gift_con{padding:60px 0;}
+.sanrio_giftcard .gift_con .gift_img{max-width:560px;}
+.sanrio_giftcard .step_con{padding:60px 0;}
+.sanrio_giftcard .note_con{padding:60px 20px 15px;}
+.sanrio_giftcard .note_con .note_txt{width:580px; max-width:none;}
+.sanrio_giftcard .note_con .copy_txt{margin-top:60px;}
+.sanrio_giftcard .brick_li li{top:100px;}
+.sanrio_giftcard .brick_li li:nth-child(1){width:69px;}
+.sanrio_giftcard .brick_li li:nth-child(2){width:62px;}
+
+/* 이디야 산리오 캐릭터즈 사전 퀴즈 이벤트 */
+.sanrio_quiz_event02 .top_con .title{top:40px;}
+.sanrio_quiz_event02 .quiz_con{padding:60px 5% 80px;}
+.sanrio_quiz_event02 .quiz_txt:before{margin:0 auto 15px;}
+.sanrio_quiz_event02 .quiz_sel{margin-top:40px;}
+.sanrio_quiz_event02 .notice_con{padding:60px 5% 20px;}
+.sanrio_quiz_event02 .notice_con .copy_txt{margin:40px auto 0;}
+.sanrio_quiz_event02 .pop_txt p{font-size:16px;}
+
+/* 이디야 산리오 굿즈세트 이벤트 */
+.sanrio_goods_event02 img.pc{display:inline;}
+.sanrio_goods_event02 img.mo{display:none;}
+.sanrio_goods_event02 .goods_event_con{padding:80px 5%;}
+.sanrio_goods_event02 .top_con .title{top:80px;}
+.sanrio_goods_event02 .event_info .event_txt{width:431px;}
+.sanrio_goods_event02 .event_info .event_txt:before{width:116px; height:35px; background:url(../images/event/sanrio_goods_event/2nd/event_tt.png) no-repeat center; background-size:100% auto;}
+.sanrio_goods_event02 .gift_con{margin:80px auto 60px;}
+.sanrio_goods_event02 .gift_con .gift_tt{width:200px; height:50px; margin-left:-100px; top:-20px;}
+.sanrio_goods_event02 .goods_guide_con .guide_tt{width:114px; height:35px;}
+.sanrio_goods_event02 .goods_guide_con ul{display:table; margin:auto;}
+.sanrio_goods_event02 .goods_guide_con li{float:left; width:281px;}
+.sanrio_goods_event02 .goods_guide_con li:first-child{margin-bottom:0; margin-right:30px;}
+.sanrio_goods_event02 .goods_guide_con li:first-child:after{transform:rotate(0deg); left:auto; right:-52px; top:50%; margin-left:0; margin-top:-18px;}
+.sanrio_goods_event02 .guide_txt{width:457px;}
+.sanrio_goods_event02 .notice_txt{max-width:651px;}
+.input_form .txt{font-size:16px; text-align:left;}
+
+/* 2024 다이어리 이벤트 */
+.diary2024_event img.pc{display:block;}
+.diary2024_event img.mo{display:none;}
+
+/* 산리오 기프트카드 응모 이벤트 */
+.sanrio_giftcard02 .pc{display:block;}
+.sanrio_giftcard02 .mo{display:none;}
+.sanrio_giftcard02 .block_line{width:100%; margin-left:0; margin-bottom:50px;}
+.sanrio_giftcard02 .event_info{padding:0 0 70px;}
+.sanrio_giftcard02 .event_txt{max-width:577px;}
+.sanrio_giftcard02 .giftcard_li{margin:40px auto 70px;}
+.sanrio_giftcard02 .giftcard_li li{width:294px; margin:0 9px;}
+.sanrio_giftcard02 .gift_con{max-width:590px;}
+.sanrio_giftcard02 .gift_tt{width:148px; margin:-20px auto 0;}
+.sanrio_giftcard02 .gift_txt{width:380px;}
+.sanrio_giftcard02 .gift_li{font-size:0; text-align:center;}
+.sanrio_giftcard02 .gift_li li{display:inline-block; margin-right:10px;}
+.sanrio_giftcard02 .gift_li li:last-child{margin-right:0;}
+.sanrio_giftcard02 .event_step{padding:00 0 70px;}
+.sanrio_giftcard02 .step_tt{width:114px;}
+.sanrio_giftcard02 .step_li{display:table; margin:30px auto;}
+.sanrio_giftcard02 .step_li li{float:left; width:281px;}
+.sanrio_giftcard02 .step_li li:first-child{margin-bottom:0; margin-right:32px;}
+.sanrio_giftcard02 .step_li li:first-child:after{bottom:80px; left:auto; right:-52px; margin-left:0; transform:rotate(0deg); z-index:1;}
+.sanrio_giftcard02 .giftcard_info{max-width:422px; margin:60px auto 0;}
+.sanrio_giftcard02 .notice_con{padding:0 0 5px;}
+.sanrio_giftcard02 .notice_txt{max-width:650px;}
+.sanrio_giftcard02 .copy_txt{margin:60px auto 0;}
+
+/* 노량 이벤트 */
+.nolyang_event .step li{float:left;}
+.nolyang_event .step li:first-child{margin-right:30px;}
+.nolyang_event .step li:first-child:after{transform:rotate(0deg); left:auto; right:-50px; bottom:auto; top:58px; margin-left:0;}
+.nolyang_event{}
+.nolyang_event{}
+
+}
+
+/* 980px 이상 해상도 */
+@media screen and (min-width:980px){
+
+}
+
+/* 1180px 이상 해상도 */
+@media screen and (min-width:1180px){
+
+}
+

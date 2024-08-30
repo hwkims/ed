@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+.main_block01.eng .block01_wrap p a{background:url(../../images/main/main_block01_arrow.png) no-repeat right 10px;}
+
+.main_beanist.eng .beanist_slide ul li dl{height:62px;}
+
+.main_bottom.eng .main_brochure{margin-top:0;}
+
+footer .copy_info.chi{max-width:720px;}
+
+.sitemap_list.eng .sm_tt{width:100%; float:none; padding-left:0; padding-bottom:5px;}
+.sitemap_list.eng .sm_txt{width:100%; float:none;}
+.sitemap_list.eng .sm_txt li{margin-bottom:0px;}
+.sitemap_con.eng .con_line_4 .con_line_2:nth-child(2) .sitemap_list:last-child{border-bottom:0;}
+
+.block_new.eng h3{background:url(../images/common/menu_line.gif) no-repeat center center;}
+
+.beanist_product.eng li dt.pro_tt{margin:25px 0 15px; color:#4e9ac7; font-weight:800; font-size:18px;}
+.beanist_product.eng li dt.original{color:#ab192c;}
+.beanist_product.eng li dt.mild{color:#9f5b1b;}
+.beanist_product.eng li dt.dark{color:#6b3e03;}
+.beanist_product.eng li dt.special{color:#6f3c97}
+.beanist_product.eng li dt.decaffein{color:#237a45;}
+.beanist_latte_pro.eng li dt.pro_tt{margin:36px 0 10px; color:#202023; font-size:18px; font-weight:600;}
+.beanist_latte_pro.eng li dt.cafe{color:#e0b08d;}
+.beanist_latte_pro.eng li dt.vanilla{color:#8facdf;}
+.beanist_latte_pro.eng li dt.toffee{color:#f5b01b;}
+
+.beanist_value.eng li dd{margin:22px 20px 20px; font-size:16px;}
+.beanist_step.eng{margin:40px 0;}
+
+.bean_product.eng li dt.pro_tt p.pro_name,
+.bean_product.eng li dt.pro_tt a.pro_btn,
+.bean_product.eng li dt.pro_tt span.pro_attri{vertical-align:bottom; }
+.bean_product.eng li dt.pro_tt p.pro_name{color:#6b3e03; font-weight:800;}
+
+.mem_block01.eng dl{height:220px;}
+.mem_block01.eng dd{width:80%; margin:auto;}
+.mem_block03.eng .members_lv dd span{display:block; margin:0 auto 15px;}
+.mem_block04.eng .list_btn li a{font-size:15px;}
+
+.members_block.eng .circle li dl dd span{line-height:1.1em;}
+.members_list.eng li dl dd ul.list_icon li p{line-height:1.3em;}
+.members_list.eng li dl dd ul.list_icon li p span.txt_s{line-height:1.3em; margin-top:5px;}
+
+.barista_box.eng li span.name{padding:6px 0 20px; font-size:20px;}
+.barista_box.eng li p{padding-top:17px; font-size:14px;}
+
+.festa_tt.eng{line-height:1.3em;}
+.dream_factory.eng .factory_con .df_btn.main_btn a{width:240px;}
+.members_pop_wrap.line2 .pop_top{height:auto; line-height:normal; padding:20px 45px 20px 0;}
+.members_pop_wrap.line2 .pop_top h3{line-height:normal;}
+
+.members_top li{overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.giftcard_bg01 .intro_btn{width:280px;}
+.giftcard_txt dd a.link_btn{width:180px;}
+.report_con.eng_report dl.tel_box{height:auto; padding:20px; overflow:visible;}
+.report_con.eng_report dl.tel_box dt{float:none; line-height:normal;}
+.report_con.eng_report dl.tel_box dt:after{width:16px; height:1px; top:auto; left:50%; bottom:-10px; margin-left:-8px;}
+.report_con.eng_report dl.tel_box dd{float:none; margin-top:20px; line-height:normal;}
+
+.capsule_product.eng li dd img{max-width:290px;}
+
+.exports_con{padding-top:70px;}
+.exports_con ul{margin:auto; padding:0 4%;}
+.exports_con li:first-child{margin-bottom:20px;}
+.exports_con li img{width:100%;}
+.exports_con > p{padding:0 4%; text-align:center; margin-top:15px; font-size:16px; line-height:1.5em; font-weight:300;}
+.exports_con > p em{display:block; margin-bottom:10px; font-size:18px; font-weight:400; color:#202023;}
+.exports_con .exports_graph{background:#f4f4f2; padding:60px 4% 100px; margin-top:60px;}
+.exports_con .exports_graph .pc{display:none;}
+.exports_con .exports_graph ul{display:table; margin:auto;}
+.exports_con .exports_graph li{position:relative; display:flex; align-items:center; margin-bottom:22px;}
+.exports_con .exports_graph li:after{position:absolute; bottom:-22px; left:39px; content:""; display:block; width:2px; height:22px; border-left:2px dotted #1d93d5; opacity:0.6;}
+.exports_con .exports_graph li:last-child:after{display:none;}
+.exports_con .exports_graph li:last-child{margin-bottom:0;} 
+.exports_con .exports_graph li span{display:flex; align-items:center; justify-content:center; width:80px; height:80px; border-radius:50% 50%;}
+.exports_con .exports_graph li span img{width:40px; height:auto;}
+.exports_con .exports_graph li:nth-child(1) span{background:#1d93d5;}
+.exports_con .exports_graph li:nth-child(2) span{background:#1d78d5;}
+.exports_con .exports_graph li:nth-child(3) span{background:#286ac0;}
+.exports_con .exports_graph li:nth-child(4) span{background:#264da8;}
+.exports_con .exports_graph li:nth-child(5) span{background:#1f3a93;}
+.exports_con .exports_graph li:nth-child(6) span{background:#002f6c;}
+.exports_con .exports_graph li dl{width:calc(100% - 100px); margin-left:20px;}
+.exports_con .exports_graph li dt{font-size:20px; font-weight:900;}
+.exports_con .exports_graph li:nth-child(1) dt{color:#1d93d5;}
+.exports_con .exports_graph li:nth-child(2) dt{color:#1d78d5;}
+.exports_con .exports_graph li:nth-child(3) dt{color:#286ac0;}
+.exports_con .exports_graph li:nth-child(4) dt{color:#264da8;}
+.exports_con .exports_graph li:nth-child(5) dt{color:#1f3a93;}
+.exports_con .exports_graph li:nth-child(6) dt{color:#002f6c;}
+.exports_con .exports_graph li dd{font-size:16px;}
+
+.franchise_con{padding:70px 0 40px; width:92%; max-width:1180px; margin:0 auto 50px; border-bottom:1px solid #ddd;}
+.franchise_con .con_title{margin:0;}
+.franchise_con .broshure_con{margin-bottom:60px; text-align:center;}
+.franchise_con .broshure_con p{font-size:22px; font-weight:900;}
+.franchise_con .broshure_con a{display:block; width:160px; line-height:40px; margin:15px auto 0; background:#002f6c; font-size:16px; font-weight:700; color:#FFF;}
+.franchise_con .broshure_con a span{padding-right:20px; background:url(../images/business/down_btn.png) no-repeat center right; }
+.franchise_con ul{display:flex; flex-wrap:wrap; margin-top:40px;}
+.franchise_con ul li{display:flex; align-items:center; justify-content:center; position:relative; width:calc(50% - 10px); margin-right:20px; margin-bottom:30px; padding:25px 25px 15px; border:1px solid #bbd6f7; border-radius:5px 5px; text-align:center; box-sizing:border-box; vertical-align:top;}
+.franchise_con ul li:nth-child(even){margin-right:0;}
+.franchise_con ul li span{font-family:'나눔스퀘어', NanumSquare, NS; position:absolute; top:-15px; left:50%; display:inline-block; width:40px; margin-left:-20px; line-height:30px; background:#FFF; font-size:20px; font-weight:900; color:#002f6c;}
+.franchise_con ul li p{font-family:'나눔스퀘어', NanumSquare, NS; line-height:1.2em; font-size:17px; font-weight:500;}
+.franchise_con dl{margin-bottom:15px;}
+.franchise_con dl dt{font-family:'나눔스퀘어', NanumSquare, NS; font-size:18px; font-weight:900; color:#002f6c;}
+.franchise_con dl dd{margin-top:10px; font-family:'나눔스퀘어', NanumSquare, NS; font-size:17px; font-weight:500;}
+.trade_con .applli_wrap .applli_form > p{margin-top:10px;}
+.trade_con .applli_wrap .applli_form.eng table tr td input{width:100%;}
+.trade_con .applli_wrap .applli_form table tr td .check_box{display:flex; align-items:center;}
+.trade_con .applli_wrap .applli_form table tr td .check_box input{width:13px; height:13px; margin-right:5px;}
+.trade_con .applli_wrap .applli_form table tr td .check_box .input_txt{width:calc(100% - 60px); height:30px; margin-left:5px;}
+.trade_con .applli_wrap .applli_form span.copy_right{display:block; width:100%; margin-top:-32px; margin-bottom:10px; text-align:right;}
+.trade_con .applli_btn.eng{margin:30px auto 60px;}
+.other_contact{margin:0 auto 80px; padding:15px 20px; border:1px solid #bbd6f7; box-sizing:border-box;}
+.other_contact dl{display:table; margin:auto;}
+.other_contact dt{font-family:'나눔스퀘어', NanumSquare, NS; font-size:18px; font-weight:900; color:#002f6c;}
+.other_contact dd{margin-top:10px;}
+.other_contact dd a{display:block; padding-left:22px; background:url(../images/business/mail_icon.gif) no-repeat left center; font-family:'나눔스퀘어', NanumSquare, NS; font-size:17px; font-weight:500; color:#002f6c;}
+
+.product_con.eng .pro_list li dt em{font-size:18px;}
+
+/* 스틱커피 */
+.product_con.eng .pro_list li.original dt em{color:#862021;}
+.product_con.eng .pro_list li.mild dt em{color:#c75218;}
+.product_con.eng .pro_list li.special dt em{color:#6f3c97;}
+.product_con.eng .pro_list li.decaffein dt em{color:#237a45;}
+.product_con.eng .pro_list li.caffe dt em{color:#e0b08d;}
+.product_con.eng .pro_list li.vanilla dt em{color:#8facdf;}
+.product_con.eng .pro_list li.toffee dt em{color:#f5b01b;}
+
+/* 홀빈커피 */
+.product_con.eng .product_tab li .pc{display:none;}
+
+/* 640px 이상 해상도 */
+@media screen and (min-width:640px){
+
+.main_beanist.eng .beanist_slide ul li dl{height:65px;}
+
+.sitemap_con.eng .con_line_2:nth-child(2){border-bottom:0;}
+.report_con.eng_report dl.tel_box{width:365px; height:60px; padding:0 20px; overflow:hidden;}
+.report_con.eng_report dl.tel_box dt{float:left; line-height:60px;}
+.report_con.eng_report dl.tel_box dt:after{width:1px; height:15px; top:24px; right:-12px; left:auto; bottom:auto; margin-left:0;}
+.report_con.eng_report dl.tel_box dd{float:right; margin-top:0; line-height:60px;}
+
+.trade_con.eng .applli_wrap .applli_form table tr.tel td input{max-width:234px;}
+
+.exports_con ul{display:table; width:100%; box-sizing:border-box;}
+.exports_con li{float:left; width:calc(50% - 10px); margin-right:20px;}
+.exports_con li:last-child{margin-right:0;}
+
+.other_contact{display:table; margin:0 auto 100px; padding:20px 40px;}
+.other_contact dl{display:flex;}
+.other_contact dt{padding-top:4px;}
+.other_contact dd{margin-top:0; margin-left:30px;}
+
+.trade_con .applli_wrap .applli_form table tr td .check_box .input_txt{width:200px;}
+.franchise_con{padding:70px 0 60px;}
+.franchise_con .broshure_con{margin-bottom:80px;}
+.franchise_con .broshure_con p{font-size:24px;}
+.franchise_con ul li{width:calc(25% - 15px);}
+.franchise_con ul li:nth-child(even){margin-right:20px;}
+.franchise_con ul li:nth-child(4n){margin-right:0;}
+.franchise_con dl{display:flex;}
+.franchise_con dl dt{width:260px;}
+.franchise_con dl dd{width:calc(100% - 230px);margin-top:0;}
+
+/* 홀빈커피 */
+.product_con.eng .product_tab li .pc{display:block;}
+.product_con.eng .product_tab li .mo{display:none;}
+}
+
+/* 980px 이상 해상도 */
+@media screen and (min-width:980px){
+.main_beanist.eng .beanist_slide ul li dl{height:114px;}
+
+.main_bottom.eng .main_bn{width:calc(40% - 5px); margin-right:10px;}
+.main_bottom.eng .main_store{width:calc(60% - 5px); height:200px; margin-right:0;}
+.main_bottom.eng .main_store .store_search{position:absolute; right:35px; bottom:44px;}
+.main_bottom.eng .main_bn02{width:calc(60% - 5px); height:120px; margin-top:10px;}
+.main_bottom.eng .main_brochure{height:100%;}
+.main_bottom.eng .main_brochure h2{width:calc(100% - 70px); padding:48px 0; background:url(../../images/main/main_brochure_arrow.png) no-repeat right center;}
+
+.capsule_product.eng li dd.pro_info{height:132px;}
+.beanist_step.eng li{height:168px; padding:62px 6% 62px;}
+
+.bean_info.eng li dl{margin-top:30px;}
+.bean_tab.eng li{width:200px;}
+
+.mem_block01.eng dl{height:auto;}
+.mem_block03.eng .members_lv{height:310px;}
+.mem_block03.eng .members_lv dd span{width:auto;}
+
+.coffee_box.box01.eng > li:last-child{padding:40px 75px;}
+.coffee_box.box01.eng .coffee_list li{margin-bottom:30px;}
+.coffee_txt.eng{width:70%; margin:0 auto 60px;}
+}
+
+/* 1180px 이상 해상도 */
+@media screen and (min-width:1180px){
+.gnb.eng nav:hover:after{height:320px;}
+.top_fixed .gnb.eng nav:hover:after{height:360px;}
+.gnb.eng .sub > li > a{padding:0 0; margin-left:40px;}
+.gnb.eng .sub > li a:last-child{padding:0 0;}
+.gnb.eng .main{margin-left:-332px;}
+.eng .lnb li{width:220px;}
+
+.sub_visual.eng .visual_mt{letter-spacing:0;}
+.sub_visual.eng h1.con_tt span.pc_tt{display:none !important;}
+
+.main_beanist.eng .beanist_slide ul li dl{height:68px;}
+
+.sitemap_con.eng .con_line_4{border-bottom:0;}
+
+.main_block01.eng .block01_wrap p{margin-left:60px;}
+
+.beanist_product.eng li dd{height:220px;}
+.capsule_product.eng li dd{height:auto;}
+.capsule_product.eng li dd.pro_info{height:110px; margin-bottom:30px;}
+.beanist_step.eng li:after{top:73.5px;}
+.beanist_info.eng li dl{padding-top:10px;}
+
+.bean_info.eng li dl{margin-top:90px;}
+.bean_map_box.eng{height:360px;}
+
+.mem_block03.eng .members_lv{height:auto;}
+
+.rental_app.eng .rental_app_info dt{font-size:20px;}
+.rental_app.eng .rental_app_info dl{width:48%; margin:0 2% 0 0;}
+.rental_app.eng .rental_app_info dl.se_dl{margin:0 0 0 2%;}
+.rental_app.eng .rental_app_info dl dd{padding:33px 0;}
+.rental_app.eng .rental_app_info dl.se_dl dd{padding:20px 0;}
+
+.exports_con ul{width:1180px; padding:0;}
+.exports_con li{width:575px; margin-right:30px; margin-bottom:40px;}
+.exports_con > p{width:900px; margin:auto; padding:0;}
+.exports_con li p{width:540px; margin-top:60px; font-size:16px; line-height:1.7em;}
+.exports_con li p:before{margin:0 0 25px;}
+.exports_con li p em{margin-bottom:15px;}
+.exports_con .exports_graph{padding:100px 0 160px; margin-top:100px}
+.exports_con .exports_graph .mo{display:none;}
+.exports_con .exports_graph .pc{display:block; margin:auto;}
+.franchise_con{padding:70px 0 80px; margin:0 auto 70px;}
+
+.trade_con .applli_wrap .applli_form table tr td .check_box{float:left; width:400px;}
+.trade_con .applli_wrap .applli_form table tr td .check_box .input_txt{width:300px;}
+.trade_con.eng .applli_wrap .applli_form table tr.company td input:first-child{width:350px;}
+.trade_con.eng .applli_wrap .applli_form table tr.company td span{width:95px;}
+
+.other_contact{padding:25px 50px;}
+.other_contact dt{font-size:20px;}
+.other_contact dd{margin-left:40px;}
+.other_contact dd a{font-size:18px;}
+
+}

@@ -1,0 +1,350 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 23 May 2024 11:10:10 at https://www.ediya.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.ediya.com/ -O1 "C:\My Web Sites\ed" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:10:11	Warning: 	Note: due to https://www.ediya.com remote robots.txt rules, links beginning with these path will be forbidden: /admin/, /manager/, /member/, /js/, /inc/, /checkplus/ (see in the options to disable this)
+11:16:09	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/images/main/play_btn.png (from https://www.ediya.com/css/ediya_2020_style.css?v=202405231110)
+11:16:09	Error: 	"Not Found" (404) at link https://www.ediya.com/images/common/icon_enter.png (from https://www.ediya.com/css/ediya_2020_style.css?v=202405231110)
+11:16:09	Error: 	"Not Found" (404) at link https://www.ediya.com/images/common/icon_enter_on.png (from https://www.ediya.com/css/ediya_2020_style.css?v=202405231110)
+11:16:09	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/images/main/sound_btn.png (from https://www.ediya.com/css/ediya_2020_style.css?v=202405231110)
+11:16:09	Error: 	"Not Found" (404) at link https://www.ediya.com/images/main/pause_btn.png (from https://www.ediya.com/css/ediya_2020_style.css?v=202405231110)
+11:16:09	Error: 	"Not Found" (404) at link https://www.ediya.com/images/main/mute_btn.png (from https://www.ediya.com/css/ediya_2020_style.css?v=202405231110)
+11:16:09	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/images/main/mv_icon.png (from https://www.ediya.com/css/ediya_2020_style.css?v=202405231110)
+11:16:09	Error: 	"Not Found" (404) at link https://www.ediya.com/css/images/animated-overlay.gif (from https://www.ediya.com/css/jquery-ui.css)
+11:16:09	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/images/event/blue02_event/bullet.gif (from https://www.ediya.com/css/event_2022_style.css?v=202405231110)
+11:16:09	Warning: 	File not parsed, looks like binary: https://www.ediya.com/blue_archive/fonts/GyeonggiTitleL.woff2
+11:16:09	Warning: 	File not parsed, looks like binary: https://www.ediya.com/blue_archive/fonts/GyeonggiTitleM.woff2
+11:16:09	Warning: 	File not parsed, looks like binary: https://www.ediya.com/blue_archive/fonts/GyeonggiTitleB.woff2
+11:17:12	Error: 	"Not Found" (404) at link https://www.ediya.com/images/customer/store_pop_img.jpg (from https://www.ediya.com/contents/find_store.html)
+11:17:23	Error: 	"Not Found" (404) at link https://www.ediya.com/contents/{pgUp}board/board_control.php?tb_name={tb_name}&check= (from https://www.ediya.com/contents/notice.html?tb_name=notice)
+11:17:59	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1714622158271.thumb
+11:18:00	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1715041424279.thumb
+11:18:01	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1709172025195.thumb
+11:18:01	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1715044808479.thumb
+11:18:02	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1713329533223.thumb
+11:18:02	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1712562309811.thumb
+11:18:03	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1711688418830.thumb
+11:18:03	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1711957758836.thumb
+11:18:08	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1711957935137.thumb
+11:18:09	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1711958282126.thumb
+11:19:32	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.ediya.com/C/board/recom.html?tb_name= (from https://www.ediya.com/C/contents/notice.html?tb_name=cnews&bbs_section=view&Ctg=&page=1&idx=107)
+11:19:32	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/@7538@/ (from https://www.ediya.com/C/contents/notice.html?tb_name=cnews&bbs_section=view&Ctg=&page=1&idx=107)
+11:19:39	Error: 	"Not Found" (404) at link https://www.ediya.com/C/contents/{pgUp}board/board_control.php?tb_name={tb_name}&check= (from https://www.ediya.com/C/contents/media.html)
+11:20:19	Warning: 	Retry after error 502 () at link https://www.ediya.com/images/main/play_btn.png (from https://www.ediya.com/css/ediya_2020_style.css?v=202405231110)
+11:20:19	Warning: 	Retry after error 502 () at link https://www.ediya.com/images/main/sound_btn.png (from https://www.ediya.com/css/ediya_2020_style.css?v=202405231110)
+11:20:19	Warning: 	Retry after error 502 () at link https://www.ediya.com/images/main/mv_icon.png (from https://www.ediya.com/css/ediya_2020_style.css?v=202405231110)
+11:20:19	Warning: 	Retry after error 502 () at link https://www.ediya.com/images/event/blue02_event/bullet.gif (from https://www.ediya.com/css/event_2022_style.css?v=202405231110)
+11:20:19	Error: 	"Not Found" (404) at link https://www.ediya.com/C/images/common/bottom_bn_bg01.gif (from https://www.ediya.com/C/css/C_common.css?v=20240523)
+11:20:19	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.ediya.com/C/images/common/bottom_bn_img01.png (from https://www.ediya.com/C/css/C_common.css?v=20240523)
+11:20:19	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/C/images/common/bottom_bn_bg02.gif (from https://www.ediya.com/C/css/C_common.css?v=20240523)
+11:20:19	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/C/images/common/bottom_bn_img02.png (from https://www.ediya.com/C/css/C_common.css?v=20240523)
+11:20:22	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/C/contents/IMG_1712216304148.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:20:22	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/C/contents/IMG_1712216304175.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:20:22	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/C/contents/IMG_1712216281372.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:20:22	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/C/contents/IMG_1712216281792.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:20:22	Error: 	"Not Found" (404) at link https://www.ediya.com/C/contents/IMG_1714627388350.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:20:22	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/C/contents/IMG_1714627388553.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:20:22	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/C/contents/IMG_1714627364823.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:20:22	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/C/contents/IMG_1714627364489.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:20:22	Error: 	"Not Found" (404) at link https://www.ediya.com/C/contents/IMG_1712216407829.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:20:22	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/C/contents/IMG_1712216407642.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:20:22	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/C/contents/IMG_1712216384389.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:20:22	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/C/contents/IMG_1712216384309.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:20:22	Error: 	"Not Found" (404) at link https://www.ediya.com/C/contents/IMG_1712216329170.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:20:22	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/C/contents/IMG_1712216329436.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:22:02	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1710720869700.thumb
+11:22:02	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1710722095634.thumb
+11:22:03	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1710726530247.thumb
+11:22:03	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1708309767523.thumb
+11:22:04	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1707783271230.thumb
+11:22:04	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1706837004300.thumb
+11:22:05	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1706688594716.thumb
+11:22:06	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1705885806728.thumb
+11:22:06	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1705476004660.thumb
+11:22:07	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1703153366749.thumb
+11:22:08	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1703042513767.thumb
+11:22:08	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1702947308662.thumb
+11:22:09	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1702606863585.thumb
+11:22:09	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1701649563517.thumb
+11:22:10	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1701317623429.thumb
+11:22:12	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1700698825175.thumb
+11:22:12	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1700524630841.thumb
+11:22:13	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1699601264129.thumb
+11:22:13	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1699919969517.thumb
+11:22:14	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1699256587553.thumb
+11:22:15	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1698883697538.thumb
+11:22:16	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1698798646104.thumb
+11:22:18	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1697676065552.thumb
+11:22:19	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1697676281488.thumb
+11:22:19	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1694995754236.thumb
+11:22:20	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1694499949411.thumb
+11:22:20	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1693875162831.thumb
+11:22:22	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1692938699884.thumb
+11:22:22	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1692348162559.thumb
+11:22:23	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1692253098765.thumb
+11:22:24	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1691971001217.thumb
+11:22:24	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1692323806594.thumb
+11:22:25	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1690848601192.thumb
+11:22:26	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1686294299182.thumb
+11:22:26	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1686288068717.thumb
+11:22:27	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1685505952607.thumb
+11:22:27	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1685407990519.thumb
+11:22:28	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1684829620854.thumb
+11:22:28	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1684109516678.thumb
+11:22:29	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1684213079600.thumb
+11:22:30	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1683173704165.thumb
+11:22:30	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1682036089627.thumb
+11:22:30	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1690791565706.thumb
+11:22:31	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1681371428311.thumb
+11:22:31	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1680652466340.thumb
+11:22:32	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1680235686307.thumb
+11:22:32	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1680135172779.thumb
+11:22:33	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1679532364548.thumb
+11:22:37	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1676938767418.thumb
+11:22:37	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1674626578768.thumb
+11:22:38	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1673568660780.thumb
+11:22:39	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1673568708873.thumb
+11:22:39	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1672816853241.thumb
+11:22:40	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1672133766399.thumb
+11:22:40	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1671615843744.thumb
+11:22:41	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1670803599399.thumb
+11:22:41	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1668731891855.thumb
+11:22:41	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1668991041553.thumb
+11:22:42	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1668577013334.thumb
+11:22:43	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1667201880699.thumb
+11:22:43	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1666914943554.thumb
+11:22:44	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1666767621863.thumb
+11:22:44	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1666169784165.thumb
+11:22:45	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1666765412393.thumb
+11:22:45	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1665454368428.thumb
+11:22:46	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1664252582383.thumb
+11:22:46	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1664243240303.thumb
+11:22:47	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1663204748103.thumb
+11:22:47	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1663722437501.thumb
+11:22:48	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1663722941255.thumb
+11:22:49	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1663131688267.thumb
+11:22:49	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1661993375502.thumb
+11:22:50	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1660781149204.thumb
+11:22:50	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1660807548138.thumb
+11:22:51	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1661127286757.thumb
+11:22:51	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1660279794254.thumb
+11:22:52	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1660281517758.thumb
+11:22:52	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1660608394381.thumb
+11:22:53	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1659674805512.thumb
+11:22:53	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1659657354211.thumb
+11:22:55	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1658449228354.thumb
+11:22:55	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1658708028742.thumb
+11:22:56	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1658118192611.thumb
+11:22:56	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1657844367721.thumb
+11:22:57	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1656465008860.thumb
+11:22:57	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1656464106320.thumb
+11:22:58	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1656551551680.thumb
+11:22:59	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1655429592793.thumb
+11:22:59	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1654216101738.thumb
+11:23:00	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1655338773292.thumb
+11:23:00	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1653976302243.thumb
+11:23:01	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1653528630579.thumb
+11:23:02	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1652956909185.thumb
+11:23:02	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1652833124143.thumb
+11:23:03	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1652323213550.thumb
+11:23:03	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1652246392754.thumb
+11:23:04	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1651136294785.thumb
+11:23:04	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1651452315129.thumb
+11:23:05	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1650436773649.thumb
+11:23:05	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1650273017170.thumb
+11:24:13	Warning: 	Retry after error 500 () at link https://www.ediya.com/C/board/recom.html?tb_name= (from https://www.ediya.com/C/contents/notice.html?tb_name=cnews&bbs_section=view&Ctg=&page=1&idx=107)
+11:24:13	Error: 	"Not Found" (404) at link https://www.ediya.com/@7538@/ (from https://www.ediya.com/C/contents/notice.html?tb_name=cnews&bbs_section=view&Ctg=&page=1&idx=107)
+11:25:34	Error: 	"" (502) after 2 retries at link https://www.ediya.com/images/main/play_btn.png (from https://www.ediya.com/css/ediya_2020_style.css?v=202405231110)
+11:25:34	Error: 	"" (502) after 2 retries at link https://www.ediya.com/images/main/sound_btn.png (from https://www.ediya.com/css/ediya_2020_style.css?v=202405231110)
+11:25:34	Error: 	"" (502) after 2 retries at link https://www.ediya.com/images/main/mv_icon.png (from https://www.ediya.com/css/ediya_2020_style.css?v=202405231110)
+11:25:34	Error: 	"" (502) after 2 retries at link https://www.ediya.com/images/event/blue02_event/bullet.gif (from https://www.ediya.com/css/event_2022_style.css?v=202405231110)
+11:25:34	Error: 	"Not Found" (404) at link https://www.ediya.com/C/images/common/bottom_bn_img01.png (from https://www.ediya.com/C/css/C_common.css?v=20240523)
+11:25:34	Warning: 	Retry after error 502 () at link https://www.ediya.com/C/images/common/bottom_bn_bg02.gif (from https://www.ediya.com/C/css/C_common.css?v=20240523)
+11:25:34	Warning: 	Retry after error 502 () at link https://www.ediya.com/C/images/common/bottom_bn_img02.png (from https://www.ediya.com/C/css/C_common.css?v=20240523)
+11:25:34	Warning: 	Retry after error 502 () at link https://www.ediya.com/C/contents/IMG_1712216304148.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:25:34	Warning: 	Retry after error 502 () at link https://www.ediya.com/C/contents/IMG_1712216304175.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:25:34	Warning: 	Retry after error 502 () at link https://www.ediya.com/C/contents/IMG_1712216281372.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:25:34	Warning: 	Retry after error 502 () at link https://www.ediya.com/C/contents/IMG_1712216281792.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:25:34	Warning: 	Retry after error 502 () at link https://www.ediya.com/C/contents/IMG_1714627388553.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:25:34	Warning: 	Retry after error 502 () at link https://www.ediya.com/C/contents/IMG_1714627364823.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:25:34	Warning: 	Retry after error 502 () at link https://www.ediya.com/C/contents/IMG_1714627364489.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:25:34	Warning: 	Retry after error 502 () at link https://www.ediya.com/C/contents/IMG_1712216407642.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:25:34	Warning: 	Retry after error 502 () at link https://www.ediya.com/C/contents/IMG_1712216384389.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:25:34	Warning: 	Retry after error 502 () at link https://www.ediya.com/C/contents/IMG_1712216384309.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:25:34	Warning: 	Retry after error 502 () at link https://www.ediya.com/C/contents/IMG_1712216329436.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:28:34	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1649721931371.thumb
+11:28:34	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1650272913650.thumb
+11:28:34	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1649410499253.thumb
+11:28:35	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1648432933643.thumb
+11:28:35	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1647823141119.thumb
+11:28:36	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1646989353795.thumb
+11:28:36	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1646970048842.thumb
+11:28:37	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1645073129836.thumb
+11:28:37	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1644470548197.thumb
+11:28:38	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1644308816332.thumb
+11:28:39	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1641516352650.thumb
+11:28:40	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1641794017274.thumb
+11:28:40	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1641516303286.thumb
+11:28:40	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1641460018210.thumb
+11:28:41	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1641168625398.thumb
+11:28:41	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1639965044436.thumb
+11:28:42	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1640150695416.thumb
+11:28:44	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1639378840623.thumb
+11:28:44	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1639556270544.thumb
+11:28:45	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1638145746548.thumb
+11:28:45	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1638408107351.thumb
+11:28:46	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1636969682259.thumb
+11:28:46	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1636098682395.thumb
+11:28:48	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1635132143539.thumb
+11:28:49	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1633513360180.thumb
+11:28:49	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1633565524141.thumb
+11:28:50	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1632813653152.thumb
+11:28:50	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1630459443103.thumb
+11:28:51	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1629868821647.thumb
+11:28:51	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1628756393156.thumb
+11:28:52	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1628640375152.thumb
+11:28:53	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1628208637598.thumb
+11:28:53	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1627862915675.thumb
+11:28:54	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1626854985261.thumb
+11:28:54	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1626655334858.thumb
+11:28:55	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1625788917606.thumb
+11:28:55	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1625104831335.thumb
+11:28:56	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1625116169356.thumb
+11:28:56	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1624004481652.thumb
+11:28:57	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1624260852329.thumb
+11:28:58	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1622775418252.thumb
+11:28:59	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1622771090792.thumb
+11:28:59	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1622700832629.thumb
+11:29:00	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1622421426847.thumb
+11:29:00	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1621811392364.thumb
+11:29:01	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1621816914767.thumb
+11:29:01	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1621577825160.thumb
+11:29:02	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1620352496192.thumb
+11:29:02	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1619999605147.thumb
+11:29:03	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1618556988505.thumb
+11:29:04	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1617235100275.thumb
+11:29:05	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1617177430817.thumb
+11:29:05	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1615769636820.thumb
+11:29:06	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1614752605506.thumb
+11:29:06	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1610522858756.thumb
+11:29:07	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1609136663325.thumb
+11:29:07	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1608267058815.thumb
+11:29:08	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1607496071873.thumb
+11:29:08	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1607565990397.thumb
+11:29:09	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1606370925352.thumb
+11:29:09	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1604039441175.thumb
+11:29:14	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1602829268118.thumb
+11:29:14	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1601860864329.thumb
+11:29:15	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1600761487555.thumb
+11:29:16	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1600678795121.thumb
+11:29:16	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1600334071450.thumb
+11:29:16	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1599179008135.thumb
+11:29:17	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1596691952391.thumb
+11:29:17	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1596413584208.thumb
+11:29:18	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1596413530337.thumb
+11:29:19	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1596413683723.thumb
+11:29:20	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1594890817842.thumb
+11:29:21	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1594606991192.thumb
+11:29:21	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1591836050353.thumb
+11:29:22	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1590624837838.thumb
+11:29:22	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1590048145900.thumb
+11:29:22	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1588125429677.thumb
+11:29:23	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1589161036174.thumb
+11:29:23	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1585621837545.thumb
+11:29:24	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1585642196380.thumb
+11:29:25	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1584667151196.thumb
+11:29:25	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1580457523553.thumb
+11:29:26	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1586831002876.thumb
+11:29:26	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1576475831528.thumb
+11:29:27	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1575259966881.thumb
+11:29:27	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1574057696278.thumb
+11:29:28	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1571877156503.thumb
+11:29:28	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1569822407421.thumb
+11:29:29	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1567657339859.thumb
+11:29:29	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1567127738759.thumb
+11:29:30	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1566369240151.thumb
+11:29:31	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1564549503263.thumb
+11:29:31	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1563515191430.thumb
+11:29:32	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1560821341512.thumb
+11:29:32	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1557198923756.thumb
+11:29:33	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1556177478494.thumb
+11:29:33	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1553752012307.thumb
+11:29:34	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1553220726813.thumb
+11:29:34	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1551312662598.thumb
+11:29:34	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1548926435301.thumb
+11:30:07	Error: 	"" (500) after 2 retries at link https://www.ediya.com/C/board/recom.html?tb_name= (from https://www.ediya.com/C/contents/notice.html?tb_name=cnews&bbs_section=view&Ctg=&page=1&idx=107)
+11:31:40	Error: 	"" (502) after 2 retries at link https://www.ediya.com/C/images/common/bottom_bn_bg02.gif (from https://www.ediya.com/C/css/C_common.css?v=20240523)
+11:31:40	Error: 	"" (502) after 2 retries at link https://www.ediya.com/C/images/common/bottom_bn_img02.png (from https://www.ediya.com/C/css/C_common.css?v=20240523)
+11:31:40	Error: 	"" (502) after 2 retries at link https://www.ediya.com/C/contents/IMG_1712216304148.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:31:40	Error: 	"" (502) after 2 retries at link https://www.ediya.com/C/contents/IMG_1712216304175.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:31:40	Error: 	"" (502) after 2 retries at link https://www.ediya.com/C/contents/IMG_1712216281372.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:31:40	Error: 	"" (502) after 2 retries at link https://www.ediya.com/C/contents/IMG_1712216281792.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:31:40	Error: 	"" (502) after 2 retries at link https://www.ediya.com/C/contents/IMG_1714627388553.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:31:40	Error: 	"" (502) after 2 retries at link https://www.ediya.com/C/contents/IMG_1714627364823.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:31:40	Error: 	"" (502) after 2 retries at link https://www.ediya.com/C/contents/IMG_1714627364489.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:31:40	Error: 	"" (502) after 2 retries at link https://www.ediya.com/C/contents/IMG_1712216407642.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:31:40	Error: 	"" (502) after 2 retries at link https://www.ediya.com/C/contents/IMG_1712216384389.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:31:40	Error: 	"" (502) after 2 retries at link https://www.ediya.com/C/contents/IMG_1712216384309.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:31:40	Error: 	"" (502) after 2 retries at link https://www.ediya.com/C/contents/IMG_1712216329436.png (from https://www.ediya.com/C/contents/lab_menu.html)
+11:32:09	Error: 	"Not Found" (404) at link https://www.ediya.com/event/specialWinner.asp?boardidx=21365 (from https://www.ediya.com/contents/notice.html?tb_name=notice&bbs_section=view&Ctg=&page=12&idx=18)
+11:32:09	Error: 	"Not Found" (404) at link https://www.ediya.com/event/specialWinner.asp?boardidx=19516 (from https://www.ediya.com/contents/notice.html?tb_name=notice&bbs_section=view&Ctg=&page=12&idx=13)
+11:33:56	Error: 	"Not Found" (404) at link https://www.ediya.com/images/event/chusuk_event/event_page2.jpg (from https://www.ediya.com/contents/event_chusuk.html)
+11:35:36	Error: 	"Not Found" (404) at link https://www.ediya.com/contents/compliment2020.html (from https://www.ediya.com/contents/event.html?tb_name=event&bbs_section=view&Ctg=&page=18&idx=130)
+11:35:41	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1546413267124.thumb
+11:35:41	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1543486782243.thumb
+11:35:42	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1543395071672.thumb
+11:35:46	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1540879428306.thumb
+11:35:46	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1538354942500.thumb
+11:35:47	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1535588684806.thumb
+11:35:47	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1532998830185.thumb
+11:35:48	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1533885416604.thumb
+11:35:48	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1532912070812.thumb
+11:35:50	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1529632821145.thumb
+11:35:51	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1527469994427.thumb
+11:35:51	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1524534564756.thumb
+11:35:52	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1524122254482.thumb
+11:35:53	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1522116683234.thumb
+11:35:54	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1519799697569.thumb
+11:35:55	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1519606891164.thumb
+11:35:56	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1519721727467.thumb
+11:35:56	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1517877373106.thumb
+11:35:57	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1517384769727.thumb
+11:35:58	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1516843245321.thumb
+11:35:58	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1515722111522.thumb
+11:35:59	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1522307716583.thumb
+11:36:00	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1512347729223.thumb
+11:36:01	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1512088476660.thumb
+11:36:01	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1511513808828.thumb
+11:36:02	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1511513169488.thumb
+11:36:02	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1511512461508.thumb
+11:36:03	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1511513200289.thumb
+11:36:03	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1511513066462.thumb
+11:36:04	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1511513332159.thumb
+11:36:05	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1511513276815.thumb
+11:36:06	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1511513660371.thumb
+11:36:06	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1511515248144.thumb
+11:36:07	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1511515659808.thumb
+11:36:07	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1511513704837.thumb
+11:36:07	Warning: 	File not parsed, looks like binary: https://www.ediya.com/files/bbs_event/IMG_1511512973439.thumb
+11:38:17	Error: 	"Not Found" (404) at link https://www.ediya.com/sanrio_event/images/goods/pop_figure06_img.png (from https://www.ediya.com/sanrio_event/goods.html)
+11:39:02	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/contents/compliment2018.html (from https://www.ediya.com/contents/event.html?tb_name=event&bbs_section=view&Ctg=&page=24&idx=58)
+11:45:45	Warning: 	Retry after error 502 () at link https://www.ediya.com/contents/compliment2018.html (from https://www.ediya.com/contents/event.html?tb_name=event&bbs_section=view&Ctg=&page=24&idx=58)
+11:46:42	Warning: 	Retry after error -4 (Incorrect length (274825 Bytes, 347830 expected)) at link www.segye.com/content/image/2017/03/02/20170302002773_0.jpg (from https://www.ediya.com/C/contents/media.html?tb_name=media&bbs_section=view&Ctg=&page=39&idx=264)
+11:46:42	Error: 	"No Content" (204) at link www.segye.com/content/image/2017/03/02/20170302002774_0.jpg (from https://www.ediya.com/C/contents/media.html?tb_name=media&bbs_section=view&Ctg=&page=39&idx=264)
+11:46:42	Error: 	"No Content" (204) at link www.segye.com/content/image/2017/03/02/20170302003304_0.jpg (from https://www.ediya.com/C/contents/media.html?tb_name=media&bbs_section=view&Ctg=&page=39&idx=264)
+11:46:42	Error: 	"No Content" (204) at link www.segye.com/content/image/2017/03/02/20170302002776_0.jpg (from https://www.ediya.com/C/contents/media.html?tb_name=media&bbs_section=view&Ctg=&page=39&idx=264)
+11:46:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.segye.com/content/image/2017/03/02/20170302002773_0.jpg
+11:49:04	Error: 	"" (502) after 2 retries at link https://www.ediya.com/contents/compliment2018.html (from https://www.ediya.com/contents/event.html?tb_name=event&bbs_section=view&Ctg=&page=24&idx=58)
+11:52:36	Warning: 	Retry after error 502 (Bad Gateway) at link https://www.ediya.com/ADMEdiya/board/%C0%CC%B5%F0%BE%DF%20%C4%BF%C7%C7,%20%C4%BF%C7%C7%20%BF%F8%B5%CE%B8%A6%20%C4%C9%B3%C4AA%B7%CE%20%BE%F7%B1%D7%B7%B9%C0%CC%B5%E5 (from https://www.ediya.com/C/contents/media.html?tb_name=media&bbs_section=view&Ctg=&page=55&idx=109)
+11:54:44	Warning: 	Retry after error 502 () at link https://www.ediya.com/ADMEdiya/board/%C0%CC%B5%F0%BE%DF%20%C4%BF%C7%C7,%20%C4%BF%C7%C7%20%BF%F8%B5%CE%B8%A6%20%C4%C9%B3%C4AA%B7%CE%20%BE%F7%B1%D7%B7%B9%C0%CC%B5%E5 (from https://www.ediya.com/C/contents/media.html?tb_name=media&bbs_section=view&Ctg=&page=55&idx=109)
+11:56:44	Error: 	"" (502) after 2 retries at link https://www.ediya.com/ADMEdiya/board/%C0%CC%B5%F0%BE%DF%20%C4%BF%C7%C7,%20%C4%BF%C7%C7%20%BF%F8%B5%CE%B8%A6%20%C4%C9%B3%C4AA%B7%CE%20%BE%F7%B1%D7%B7%B9%C0%CC%B5%E5 (from https://www.ediya.com/C/contents/media.html?tb_name=media&bbs_section=view&Ctg=&page=55&idx=109)
+12:54:27	Error: 	Exit requested by shell or user
+12:54:27	Error: 	Exit requested by shell or user
+* * MIRROR ABORTED! * *
+The current temporary cache is required for any update operation and only contains data downloaded during the present aborted session.
+The former cache might contain more complete information; if you do not want to lose that information, you have to restore it and delete the current cache.
+This can easily be done here by erasing the hts-cache/new.* files]

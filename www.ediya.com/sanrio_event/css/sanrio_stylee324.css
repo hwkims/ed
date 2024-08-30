@@ -1,0 +1,374 @@
+@charset "utf-8";
+
+/* Common */
+.sanrio_event{display:table; width:100%; min-width:360px; height:100%; background:url(../images/common/back_bg.png) repeat-x #f9cbdf;}
+.sanrio_event section{display:table; width:94%; max-width:800px; margin:auto;}
+.sanrio_event img{width:100%;}
+.sanrio_event .visible{opacity:1 !important;}
+.sanrio_event .top_con{position:relative; margin-top:35%; border:10px solid #a1c6e9; background:url(../images/common/top_bg.jpg) center top; background-size:contain; box-sizing:border-box;}
+.sanrio_event .top_con .sign_con{position:relative; left:-10px; top:-50px; width:calc(100% + 20px); height:50px; border:3px solid #3363a8; border-radius:20px 20px 0 0; background:url(../images/common/top_sign_bg.jpg) repeat-x center; background-size:20px 50px; box-sizing:border-box;}
+.sanrio_event .top_con .sign_con img{position:absolute; width:60%; left:20%; bottom:20px;}
+.sanrio_event .top_con h1{width:90%; margin:-20px auto 0;}
+.sanrio_event .top_con .deco_img{width:90%; max-width:698px; margin:10px auto 0;}
+.sanrio_event .top_con .table_img{position:absolute; bottom:0; z-index:1;}
+.sanrio_event .top_con .character_img{margin-top:23%;}
+.sanrio_event .top_con .character_img img{position:absolute; bottom:0;}
+.sanrio_event .top_con .characters_li{margin-top:23%;}
+.sanrio_event .top_con .characters_li li{position:absolute;}
+.sanrio_event .top_con .characters_li li:nth-child(1){width:31.125%; left:2.5%; bottom:6%;}
+.sanrio_event .top_con .characters_li li:nth-child(2){width:24.5%; left:26.5%; bottom:7%;}
+.sanrio_event .top_con .characters_li li:nth-child(3){width:25.875%; right:25%; bottom:7%;}
+.sanrio_event .top_con .characters_li li:nth-child(4){width:31%; right:0; bottom:1.5%;}
+.sanrio_event .con_wrap{position:relative; width:90%; margin:auto; z-index:1;}
+.sanrio_event h2{margin-bottom:30px; text-align:center;}
+.sanrio_event h2 img{width:auto; height:36px;}
+.sanrio_event h3{text-align:center;}
+.sanrio_event .logo{display:table; width:100%; height:100px; text-align:center;}
+.sanrio_event .logo span{display:table-cell; width:90%; vertical-align:middle;}
+.sanrio_event .logo span img{max-width:502px;}
+.sanrio_event .brick_li li{position:absolute; width:40px;}
+.sanrio_event .brick_li li:nth-child(1){left:20px; top:100px;}
+.sanrio_event .brick_li li:nth-child(2){right:20px; top:100px;}
+.sanrio_event .brick_li li:nth-child(3){left:20px; bottom:80px;}
+.sanrio_event .brick_li li:nth-child(4){right:20px; bottom:80px;}
+.sanrio_event .box_con{position:relative; padding:60px 5% 30px; border-radius:22px 22px; box-sizing:border-box;}
+.sanrio_event .box_con .box_line img{position:absolute; width:100px; height:30px;}
+.sanrio_event .box_con .box_line img:nth-child(1){top:-2px; left:-2px;}
+.sanrio_event .box_con .box_line img:nth-child(2){top:-2px; right:-2px;}
+.sanrio_event .box_con .box_line img:nth-child(3){bottom:-2px; left:-2px;}
+.sanrio_event .box_con .box_line img:nth-child(4){bottom:-2px; right:-2px;}
+.sanrio_event .img_pc{display:none;}
+.sanrio_event .visual_con{max-width:460px; margin:auto;}
+
+/* Popup */
+.popup_con{position:absolute; display:table; width:100%; height:100%; z-index:100;}
+.popup_con:before{content:""; position:fixed; display:block; top:0; left:0; width:100%; height:100%; background:#000; opacity:0.7;}
+.popup_con .pop_align{position:relative; display:table-cell; padding:0 5%; vertical-align:middle;}
+.popup_con .pop_con{position:relative; max-width:540px; margin:auto;}
+.popup_con .close_btn{position:absolute; display:block; width:30px; height:30px; right:0; top:-55px;}
+.popup_con .close_btn a{display:block; width:100%; height:100%;}
+.popup_con .pop_img{padding:0 5%; text-align:center;}
+.popup_con .pop_txt{background:#FFF; padding:30px 5%; margin-top:30px; border-radius:0 0 10px 10px; box-sizing:border-box; text-align:center;}
+.cushion_pop01 .pop_con{padding-top:100px; border:10px solid #a1c6e9; border-radius:20px 20px; background:url(../images/common/blue_roof.png) no-repeat center top #e1e9f6; box-sizing:border-box;}
+.cushion_pop01 .pop_img img{max-width:360px;}
+.cushion_pop01 .pop_txt img{max-width:252px;}
+.cushion_pop02 .pop_con{padding-top:100px; border:10px solid #c2b7da; border-radius:20px 20px; background:url(../images/common/purple_roof.png) no-repeat center top #dbd0e7; box-sizing:border-box;}
+.cushion_pop02 .pop_img img{max-width:360px;}
+.cushion_pop02 .pop_txt img{max-width:252px;}
+.coldcup_pop01 .pop_con{padding-top:100px; border:10px solid #f7b3d1; border-radius:20px 20px; background:url(../images/common/pink_roof.png) no-repeat center top #fff1f7; box-sizing:border-box;}
+.coldcup_pop01 .pop_img img{max-width:70px;}
+.coldcup_pop01 .pop_txt img{max-width:224px;}
+.coldcup_pop02 .pop_con{padding-top:100px; border:10px solid #c2b7da; border-radius:20px 20px; background:url(../images/common/purple_roof.png) no-repeat center top #dbd0e7; box-sizing:border-box;}
+.coldcup_pop02 .pop_img img{max-width:70px;}
+.coldcup_pop02 .pop_txt img{max-width:224px;}
+.goods_pop .pop_align{padding-top:80px; vertical-align:top;}
+.goods_pop .pop_con{max-width:700px; padding-top:100px; border:10px solid #f7b3d1; border-radius:20px 20px; background:url(../images/common/pink_roof.png) no-repeat center top #e1e9f6; box-sizing:border-box;}
+.goods_pop .pop_con dl:nth-child(3){padding-top:30px; background:#fff1f7;}
+.goods_pop .pop_img img{max-width:210px;}
+.goods_pop .pop_txt{background:none; margin-top:0;}
+.goods_pop .pop_txt img{max-width:216px;}
+.goods_pop .plate_img{border-radius:0 0 10px 10px; overflow:hidden;}
+.towel_pop .pop_img img{max-width:280px;}
+.goods_pop .pop_txt img{max-width:198px;}
+.figure_pop .pop_con{background:url(../images/common/pink_roof.png) no-repeat center top #fff1f7;}
+.figure_pop .figure_li{font-size:0; text-align:center;}
+.figure_pop .figure_li li{display:inline-block; width:50%; max-width:145px; margin-bottom:30px;}
+.fan_pop .pop_con{background:url(../images/common/pink_roof.png) no-repeat center top #fff1f7;}
+.fan_pop .fan_li{font-size:0; text-align:center;}
+.fan_pop .fan_li li{display:inline-block; width:44%; max-width:246px; margin-bottom:30px; vertical-align:bottom;}
+.fan_pop .fan_li li:nth-child(odd){margin-right:4%;}
+
+/* Main */
+.sanrio_event .main_page{position:relative; padding:80px 0 40px; border:10px solid #f7b3d1; border-top:none; background:url(../images/common/pink_roof.png) no-repeat center top #fff1f7; background-size:1040px auto; box-sizing:border-box; z-index:1;}
+.sanrio_event .main_page:before{position:absolute; content:""; display:block; top:-10px; left:0; width:100%; height:10px; background:#a1c6e9;}
+.sanrio_event .main_page li{margin-bottom:30px;}
+.sanrio_event .main_page li:last-child{margin-bottom:0;}
+.sanrio_event .main_page li .img{width:280px; margin:auto;}
+.sanrio_event .main_page li .btn{width:280px; margin:-30px auto 0;}
+.sanrio_event .main_page li .btn a{display:block; width:100%; height:100%;}
+.sanrio_event .main_video{position:relative; padding:80px 0 40px; border:10px solid #a1c6e9; border-top:none; background:url(../images/common/blue_roof.png) no-repeat center top #e1e9f6; background-size:1040px auto; box-sizing:border-box;}
+.sanrio_event .main_video .video_li{display:table;}
+.sanrio_event .main_video .video_li li{float:left; width:48%; margin-right:4%;}
+.sanrio_event .main_video .video_li li:last-child{margin-right:0;}
+.sanrio_event .main_video .brick_li li:nth-child(1){top:75px;}
+.sanrio_event .main_video .brick_li li:nth-child(2){top:75px;}
+.sanrio_event .main_video .brick_li li:nth-child(3){bottom:30px;}
+.sanrio_event .main_video .brick_li li:nth-child(4){bottom:30px;}
+.sanrio_event .main_background{position:relative; padding:80px 0 40px; border:10px solid #c2b7da; border-top:none; background:url(../images/common/purple_roof.png) no-repeat center top #dbd0e7; background-size:1040px auto; box-sizing:border-box; overflow:hidden;}
+.sanrio_event .main_background h3{margin-bottom:30px;}
+.sanrio_event .main_background h3 img{width:auto; height:52px;}
+.sanrio_event .main_background .display_con{position:relative; max-width:442px; margin:auto; z-index:1;}
+.sanrio_event .main_background .display_con .img{margin-left:-8%;}
+.sanrio_event .main_background .display_con .txt{position:absolute; right:0; top:10%;}
+.sanrio_event .main_background .display_con .txt li:first-child{width:110px;}
+.sanrio_event .main_background .display_con .txt li:last-child{width:130px; margin-top:15px;}
+.sanrio_event .main_background .display_con .txt li a{display:block; width:100%; height:100%;}
+
+/* Food */
+.sanrio_event .drink_con{position:relative; padding:80px 0 40px; border:10px solid #f7b3d1; border-top:none; background:url(../images/common/pink_roof.png) no-repeat center top #fff1f7; background-size:1040px auto; box-sizing:border-box;}
+.sanrio_event .drink_con:before{position:absolute; content:""; display:block; top:-10px; left:0; width:100%; height:10px; background:#a1c6e9;}
+.sanrio_event .drink_con .drink_li li{width:176px; margin:0 auto 30px;}
+.sanrio_event .drink_con .box_con{position:relative; margin-top:60px; background:#dbd0e7; border:2px solid #6c61ac;}
+.sanrio_event .drink_con .box_con h3{position:absolute; top:-16px; left:50%; margin-left:-139px; z-index:1;}
+.sanrio_event .drink_con .box_con h3 img{width:auto; height:56px;}
+.sanrio_event .drink_con .box_con li{position:relative; width:166px; margin:auto;}
+.sanrio_event .drink_con .box_con li:after{content:""; display:block; width:30px; height:30px; margin:20px auto; background:url(../images/food/plus_icon.png) no-repeat center; background-size:100% auto;}
+.sanrio_event .drink_con .box_con li:last-child:after{display:none;}
+.sanrio_event .drink_con .box_con .txt{margin-top:40px; text-align:center;}
+.sanrio_event .drink_con .box_con .txt .img_mo{width:206px;}
+.sanrio_event .snack_con{position:relative; padding:80px 0 40px; border:10px solid #a1c6e9; border-top:none; background:url(../images/common/blue_roof.png) no-repeat center top #e1e9f6; background-size:1040px auto; box-sizing:border-box;}
+.sanrio_event .snack_con .snack_img{text-align:center;}
+.sanrio_event .snack_con .snack_img .img_mo{width:235px;}
+.sanrio_event .snack_con h3{margin-top:40px; margin-bottom:20px;}
+.sanrio_event .snack_con h3 img{max-width:223px;}
+.sanrio_event .snack_con .cookie_img{width:280px; margin:auto;}
+.sanrio_event .snack_con .txt{margin-top:20px; text-align:center;}
+.sanrio_event .snack_con .txt .img_mo{width:280px;}
+
+/* Giftcard & MD */
+.sanrio_event .giftcard_con{position:relative; padding:80px 0 40px; border:10px solid #f7b3d1; border-top:none; border-bottom:none; background:url(../images/common/pink_roof.png) no-repeat center top #fff1f7; background-size:1040px auto; box-sizing:border-box;}
+.sanrio_event .giftcard_con:before{position:absolute; content:""; display:block; top:-10px; left:0; width:100%; height:10px; background:#a1c6e9;}
+.sanrio_event .giftcard_con .box_con{background:#f9cbdf; border:2px solid #e86ca9;}
+.sanrio_event .giftcard_con h3{margin-top:40px;}
+.sanrio_event .giftcard_con h3 .img_mo{width:231px;}
+.sanrio_event .giftcard_con .sticker_con{margin-top:20px;}
+.sanrio_event .giftcard_con .sticker_con .giftcard ul{position:relative; display:table; width:100%; max-width:326px; margin:auto;}
+.sanrio_event .giftcard_con .sticker_con .giftcard ul:after{position:absolute; content:""; display:block; top:50%; left:50%; width:38px; height:23px; margin:-11px 0 0 -19px; background:url(../images/md/or_icon.png) no-repeat center; background-size:100% auto;}
+.sanrio_event .giftcard_con .sticker_con .giftcard li{float:left; width:calc(50% - 29px);}
+.sanrio_event .giftcard_con .sticker_con .giftcard li:last-child{float:right;}
+.sanrio_event .giftcard_con .sticker_con .giftcard .name{width:242px; margin:10px auto 0;}
+.sanrio_event .giftcard_con .sticker_con .sticker{position:relative;}
+.sanrio_event .giftcard_con .sticker_con .sticker:before{content:""; display:block; width:30px; height:30px; margin:20px auto; background:url(../images/md/plus_icon.png) no-repeat center; background-size:100% auto;}
+.sanrio_event .giftcard_con .sticker_con .sticker dt{width:85px; margin:auto;}
+.sanrio_event .giftcard_con .sticker_con .sticker dd{width:89px; margin:10px auto 0;}
+.sanrio_event .giftcard_con .txt{margin-top:20px; text-align:center;}
+.sanrio_event .giftcard_con .txt .img_mo{width:214px;}
+.sanrio_event .cushion_con{position:relative; padding:40px 0; border:10px solid #a1c6e9; border-top:none; background:#e1e9f6; box-sizing:border-box;}
+.sanrio_event .cushion_con h3 .img_mo{width:233px;}
+.sanrio_event .cushion_con .cushion_img{position:relative; width:211px; margin:20px auto 30px; text-align:center;}
+.sanrio_event .cushion_con .cushion_img .view_btn{position:absolute; display:block; width:45px; height:45px; right:-35px; bottom:35px; border-radius:100% 100%; box-shadow:4px 4px 8px rgba(119,135,152,0.3);}
+.sanrio_event .cushion_con .cushion_img .view_btn a{display:block; width:100%; height:100%;}
+.sanrio_event .cushion_con .cushion_img .img_mo{width:211px;}
+.sanrio_event .cushion_con .btn{width:280px; margin:auto;}
+.sanrio_event .cushion_con .btn a{display:block; width:100%; height:100%;}
+.sanrio_event .md_con{position:relative; padding:80px 0 40px; border:10px solid #c2b7da; border-top:none; background:url(../images/common/purple_roof.png) no-repeat center top #dbd0e7; background-size:1040px auto; box-sizing:border-box;}
+.sanrio_event .md_con .box_con{ background:#dbd0e7; border:2px solid #6c61ac;}
+.sanrio_event .md_con .md_li li{position:relative; width:146px; margin:30px auto;}
+.sanrio_event .md_con .md_li li .view_btn{position:absolute; display:block; width:45px; height:45px; right:-15px; bottom:75px; border-radius:100% 100%; box-shadow:4px 4px 8px rgba(148,119,152,0.3);}
+.sanrio_event .md_con .md_li li .view_btn a{display:block; width:100%; height:100%;}
+.sanrio_event .md_con .txt{margin-top:40px; text-align:center;}
+.sanrio_event .md_con .txt .img_mo{width:214px;}
+
+/* Goods */
+.sanrio_event .goods_con{position:relative; padding:80px 0 40px; border:10px solid #f7b3d1; border-top:none; background:url(../images/common/pink_roof.png) no-repeat center top #fff1f7; background-size:1040px auto; box-sizing:border-box;}
+.sanrio_event .goods_con:before{position:absolute; content:""; display:block; top:-10px; left:0; width:100%; height:10px; background:#a1c6e9;}
+.sanrio_event .goods_con .box_con{background:#f9cbdf; border:2px solid #e86ca9;}
+.sanrio_event .goods_con .goods_li{margin-top:40px;}
+.sanrio_event .goods_con .goods_li li{margin-bottom:60px;}
+.sanrio_event .goods_con .goods_li li:last-child{margin-bottom:0;}
+.sanrio_event .goods_con .goods_li li .img{width:280px; margin:auto;}
+.sanrio_event .goods_con .goods_li li .txt{position:relative; width:260px; margin:20px auto 0; text-align:center;}
+.sanrio_event .goods_con .goods_li li .txt > img{width:260px;}
+.sanrio_event .goods_con .goods_li li .txt .view_btn{position:absolute; display:block; width:45px; height:45px; top:-10px; border-radius:100% 100%; box-shadow:4px 3px 8px rgba(119,135,152,0.3);}
+.sanrio_event .goods_con .goods_li li .txt .view_btn a{display:block; width:100%; height:100%;}
+.sanrio_event .goods_con .goods_li li .txt .view_btn img{width:100%;}
+.sanrio_event .goods_con .goods_li li:nth-child(1) .txt .view_btn{left:204px;}
+.sanrio_event .goods_con .goods_li li:nth-child(2) .txt .view_btn{left:122px;}
+.sanrio_event .goods_con .goods_li li:nth-child(3) .txt .view_btn{left:118px;}
+.sanrio_event .goods_con .goods_li li:nth-child(4) .txt .view_btn{left:163px;}
+.sanrio_event .goods_con .goods_li li:nth-child(4) .txt{position:relative;}
+.sanrio_event .goods_con .goods_li li:nth-child(4) .txt > img{width:274px;}
+.sanrio_event .goods_con .goods_li li:nth-child(4) .txt .go_btn{position:absolute; display:block; bottom:0; left:153px; width:139px; height:28px;}
+.sanrio_event .goods_con .goods_li li:nth-child(4) .txt .view_btn img{width:100%;}
+.sanrio_event .goods_con .goods_li li:nth-child(5) .txt .view_btn{left:142px;}
+.sanrio_event .goods_con .goods_li li:nth-child(5) .txt > img{width:202px;}
+
+/* Event */
+.sanrio_event .event01_con{position:relative; padding:80px 0 40px; border:10px solid #f7b3d1; border-top:none; background:url(../images/common/pink_roof.png) no-repeat center top #fff1f7; background-size:1040px auto; box-sizing:border-box;}
+.sanrio_event .event01_con:before{position:absolute; content:""; display:block; top:-10px; left:0; width:100%; height:10px; background:#a1c6e9;}
+.sanrio_event .event01_con h2 img{height:56px;}
+.sanrio_event .event01_con .event_li{position:relative; display:table; margin:auto; z-index:1;}
+.sanrio_event .event01_con .event_li li{float:left; width:140px; margin-right:16px;}
+.sanrio_event .event01_con .event_li li:last-child{margin-right:0;}
+.sanrio_event .event01_con .event_deco img{display:none;}
+.sanrio_event .event02_con{position:relative; padding:80px 0 20px; border:10px solid #a1c6e9; border-top:none; background:url(../images/common/blue_roof.png) no-repeat center top #e1e9f6; background-size:1040px auto; box-sizing:border-box;}
+.sanrio_event .event02_con h2 img{height:56px;}
+.sanrio_event .event02_con .event_wrap{position:relative; width:296px; margin:auto; z-index:1;}
+.sanrio_event .event02_con .event_li{display:table; margin-bottom:15px;}
+.sanrio_event .event02_con .event_li li{float:left; width:140px; margin-right:16px;}
+.sanrio_event .event02_con .event_li li:last-child{margin-right:0;}
+.sanrio_event .event02_con .event_deco{position:absolute; width:80px; margin-left:40px; left:50%; bottom:5px;}
+.sanrio_event .event03_con{position:relative; padding:80px 0 25px; border:10px solid #c2b7da; border-top:none; background:url(../images/common/purple_roof.png) no-repeat center top #dbd0e7; background-size:1040px auto; box-sizing:border-box;}
+.sanrio_event .event03_con h2 img{height:56px;}
+.sanrio_event .event03_con .event_wrap{position:relative; width:296px; margin:auto; z-index:1;}
+.sanrio_event .event03_con .event_li{display:table; margin-bottom:15px;}
+.sanrio_event .event03_con .event_li li{float:left; width:140px; margin-right:16px;}
+.sanrio_event .event03_con .event_li li:last-child{margin-right:0;}
+.sanrio_event .event03_con .event_wrap ul:last-child li:nth-child(2){margin-right:0;}
+.sanrio_event .event03_con .event_wrap ul:last-child li{margin-bottom:15px;}
+.sanrio_event .event03_con .event_deco{position:absolute; width:150px; margin-left:10px; left:50%; bottom:-40px;}
+
+/* Share */
+.sanrio_event .profile_con{position:relative; padding:80px 0 40px; border:10px solid #f7b3d1; border-top:none; background:url(../images/common/pink_roof.png) no-repeat center top #fff1f7; background-size:1040px auto; box-sizing:border-box;}
+.sanrio_event .profile_con:before{position:absolute; content:""; display:block; top:-10px; left:0; width:100%; height:10px; background:#a1c6e9;}
+.sanrio_event .profile_con .phone_img{max-width:360px; margin:auto;}
+.sanrio_event .profile_con .profile_li{margin-top:50px;}
+.sanrio_event .profile_con .profile_li ul{display:table; max-width:360px; margin:auto;}
+.sanrio_event .profile_con .profile_li ul li{float:left; width:47%; margin-right:6%; margin-bottom:20px;}
+.sanrio_event .profile_con .profile_li ul li:nth-child(even){margin-right:0;}
+.sanrio_event .profile_con .profile_li .down_btn{max-width:328px; margin:20px auto 0;}
+.sanrio_event .bg_con{position:relative; padding:80px 0 20px; border:10px solid #a1c6e9; border-top:none; background:url(../images/common/blue_roof.png) no-repeat center top #e1e9f6; background-size:1040px auto; box-sizing:border-box;}
+.sanrio_event .bg_con .bg_li{display:table; width:296px; margin:auto;}
+.sanrio_event .bg_con .bg_li li{float:left; width:140px; margin-bottom:20px;}
+.sanrio_event .bg_con .bg_li li:nth-child(odd){margin-right:16px;}
+.sanrio_event .bg_con .bg_li li .bg_img{margin-bottom:15px;}
+.sanrio_event .bg_con .bg_li li dl{display:table; width:100%; margin-bottom:10px;}
+.sanrio_event .bg_con .bg_li li dt{float:left; width:68px;}
+.sanrio_event .bg_con .bg_li li dd{float:left; margin-left:5px; margin-top:-4px;}
+.sanrio_event .bg_con .bg_li li dd a{float:left; display:block; width:30px; height:30px;}
+.sanrio_event .bg_con .bg_li li dd a:first-child{margin-right:5px;}
+
+
+/* 760px 이상 해상도 */
+@media screen and (min-width:760px){
+/* Common */
+.sanrio_event .top_con .sign_con{top:-75px; height:75px; background-size:30px 70px;}
+.sanrio_event .top_con .sign_con img{width:400px; left:50%; margin-left:-200px;}
+.sanrio_event .top_con h1{width:auto; margin:0 auto;}
+.sanrio_event .top_con .characters_li li:nth-child(2){bottom:8%;}
+.sanrio_event .top_con .characters_li li:nth-child(3){bottom:8%;}
+.sanrio_event .con_wrap{width:640px;}
+.sanrio_event h2 img{height:39px;}
+.sanrio_event .brick_li li{position:absolute; width:69px;}
+.sanrio_event .logo{height:120px;}
+.sanrio_event .img_mo{display:none;}
+.sanrio_event .img_pc{display:inline;}
+
+/* Popup */
+.coldcup_pop01 .pop_con{display:table; width:100%;}
+.coldcup_pop01 .pop_img{display:table-cell; padding:0 0 30px 60px; margin-left:20px; text-align:left; vertical-align:middle;}
+.coldcup_pop01 .pop_img img{max-width:140px;}
+.coldcup_pop01 .pop_txt{display:table-cell; padding:0; vertical-align:middle; background:none; text-align:left;}
+.coldcup_pop02 .pop_con{display:table; width:100%;}
+.coldcup_pop02 .pop_img{display:table-cell; padding:0 0 30px 60px; margin-left:20px; text-align:left; vertical-align:middle;}
+.coldcup_pop02 .pop_img img{max-width:140px;}
+.coldcup_pop02 .pop_txt{display:table-cell; padding:0; vertical-align:middle; background:none; text-align:left;}
+.goods_pop .pop_align{vertical-align:middle;}
+.goods_pop dl{display:table; padding-bottom:30px; width:100%;}
+.goods_pop .pop_img{display:table-cell; padding:0; vertical-align:middle;}
+.goods_pop .pop_txt{display:table-cell; padding:0; vertical-align:middle;}
+.fan_pop .fan_li li:nth-child(odd){margin-right:50px;}
+
+/* Main */
+.sanrio_event .main_page{padding:130px 0 70px; background-size:auto;}
+.sanrio_event .main_page ul{display:table;}
+.sanrio_event .main_page li{float:left; margin-right:40px;}
+.sanrio_event .main_page li:nth-child(even){margin-right:0;}
+.sanrio_event .main_page li:nth-child(3){margin-bottom:0;}
+.sanrio_event .main_page li .img{width:280px;}
+.sanrio_event .main_page li .btn{width:300px;}
+.sanrio_event .main_video{padding:130px 0 70px; background-size:auto;}
+.sanrio_event .main_video .video_li li{width:290px; margin-right:60px;}
+.sanrio_event .main_background{padding:130px 0 70px; background-size:auto;}
+.sanrio_event .main_background h3 img{height:63px;}
+.sanrio_event .main_background .display_con .img{margin-left:0;}
+.sanrio_event .main_background .display_con .txt{right:2px;}
+.sanrio_event .main_background .display_con .txt li:first-child{width:118px;}
+
+/* Food */
+.sanrio_event .drink_con{padding:130px 0 70px; background-size:auto;}
+.sanrio_event .drink_con .drink_li{display:table;}
+.sanrio_event .drink_con .drink_li li{float:left; width:186px; margin-right:41px;}
+.sanrio_event .drink_con .drink_li li:last-child{margin-right:0;}
+.sanrio_event .drink_con .box_con{padding:60px 30px 40px;}
+.sanrio_event .drink_con .box_con h3{top:-20px; margin-left:-156px;}
+.sanrio_event .drink_con .box_con h3 img{height:63px;}
+.sanrio_event .drink_con .box_con ul{display:table;}
+.sanrio_event .drink_con .box_con li{float:left; width:176px; margin-right:24px;}
+.sanrio_event .drink_con .box_con li:last-child{margin-right:0;}
+.sanrio_event .drink_con .box_con li:after{position:absolute; top:30px; right:-28px;}
+.sanrio_event .drink_con .box_con .txt .img_pc{width:389px;}
+.sanrio_event .snack_con{padding:130px 0 70px; background-size:auto;}
+.sanrio_event .snack_con .snack_img .img_pc{width:405px;}
+.sanrio_event .snack_con h3{margin-top:60px;}
+.sanrio_event .snack_con h3 img{max-width:454px;}
+.sanrio_event .snack_con .cookie_img{width:375px;}
+.sanrio_event .snack_con .txt .img_pc{width:428px;}
+
+/* Giftcard & MD */
+.sanrio_event .giftcard_con{padding:130px 0 70px; background-size:auto;}
+.sanrio_event .giftcard_con h3 .img_pc{width:441px;}
+.sanrio_event .giftcard_con .sticker_con{display:table; width:460px; margin:30px auto;}
+.sanrio_event .giftcard_con .sticker_con .giftcard{float:left; width:326px;}
+.sanrio_event .giftcard_con .sticker_con .sticker{float:right;}
+.sanrio_event .giftcard_con .sticker_con .sticker:before{position:absolute; top:60px; left:-35px;}
+.sanrio_event .giftcard_con .txt .img_pc{width:591px;}
+.sanrio_event .cushion_con{padding:70px 0;}
+.sanrio_event .cushion_con h3 .img_pc{width:470px;}
+.sanrio_event .cushion_con .cushion_img{width:360px;}
+.sanrio_event .cushion_con .cushion_img .view_btn{width:50px; height:50px; right:-20px; bottom:50px;}
+.sanrio_event .cushion_con .cushion_img .img_pc{width:360px;}
+.sanrio_event .cushion_con .btn{width:300px;}
+.sanrio_event .md_con{padding:130px 0 70px; background-size:auto;}
+.sanrio_event .md_con .md_li{display:table;}
+.sanrio_event .md_con .md_li li{float:left; width:159px; margin:40px 81px 0 0;}
+.sanrio_event .md_con .md_li li:last-child{margin-right:0; margin-top:113px;}
+.sanrio_event .md_con .md_li li .view_btn{width:50px; height:50px; right:-20px; bottom:80px;}
+.sanrio_event .md_con .txt .img_pc{width:591px;}
+
+/* Goods */
+.sanrio_event .goods_con{padding:130px 0 70px; background-size:auto;}
+.sanrio_event .goods_con .goods_li{margin-top:60px;}
+.sanrio_event .goods_con .goods_li li{display:table;}
+.sanrio_event .goods_con .goods_li li .img{display:table-cell; width:300px; padding-right:40px; vertical-align:middle;}
+.sanrio_event .goods_con .goods_li li .txt{display:table-cell; vertical-align:middle;}
+.sanrio_event .goods_con .goods_li li .txt > img{width:auto; height:119px;}
+.sanrio_event .goods_con .goods_li li:nth-child(1) .txt .view_btn{top:20px; left:220px;}
+.sanrio_event .goods_con .goods_li li:nth-child(2) .txt .view_btn{top:-6px; left:132px;}
+.sanrio_event .goods_con .goods_li li:nth-child(3) .txt .view_btn{top:-3px; left:129px;}
+.sanrio_event .goods_con .goods_li li:nth-child(4) .txt .view_btn{top:6px; left:174px;}
+.sanrio_event .goods_con .goods_li li:nth-child(4) .txt > img{width:auto; height:125px;}
+.sanrio_event .goods_con .goods_li li:nth-child(4) .txt .go_btn{bottom:15px; left:90px; width:150px; height:30px;}
+.sanrio_event .goods_con .goods_li li:nth-child(5) .txt .view_btn{top:96px; left:145px;}
+.sanrio_event .goods_con .goods_li li:nth-child(5) .txt > img{width:auto;}
+
+/* Event */
+.sanrio_event .event01_con{padding:130px 0 70px; background-size:auto;}
+.sanrio_event .event01_con .event_li li{width:194px;}
+.sanrio_event .event01_con .event_li li{margin-right:29px;}
+.sanrio_event .event01_con .event_deco img{position:absolute; display:block; width:80px;}
+.sanrio_event .event01_con .event_deco img:nth-child(1){left:0; bottom:-25px;}
+.sanrio_event .event01_con .event_deco img:nth-child(2){right:45px; bottom:-45px;}
+.sanrio_event .event01_con .event_deco img:nth-child(3){top:40px; right:0;}
+.sanrio_event .event02_con{padding:130px 0 50px; background-size:auto;}
+.sanrio_event .event02_con .event_wrap{width:100%; font-size:0;}
+.sanrio_event .event02_con .event_li{display:inline-block; width:194px; margin-bottom:0; margin-right:29px; vertical-align:top;}
+.sanrio_event .event02_con .event_li:last-child{margin-right:0;}
+.sanrio_event .event02_con .event_li li{width:194px; margin-bottom:20px;}
+.sanrio_event .event02_con .event_deco{width:110px; margin-left:170px; bottom:25px;}
+.sanrio_event .event03_con{padding:130px 0 70px; background-size:auto;}
+.sanrio_event .event03_con .event_wrap{width:100%; font-size:0;}
+.sanrio_event .event03_con .event_li{display:inline-block;margin-bottom:0; margin-right:29px; vertical-align:top;}
+.sanrio_event .event03_con .event_li li{width:194px; margin-right:29px;}
+.sanrio_event .event03_con .event_wrap ul:last-child{width:194px; margin-right:0;}
+.sanrio_event .event03_con .event_wrap ul:last-child li{margin-bottom:20px;}
+.sanrio_event .event03_con .event_deco{width:336px; bottom:-70px; margin-left:-260px;}
+
+/* Share */
+.sanrio_event .profile_con{padding:130px 0 70px; background-size:auto;}
+.sanrio_event .profile_con .insta_con{display:table; margin-top:40px;}
+.sanrio_event .profile_con .phone_img{display:table-cell; width:300px; max-width:none; vertical-align:middle;}
+.sanrio_event .profile_con .profile_li{display:table-cell; padding-left:12px; vertical-align:middle;}
+.sanrio_event .profile_con .profile_li ul{width:310px; max-width:none;}
+.sanrio_event .profile_con .profile_li ul li{width:140px; margin-right:30px; margin-bottom:30px;}
+.sanrio_event .profile_con .profile_li .down_btn{width:379px;}
+.sanrio_event .bg_con{padding:130px 0 28px; background-size:auto;}
+.sanrio_event .bg_con .bg_li{width:100%; margin-top:40px;}
+.sanrio_event .bg_con .bg_li li{width:194px; margin-right:29px; margin-bottom:30px;}
+.sanrio_event .bg_con .bg_li li:nth-child(odd){margin-right:29px;}
+.sanrio_event .bg_con .bg_li li:nth-child(3n){margin-right:0;}
+.sanrio_event .bg_con .bg_li li dl{margin-left:18px; margin-bottom:12px;}
+.sanrio_event .bg_con .bg_li li dt{width:82px;}
+.sanrio_event .bg_con .bg_li li dd{margin-top:-2px;}
+.sanrio_event .bg_con .bg_li li dd a{width:34px; height:34px;}
+}

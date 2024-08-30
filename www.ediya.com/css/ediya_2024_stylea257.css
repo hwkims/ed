@@ -1,0 +1,350 @@
+@charset "utf-8";
+
+.global_visual{background:url(../images/menu/global_visual.jpg) no-repeat center; background-size:cover;}
+.powder_visual{background:url(../images/product/powder_visual.jpg) no-repeat center; background-size:cover;}
+
+/* 유통제품 */
+.product_con{padding:60px 0 100px;}
+.product_con .product_txt{text-align:center;}
+.product_con .product_txt dt{line-height:1.2em; font-size:30px; font-weight:900; color:#223c85;}
+.product_con .product_txt dd{line-height:1.4em; margin-top:20px; font-size:18px; font-weight:300;}
+.product_con .product_info{margin-top:40px; padding:40px 5%; border:1px solid #d9d9d9; box-sizing:border-box;}
+.product_con .product_info li{margin-bottom:40px; text-align:center;}
+.product_con .product_info li:last-child{margin-bottom:0;}
+.product_con .product_info li dt{margin:25px 0 10px; font-size:18px; color:#202023;}
+.product_con .product_info li dd{font-size:16px; font-weight:300; color:#606060;}
+.product_con .product_tab{display:table; width:100%; margin:60px 0 40px;}
+.product_con .product_tab li{float:left; width:32%; margin-right:2%;}
+.product_con .product_tab li:last-child{margin-right:0;}
+.product_con .product_tab li a{display:block; line-height:42px; border:1px solid #d9d9d9; border-radius:2px 2px; font-size:14px; color:#202023; text-align:center;}
+.product_con .product_tab li.on a{background:#002f6c; border-color:#002f6c; color:#FFF;}
+.product_con .pro_txt{text-align:center;}
+.product_con .pro_txt dt{font-size:24px; font-weight:900; color:#202023;}
+.product_con .pro_txt dd{margin-top:15px; line-height:1.4em; font-size:16px; font-weight:300;}
+.product_con .pro_list{margin-top:40px;}
+.product_con .pro_list li{margin:0 auto 40px;}
+.product_con .pro_list li:last-child{margin-bottom:0;}
+.product_con .pro_list li .pro_img{max-width:320px; margin:auto;}
+.product_con .pro_list li .pro_img img{width:100%;}
+.product_con .pro_list li dl{max-width:320px; margin:20px auto 0; text-align:center;}
+.product_con .pro_list li dt{font-size:16px; font-weight:500;}
+.product_con .pro_list li dt em{display:block; font-size:13px; font-weight:800;}
+.product_con .pro_list li dd{margin:10px 0; font-size:14px; color:#606060;}
+.product_con .pro_list li dd em{display:block; margin-bottom:10px; font-size:18px; font-weight:normal; color:#202023;}
+.product_con .pro_list li p{font-weight:500; color:#202023; text-align:center;}
+.product_con .pro_tt{font-size:20px; font-weight:300; color:#202023;}
+.product_con .pro_tt:after{content:""; display:block; width:20px; height:4px; margin:20px 0; background:#202023;}
+.product_con .how_to_con{margin-top:60px;}
+.product_con .pro_step li{display:flex; align-items:center; margin-bottom:10px; padding:25px 25px; background:#f4f4f2;}
+.product_con .pro_step li:last-child{margin-bottom:0;}
+.product_con .pro_step li .step_num{width:21px;}
+.product_con .pro_step li .step_num img{width:100%;}
+.product_con .pro_step li .step_icon{width:66px;}
+.product_con .pro_step li .step_icon img{width:100%;}
+.product_con .pro_step li p{width:calc(100% - 87px); padding:0 20px; line-height:1.4em; font-size:15px; box-sizing:border-box;}
+
+/* 스틱커피 */
+.product_con .pro_list li.original dt em{color:#862021;}
+.product_con .pro_list li.mild dt em{color:#c75218;}
+.product_con .pro_list li.special dt em{color:#6f3c97;}
+.product_con .pro_list li.decaffein dt em{color:#237a45;}
+.product_con .stick_feature{margin-top:60px;}
+.product_con .stick_feature ul{margin-top:40px;}
+.product_con .stick_feature li{margin-bottom:20px; text-align:center;}
+.product_con .stick_feature li:last-child{margin-bottom:0;}
+.product_con .stick_feature li .wrap{width:240px; height:240px; margin:auto; padding-top:54px; background:#1a437b; border-radius:50% 50%; box-sizing:border-box;}
+.product_con .stick_feature li p{margin-top:15px; line-height:1.4em; font-size:16px; color:#FFF;}
+
+/* 커피믹스 */
+.product_con .pro_list.pro_mix li .pro_img{max-width:230px;}
+.product_con .pro_list li.gold dt em{color:#184699;}
+.product_con .pro_list li.mocha dt em{color:#fbd14e;}
+.product_con .pro_list li.caffe dt em{color:#e0b08d;}
+.product_con .pro_list li.vanilla dt em{color:#8facdf;}
+.product_con .pro_list li.toffee dt em{color:#f5b01b;}
+.product_con .mix_feature{margin-top:60px;}
+.product_con .mix_feature ul{margin-top:40px; padding:40px 5%; border:1px solid #d9d9d9; box-sizing:border-box;}
+.product_con .mix_feature li{margin-bottom:20px; text-align:center;}
+.product_con .mix_feature li:last-child{margin-bottom:0;}
+.product_con .mix_feature li dl{margin-top:15px;}
+.product_con .mix_feature li dt{font-size:17px; font-weight:500; color:#202023;}
+.product_con .mix_feature li dd{margin-top:5px; font-size:14px; color:#606060;}
+.product_con .mix_feature li.info_tt{margin-top:40px; font-size:16px; font-weight:700; color:#202023;}
+
+/* 원두커피 */
+.product_con .pro_list li.persona dt em{color:#1b3d6e;}
+.product_con .pro_list li.colombia dt em{color:#a72428;}
+.product_con .pro_list li.ethiopia dt em{color:#0a6136;}
+.product_con .pro_list li.kenya dt em{color:#d7282e;}
+.product_con .pro_list li.brazil dt em{color:#f3d53d;}
+.product_con .capsule_feature{margin-top:60px;}
+.product_con .capsule_feature .feature_con > p{font-size:15px; color:#959595;}
+.product_con .capsule_feature .feature_con > p em{display:block; margin-top:15px; font-size:14px; color:#f78181;}
+.product_con .capsule_feature .capsule_img{max-width:384px; margin:0 auto 30px;}
+.product_con .capsule_feature .capsule_img img{width:100%;}
+.product_con .capsule_feature .capsule_txt .aroma_sealing{padding:25px 25px 20px; border:1px solid #ddd;}
+.product_con .capsule_feature .capsule_txt .aroma_sealing .img{width:210px; margin:auto;}
+.product_con .capsule_feature .capsule_txt .aroma_sealing .img img{width:100%;}
+.product_con .capsule_feature .capsule_txt .aroma_sealing p{line-height:1.4em; margin-top:20px; font-size:14px; color:#786e4f;}
+.product_con .capsule_feature .capsule_txt .txt{line-height:1.4em; margin-top:20px; font-size:14px;}
+.product_con .how_to_con .how_to_txt{margin-top:15px; font-size:14px; color:#f12222; text-align:right;}
+
+/* RTD 커피 */
+.product_con .product_info li dd.roasting_machine_li{margin-top:15px;}
+.product_con .product_info li dd.roasting_machine_li:last-child{margin-top:5px;}
+.product_con .product_info li dd.roasting_machine_li em{padding:3px 5px; background:#e9e6e2; font-size:13px;}
+.product_con .pro_list li.cup_cafe dt em{color:#9e5123;}
+.product_con .pro_list li.cup_toffee dt em{color:#b33a49;}
+.product_con .pro_list li.cup_dolce dt em{color:#1e4c88;}
+.product_con .pro_list li.cup_vanilla dt em{color:#f8bf30;}
+.product_con .pro_list li.cup_mocha dt em{color:#652f25;}
+.product_con .pet_coffee .pro_list .pro_img{width:90px;}
+.product_con .pro_list li.pet_ame dt em{color:#143484;}
+.product_con .pro_list li.pet_sweet dt em{color:#b0141a;}
+.product_con .pro_list li.pet_vanilla dt em{color:#f0c100;}
+.product_con .pro_list li.mix_coffee dt em{color:#0d3f7e;}
+.product_con .pro_list li.mix_hazelnut dt em{color:#60269e;}
+.product_con .pro_list li.mix_vanilla dt em{color:#efc114;}
+.rtd_feature{margin-top:60px;}
+.rtd_feature .rtd_feature_li01{margin-bottom:60px; padding-bottom:60px; border-bottom:1px solid #ddd;}
+.rtd_feature .rtd_feature_li01 li{display:flex; margin-bottom:25px;}
+.rtd_feature .rtd_feature_li01 li:last-child{margin-bottom:0;}
+.rtd_feature .rtd_feature_li01 li > span{font-size:22px; font-weight:900; color:#073787;}
+.rtd_feature .rtd_feature_li01 li dl{margin-left:20px; margin-top:-4px;}
+.rtd_feature .rtd_feature_li01 li dt{line-height:1.4em; font-size:16px; font-weight:500; color:#202023;}
+.rtd_feature .rtd_feature_li01 li dd{margin-top:5px; line-height:1.4em; font-size:14px; font-weight:300; color:#606060;}
+.rtd_feature .rtd_feature_li02 li{margin-bottom:25px;}
+.rtd_feature .rtd_feature_li02 li:last-child{margin-bottom:0;}
+.rtd_feature .rtd_feature_li02 li img{width:100%; max-width:323px;}
+.rtd_feature .rtd_feature_li02 li p{margin-top:10px; line-height:1.4em; font-size:16px; font-weight:500; color:#202023;}
+
+/* 이디야 스틱 파우더 */
+.product_con .stick_kombu .pro_list li .pro_img, .product_con .stick_ccino .pro_list li .pro_img{width:190px;}
+.product_con .pro_list li.kombu_lemon dt em{color:#6eaf3c;}
+.product_con .pro_list li.kombu_apple dt em{color:#d84c65;}
+.product_con .pro_list li.kombu_yuja dt em{color:#e8a409;}
+.product_con .pro_list li.kombu_grape dt em{color:#dd5231;}
+.kombu_feature{margin-top:60px;}
+.kombu_feature ul{margin-top:40px; padding:40px 5%; border:1px solid #d9d9d9; box-sizing:border-box;}
+.kombu_feature li{margin-bottom:40px; text-align:center;}
+.kombu_feature li:last-child{margin-bottom:0;}
+.kombu_feature li .img{width:170px; margin:auto;}
+.kombu_feature li .img img{width:100%;}
+.kombu_feature li dl{margin-top:15px;}
+.kombu_feature li dt{font-size:17px; font-weight:500; color:#202023;}
+.kombu_feature li dd{margin-top:5px; font-size:14px; color:#606060;}
+.kombu_feature li dd em{font-weight:500; color:#202023;} 
+.product_con .pro_list li.peachccino dt em{color:#F7931E;}
+.product_con .pro_list li.grapeccino dt em{color:#709442;}
+.how_to_ccino{margin-top:60px;}
+.how_to_ccino ul{margin-top:40px;}
+.how_to_ccino li{display:flex; align-items:center; margin-bottom:40px;}
+.how_to_ccino li:last-child{margin-bottom:0;}
+.how_to_ccino li .img{width:40%;}
+.how_to_ccino li .img img{width:100%;}
+.how_to_ccino li dl{width:55%; margin-left:5%;}
+.how_to_ccino li dt{margin-bottom:8px; font-size:17px; color:#202023;}
+.how_to_ccino li dd p{margin-bottom:5px; line-height:1.2em; font-size:14px; color:#606060;}
+.how_to_ccino li dd p:last-child{margin-bottom:0;}
+
+/* 고객의소리 */
+.customer_con .cus_tt{padding:0 4%; font-size:24px; line-height:1.4em; text-align:center;}
+.customer_con .cus_tt em{font-weight:500; color:#233e85;}
+
+.customer_con .cus_faq{margin:40px 0; background:#f5f5f5; padding:60px 30px;}
+.customer_con .cus_faq .cus_faq_con{border:1px solid #ccc; border-radius:3px 3px; background:#FFF; padding:40px 30px; margin-top:40px; text-align:center;}
+.customer_con .cus_faq .cus_faq_con .icon{margin-bottom:25px;}
+.customer_con .cus_faq .cus_faq_con .icon img{width:auto; height:60px;}
+.customer_con .cus_faq .cus_faq_con ul{display:table; margin:auto; text-align:left;}
+.customer_con .cus_faq .cus_faq_con li{position:relative; margin-bottom:8px; padding-left:12px; line-height:1.2em; font-size:14px; font-weight:400;}
+.customer_con .cus_faq .cus_faq_con li:last-child{margin-bottom:0;}
+.customer_con .cus_faq .cus_faq_con li:before{content:""; position:absolute; top:7px; left:0; display:block; width:3px; height:3px; background:#b5b5b5;}
+.customer_con .cus_faq .cus_faq_con .cus_btn{margin-top:30px;}
+.customer_con .cus_btn{display:inline-block; background:#002f6c; border-radius:2px 2px;}
+.customer_con .cus_btn a{display:block; padding:5px 18px; font-size:14px; font-weight:500; color:#FFF;}
+.customer_con .cus_txt{line-height:1.6em; font-size:16px; font-weight:300; text-align:center;}
+.customer_con .cus_txt em{display:block; margin-top:15px; line-height:1.4em; font-size:14px; font-weight:300; color:#959595;}
+.customer_con .cus_wrap{margin-top:40px;}
+.customer_con .cus_wrap li{margin-bottom:40px; padding:40px 30px; border:1px solid #d9d9d9; border-radius:3px 3px; text-align:center;}
+.customer_con .cus_wrap li:last-child{margin-bottom:0;}
+.customer_con .cus_wrap li .icon img{width:auto; height:60px;}
+.customer_con .cus_wrap li dl{margin:15px 0 10px;}
+.customer_con .cus_wrap li dt{font-size:16px; font-weight:500; color:#202023;}
+.customer_con .cus_wrap li dd{margin-top:5px; font-size:24px; font-weight:700; color:#002f6c;}
+.customer_con .cus_wrap li p{font-size:14px; font-weight:400;}
+.customer_con .cus_wrap li .cus_btn{margin-top:10px;}
+.customer_con .cus_wrap li .cus_btn_li{font-size:0;}
+.customer_con .cus_wrap li .cus_btn_li div:first-child{margin-right:5px;}
+.customer_con .table_st01{margin-top:30px;}
+
+/* 640px 이상 해상도 */
+@media screen and (min-width:640px){
+.product_con .product_info{font-size:0; text-align:center;}
+.product_con .product_info.horizon_st li{display:inline-block; width:50%; margin-bottom:0; vertical-align:top;}
+.product_con .pro_list{margin-top:40px; font-size:0;}
+.product_con .pro_list li{display:inline-block; width:calc(50% - 10px); margin-right:20px; margin-bottom:60px; vertical-align:top;}
+.product_con .pro_list li:nth-child(even){margin-right:0;}
+.product_con .pro_step li{padding:30px 50px;}
+.product_con .pro_step li p{padding:0 45px;}
+
+/* 스틱커피 */
+.product_con .stick_feature ul{max-width:930px; margin:40px auto 0; font-size:0;}
+.product_con .stick_feature li{position:relative; display:inline-block; width:32%; margin-right:2%; margin-bottom:0; padding-bottom:32%;}
+.product_con .stick_feature li:last-child{margin-right:0;}
+.product_con .stick_feature li .wrap{position:absolute; width:100%; height:100%; padding-top:0;}
+.product_con .stick_feature li .icon{padding-top:calc(50% - 62px);}
+
+/* 커피믹스 */
+.product_con .mix_feature ul{text-align:center; font-size:0;}
+.product_con .mix_feature li{display:inline-block; width:33.3333%; margin-bottom:0; vertical-align:top;}
+.product_con .mix_feature li.info_tt{width:100%;}
+
+/* 원두커피 */
+.product_con .capsule_feature .feature_con{display:flex; align-items:center;}
+.product_con .capsule_feature .feature_con > p{width:calc(65% - 15px);}
+.product_con .capsule_feature .capsule_img{width:calc(35% - 15px); margin-right:30px; margin-bottom:0;}
+.product_con .capsule_feature .capsule_txt{width:calc(65% - 15px);}
+.product_con .capsule_feature .capsule_txt .aroma_sealing{text-align:center;}
+.product_con .capsule_feature .capsule_txt .aroma_sealing .img{width:140px;}
+
+/* RTD 커피 */
+.rtd_feature .rtd_feature_li01{display:flex;}
+.rtd_feature .rtd_feature_li01 li{display:block; width:32%; margin-right:2%;}
+.rtd_feature .rtd_feature_li01 li:last-child{margin-right:0;}
+.rtd_feature .rtd_feature_li01 li dl{margin-left:0; margin-top:10px;}
+.rtd_feature .rtd_feature_li01 li dd span.block_txt{display:inline;}
+.rtd_feature .rtd_feature_li02{display:flex;}
+.rtd_feature .rtd_feature_li02 li{width:32%; margin-right:2%;}
+.rtd_feature .rtd_feature_li02 li:last-child{margin-right:0;}
+
+/* 이디야 스틱 파우더 */
+.kombu_feature ul{font-size:0;}
+.kombu_feature li{display:inline-block; width:50%; vertical-align:top;}
+.kombu_feature li:nth-child(3), .kombu_feature li:nth-child(4){margin-bottom:0;}
+.how_to_ccino ul{display:flex; align-items:center;}
+.how_to_ccino li{width:50%; margin-bottom:0;}
+
+/* 고객의 소리 */
+.customer_con .cus_faq{margin:60px 0;}
+.customer_con .cus_faq .cus_faq_con{position:relative; display:flex; align-items:center; justify-content:center; margin:40px auto 0; padding-bottom:100px;}
+.customer_con .cus_faq .cus_faq_con ul{width:calc(100% - 170px); max-width:380px; margin:0 0 0 30px;}
+.customer_con .cus_faq .cus_faq_con .icon{margin-bottom:0;}
+.customer_con .cus_faq .cus_faq_con .cus_btn{position:absolute; left:50%; bottom:40px; margin-left:-142px;}
+.customer_con .cus_wrap{display:flex;}
+.customer_con .cus_wrap li{width:calc(100% - 10px); margin-right:20px; margin-bottom:0;}
+.customer_con .cus_wrap li:last-child{margin-right:0;}
+
+}
+
+/* 980px 이상 해상도 */
+@media screen and (min-width:980px){
+/* 고객의 소리 */
+.customer_con .cus_tt{font-size:28px;}
+.customer_con .cus_btn a{padding:8px 30px; font-size:16px;}
+
+
+.customer_con .cus_faq .cus_faq_con{max-width:940px; padding:60px 0 130px;}
+.customer_con .cus_faq .cus_faq_con ul{max-width:430px; margin-left:60px;}
+.customer_con .cus_faq .cus_faq_con li{font-size:16px;}
+.customer_con .cus_faq .cus_faq_con li:before{top:8px;}
+.customer_con .cus_faq .cus_faq_con .cus_btn{width:160px; bottom:60px; margin-left:-152px;}
+
+.customer_con .cus_faq{position:relative; padding:60px 0; margin:60px 0 80px;}
+.customer_con .cus_faq dt{font-size:24px;}
+.customer_con .cus_faq dd{width:calc(100% - 160px); margin-top:20px; font-size:18px;}
+.customer_con .cus_faq dd:last-child{width:auto;}
+.customer_con .cus_faq .cus_btn{position:absolute; bottom:84px; right:80px;}
+.customer_con .cus_txt{font-size:18px;}
+.customer_con .cus_txt em{font-size:16px;}
+.customer_con .cus_wrap{max-width:940px; margin:60px auto 0;}
+.customer_con .cus_wrap li{padding:60px 0;}
+.customer_con .cus_wrap li dl{margin:20px 0 15px;}
+.customer_con .cus_wrap li dt{font-size:18px;}
+.customer_con .cus_wrap li dd{font-size:28px;}
+.customer_con .cus_wrap li p{font-size:16px;}
+.customer_con .cus_wrap li .cus_btn{margin-top:15px;}
+}
+
+/* 1180px 이상 해상도 */
+@media screen and (min-width:1180px){
+.product_con{padding:80px 0 140px;}
+.product_con .product_txt dt{font-size:50px;}
+.product_con .product_txt dd{font-size:20px;}
+.product_con .product_info li{display:inline-block; width:calc(33.3333% - 27px); margin-bottom:0; margin-right:40px; vertical-align:top;}
+.product_con .product_info li:last-child{margin-right:0;}
+.product_con .product_info.horizon_st{display:flex;}
+.product_con .product_info.horizon_st li{display:flex; align-items:center; width:calc(50% - 20px); margin-right:40px; text-align:left;}
+.product_con .product_info.horizon_st li:last-child{margin-right:0;}
+.product_con .product_info.horizon_st li .pro_icon{width:170px;}
+.product_con .product_info.horizon_st li dl{width:calc(100% - 200px); margin-left:30px;}
+.product_con .product_info.horizon_st li dt{margin-top:0;}
+.product_con .product_tab{margin:80px 0 60px;}
+.product_con .product_tab li{width:170px; margin-right:5px;}
+.product_con .pro_txt dt{font-size:30px;}
+.product_con .pro_txt dd{font-size:18px;}
+.product_con .pro_list{max-width:none; margin:60px auto 0; text-align:center;}
+.product_con .pro_list li{position:relative; width:calc(33.3333% - 28px); max-width:none; margin-right:42px; margin-bottom:60px;}
+.product_con .pro_list li:after{position:absolute; top:0; right:-21px; content:""; width:1px; height:100%; background:#ddd;}
+.product_con .pro_list li:nth-child(even){margin-right:42px;}
+.product_con .pro_list li:nth-child(3n), .product_con .pro_list li:last-child{margin-right:0;}
+.product_con .pro_list li:nth-child(3n):after, .product_con .pro_list li:last-child:after{display:none;}
+.product_con .pro_step{display:flex;}
+.product_con .pro_step li{position:relative; width:calc(33.3333% - 30px); padding:30px 30px; margin-right:45px; margin-bottom:0; box-sizing:border-box;}
+.product_con .pro_step li:after{content:""; position:absolute; right:-29px; display:block; width:11px; height:21px; background:url(../images/product/step_icon.gif) no-repeat;}
+.product_con .pro_step li:last-child{margin-right:0;}
+.product_con .pro_step li:last-child:after{display:none;}
+.product_con .pro_step li p{padding:0 30px;}
+
+/* 스틱커피 */
+.product_con .stick_americano .pro_list li{width:calc(25% - 31.5px); margin-bottom:0;}
+.product_con .stick_americano .pro_list li:nth-child(3n){margin-right:42px;}
+.product_con .stick_americano .pro_list li:nth-child(3n):after{display:block;}
+.product_con .stick_latte .pro_list li{margin-bottom:0;}
+.product_con .stick_feature ul{max-width:924px;}
+.product_con .stick_feature li{width:280px; padding-bottom:280px; margin-right:42px;}
+.product_con .stick_feature li:last-child{margin-right:0;}
+
+/* 커피믹스 */
+.product_con .mix_feature li.info_tt{width:100%;}
+
+/* 원두커피 */
+.product_con .capsule_coffee .pro_step li{width:calc(50% - 45px);}
+.product_con .capsule_coffee .pro_list li{margin-bottom:0;}
+.product_con .drip_coffee .pro_step{display:table; width:100%;}
+.product_con .drip_coffee .pro_step li{float:left; width:calc(50% - 22.5px); margin-bottom:10px;}
+.product_con .drip_coffee .pro_step li:nth-child(even){margin-right:0;}
+.product_con .drip_coffee .pro_step li:nth-child(even):after{display:none;}
+.product_con .how_to_con .how_to_txt{margin-top:0;}
+.product_con .capsule_feature .capsule_txt .aroma_sealing{display:flex; align-items:center; max-width:550px; padding:35px 60px; text-align:left;}
+.product_con .capsule_feature .capsule_txt .aroma_sealing p{width:calc(100% - 160px); margin-top:0; margin-left:20px;}
+
+/* RTD 커피 */
+.rtd_feature .rtd_feature_li01 li dt{font-size:18px;}
+.rtd_feature .rtd_feature_li01 li dd{font-size:16px;}
+.rtd_feature .rtd_feature_li02 li p{max-width:323px; margin-top:15px; font-size:18px;}
+.product_con .product_info li dd.roasting_machine_li{text-align:center;}
+.product_con .product_info li dd.roasting_machine_li:last-child{margin-top:10px;}
+.product_con .product_info li dd.roasting_machine_li em{display:block;}
+
+/* 이디야 스틱 파우더 */
+.product_con .stick_kombu .pro_list li{width:calc(25% - 32px);}
+.product_con .stick_kombu .pro_list li:nth-child(3n){margin-right:42px;}
+.product_con .stick_kombu .pro_list li:nth-child(3n):after{display:block;}
+.kombu_feature li{width:25%; margin-bottom:0;}
+.how_to_ccino li .img{width:280px;}
+.how_to_ccino li dl{width:calc(100% - 320px); margin-left:40px;}
+
+/* 고객의 소리 */
+.customer_con .cus_faq{padding:100px 120px;}
+.customer_con .cus_faq .cus_faq_con{max-width:980px; padding:40px 0;}
+.customer_con .cus_faq .cus_faq_con ul{width:calc(100% - 240px); margin-left:60px; margin-right:230px;}
+.customer_con .cus_faq .cus_faq_con .cus_btn{left:auto; right:100px; bottom:50%; margin-bottom:-21px;}
+.customer_con .cus_faq .cus_btn{right:120px;}
+.customer_con .cus_wrap{display:flex; max-width:1180px;}
+.customer_con .cus_wrap li{display:flex; align-items:center; padding:40px 40px; text-align:left;}
+.customer_con .cus_wrap li dl{margin-top:0;}
+.customer_con .cus_wrap li .cus_con{width:calc(100% - 220px); margin-left:40px;}
+.customer_con .cus_wrap li .cus_btn{width:120px; margin-top:5px;}
+.customer_con .cus_wrap li .cus_btn_li{width:120px;}
+.customer_con .cus_wrap li .cus_btn_li div:first-child{margin-right:0;}
+}
